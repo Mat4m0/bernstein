@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "5. DOCS/BEESPACE/Test.canvas",
+                "file": "5. DOCS/BEESPACE/Canvase/susi.canvas",
                 "viewState": {
-                  "x": 395.02167979031447,
-                  "y": 307.18762189694604,
-                  "zoom": 0.2758260091145833
+                  "x": 40.609375,
+                  "y": 179.46875,
+                  "zoom": 0
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. DOCS/BEESPACE/Test.canvas",
+                "file": "5. DOCS/BEESPACE/Canvase/susi.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. DOCS/BEESPACE/Test.canvas",
+                "file": "5. DOCS/BEESPACE/Canvase/susi.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. DOCS/BEESPACE/Test.canvas"
+                "file": "5. DOCS/BEESPACE/Canvase/susi.canvas"
               }
             }
           }
@@ -153,25 +153,28 @@
   },
   "active": "bdb2cc6756fd95af",
   "lastOpenFiles": [
-    "5. DOCS/BEESPACE/Handbuch.canvas",
+    "5. DOCS/BEESPACE/Canvase/Test2.canvas",
+    "5. DOCS/BEESPACE/Canvase/susi.canvas",
     "5. DOCS/BEESPACE/Test.canvas",
+    "5. DOCS/BEESPACE/Canvase/Produkte.canvas",
+    "5. DOCS/BEESPACE/Canvase/Betriebsweisen.canvas",
+    "5. DOCS/BEESPACE/Resources.canvas",
+    "5. DOCS/BEESPACE/WEBSITE.canvas",
     "Welcome.md",
+    "5. DOCS/BEESPACE/🗺️ ROADMAP.canvas",
+    "5. DOCS/BEESPACE/Handbuch.canvas",
+    "5. DOCS/BEESPACE/Fucker.json",
     "hot-reload/manifest.json",
     "hot-reload/main.js",
     "hot-reload/README.md",
     "hot-reload/LICENSE",
     "hot-reload",
-    "5. DOCS/BEESPACE/Canvase/Betriebsweisen.canvas",
-    "5. DOCS/BEESPACE/🗺️ ROADMAP.canvas",
-    "5. DOCS/BEESPACE/WEBSITE.canvas",
-    "5. DOCS/BEESPACE/Resources.canvas",
     "5. DOCS/BEESPACE/Canvase",
     "5. DOCS/BEESPACE/BLOG.canvas",
     "5. DOCS/🗺️ Overview.canvas",
     "5. DOCS/PERMAKULTUR",
     "5. DOCS/LOOPINUM",
     "5. DOCS/INGRAVITY",
-    "5. DOCS/CREATIVE",
-    "5. DOCS/BEESPACE"
+    "5. DOCS/CREATIVE"
   ]
 }

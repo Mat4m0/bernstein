@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"94b5aa0f49df2a9e","type":"group","x":-577,"y":-566,"width":1155,"height":1133,"label":"Produkte"},
+		{"id":"a7f05e5824c16a96","type":"group","x":-466,"y":-473,"width":417,"height":400,"label":"Honig"},
+		{"id":"583d20a304e89d43","type":"group","x":-415,"y":20,"width":400,"height":400,"label":"Test"},
+		{"id":"01eba98207ac1592","type":"group","x":58,"y":-446,"width":400,"height":400,"label":"Wachs"},
+		{"id":"d06c6ed3abd0d10b","type":"group","x":-416,"y":-346,"width":167,"height":139,"label":"Met"},
+		{"id":"fca90621d0d9b3e1","type":"group","x":-233,"y":-342,"width":167,"height":139,"label":"Creme"},
+		{"id":"68cc371104e02710","type":"group","x":-365,"y":-296,"width":76,"height":50,"label":"Blub"},
+		{"id":"b6c0446509589f4d","type":"group","x":-187,"y":-296,"width":76,"height":50,"label":"Blub"},
+		{"id":"df41e64fdbd5ee33","type":"file","file":"5. DOCS/BEESPACE/Canvase/Test2.canvas","x":-600,"y":-1120,"width":400,"height":400}
+	],
+	"edges":[]
+}

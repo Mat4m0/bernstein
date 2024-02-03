@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "id": "fc52abf531bf32ed",
+      "type": "group",
+      "x": -155,
+      "y": -800,
+      "width": 400,
+      "height": 520,
+      "label": "Betriebsweisen",
+      "children": [
+        "48375aaa516ad477",
+        "328497f2fd72363f"
+      ]
+    },
+    {
+      "id": "48375aaa516ad477",
+      "type": "group",
+      "x": -74,
+      "y": -740,
+      "width": 238,
+      "height": 200,
+      "label": "Zander",
+      "children": []
+    },
+    {
+      "id": "328497f2fd72363f",
+      "type": "group",
+      "x": -74,
+      "y": -460,
+      "width": 238,
+      "height": 134,
+      "label": "Dadant",
+      "children": []
+    },
+    {
+      "id": "b3ba68fc09efadde",
+      "type": "text",
+      "text": "## Group Structure Hierachy for understanding:\n\n- Betriebsweisen\n\t- Zander\n\t- Dadant\n- Produkte\n\t- Honig\n\t\t- Creme\n\t\t- Met\n\t- Wachs\n\n## JSON Structure:\n```json\n{\n\t\"nodes\":[\n\t\t{\"id\":\"693994ba02763967\",\"x\":-155,\"y\":-173,\"width\":1155,\"height\":733,\"type\":\"group\",\"label\":\"Produkte\"},\n\t\t{\"id\":\"fc52abf531bf32ed\",\"type\":\"group\",\"x\":-155,\"y\":-800,\"width\":400,\"height\":520,\"label\":\"Betriebsweisen\"},\n\t\t{\"id\":\"edf67cb95de16da5\",\"type\":\"group\",\"x\":23,\"y\":-6,\"width\":417,\"height\":400,\"label\":\"Honig\"},\n\t\t{\"id\":\"8a926bb9e06e4e70\",\"x\":520,\"y\":-6,\"width\":400,\"height\":400,\"type\":\"group\",\"label\":\"Wachs\"},\n\t\t{\"id\":\"48375aaa516ad477\",\"x\":-74,\"y\":-740,\"width\":238,\"height\":200,\"type\":\"group\",\"label\":\"Zander\"},\n\t\t{\"id\":\"328497f2fd72363f\",\"type\":\"group\",\"x\":-74,\"y\":-460,\"width\":238,\"height\":134,\"label\":\"Dadant\"},\n\t\t{\"id\":\"a6cbfab7973dabe0\",\"x\":73,\"y\":121,\"width\":167,\"height\":139,\"type\":\"group\",\"label\":\"Met\"},\n\t\t{\"id\":\"968ca88c3800eff7\",\"type\":\"group\",\"x\":256,\"y\":125,\"width\":167,\"height\":139,\"label\":\"Creme\"},\n\t],\n\t\"edges\":[]\n}\n```\n\n\n#### getChildren() should result in this:\n\n```json\n{\n\t\"nodes\":[\n\t\t{\"id\":\"693994ba02763967\",\"x\":-155,\"y\":-173,\"width\":1155,\"height\":733,\"type\":\"group\",\"label\":\"Produkte\", children:[Honig, Creme, Met, Wachs]},\n\t\t{\"id\":\"fc52abf531bf32ed\",\"type\":\"group\",\"x\":-155,\"y\":-800,\"width\":400,\"height\":520,\"label\":\"Betriebsweisen, children:[Dadant, Zander]},\n\t\t{\"id\":\"edf67cb95de16da5\",\"type\":\"group\",\"x\":23,\"y\":-6,\"width\":417,\"height\":400,\"label\":\"Honig\", children:[Met, Wachs]},\n\t\t{\"id\":\"8a926bb9e06e4e70\",\"x\":520,\"y\":-6,\"width\":400,\"height\":400,\"type\":\"group\",\"label\":\"Wachs\" children:[]}\n\t\t{\"id\":\"48375aaa516ad477\",\"x\":-74,\"y\":-740,\"width\":238,\"height\":200,\"type\":\"group\",\"label\":\"Zander\" children:[]},\n\t\t{\"id\":\"328497f2fd72363f\",\"type\":\"group\",\"x\":-74,\"y\":-460,\"width\":238,\"height\":134,\"label\":\"Dadant\" children:[]},\n\t\t{\"id\":\"a6cbfab7973dabe0\",\"x\":73,\"y\":121,\"width\":167,\"height\":139,\"type\":\"group\",\"label\":\"Met\" children:[]},\n\t\t{\"id\":\"968ca88c3800eff7\",\"type\":\"group\",\"x\":256,\"y\":125,\"width\":167,\"height\":139,\"label\":\"Creme\" children:[]},\n\t],\n\t\"edges\":[]\n}\n```\n\n#### cleanupChildren()\nthe Tree is not correctly implemented:\nsince Honig.children = [Met, Wachs] are in Produkte.children also included => this can be reduced to children:[Honig, Wachs]\n\n```\n{\n\t\"nodes\":[\n\t\t{\"id\":\"693994ba02763967\",\"x\":-155,\"y\":-173,\"width\":1155,\"height\":733,\"type\":\"group\",\"label\":\"Produkte\", children:[Honig, Wachs]},\n\t\t{\"id\":\"fc52abf531bf32ed\",\"type\":\"group\",\"x\":-155,\"y\":-800,\"width\":400,\"height\":520,\"label\":\"Betriebsweisen, children:[Dadant, Zander]},\n\t\t{\"id\":\"edf67cb95de16da5\",\"type\":\"group\",\"x\":23,\"y\":-6,\"width\":417,\"height\":400,\"label\":\"Honig\", children:[Met, Wachs]},\n\t\t{\"id\":\"8a926bb9e06e4e70\",\"x\":520,\"y\":-6,\"width\":400,\"height\":400,\"type\":\"group\",\"label\":\"Wachs\" children:[]}\n\t\t{\"id\":\"48375aaa516ad477\",\"x\":-74,\"y\":-740,\"width\":238,\"height\":200,\"type\":\"group\",\"label\":\"Zander\" children:[]},\n\t\t{\"id\":\"328497f2fd72363f\",\"type\":\"group\",\"x\":-74,\"y\":-460,\"width\":238,\"height\":134,\"label\":\"Dadant\" children:[]},\n\t\t{\"id\":\"a6cbfab7973dabe0\",\"x\":73,\"y\":121,\"width\":167,\"height\":139,\"type\":\"group\",\"label\":\"Met\" children:[]},\n\t\t{\"id\":\"968ca88c3800eff7\",\"type\":\"group\",\"x\":256,\"y\":125,\"width\":167,\"height\":139,\"label\":\"Creme\" children:[]},\n\t],\n\t\"edges\":[]\n}\n```\n\n\n\n",
+      "x": 1960,
+      "y": -2720,
+      "width": 1800,
+      "height": 1620
+    },
+    {
+      "id": "61809c15fafb5bd2",
+      "type": "file",
+      "file": "5. DOCS/BEESPACE/Canvase/Produkte.canvas",
+      "x": -160,
+      "y": -160,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "9c60c47ebfeef021",
+      "type": "text",
+      "text": "```\n...\n{\"id\":\"61809c15fafb5bd2\",\"x\":-160,\"y\":-160,\"width\":400,\"height\":400,\"type\":\"file\",\"file\":\"5. DOCS/BEESPACE/Canvase/Produkte.canvas\"}\n```",
+      "x": 2120,
+      "y": -600,
+      "width": 1280,
+      "height": 320
+    }
+  ],
+  "edges": [
+    {
+      "id": "632f5d5015db5252",
+      "fromNode": "b3ba68fc09efadde",
+      "fromSide": "bottom",
+      "toNode": "9c60c47ebfeef021",
+      "toSide": "top"
+    }
+  ]
+}
