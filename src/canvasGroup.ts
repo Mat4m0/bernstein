@@ -19,11 +19,13 @@ type Group = Node & {
 export default function startProcess() {
   // Read the JSON file
   const rawData = fs.readFileSync(
-    '/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/5. DOCS/BEESPACE/Test.canvas',
+    '/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/5. DOCS/BEESPACE/Entry.canvas',
     'utf8'
   );
   const jsonData = JSON.parse(rawData);
   console.log('JSON file read.');
+
+  const combinedNodes = {}
 
   // Function to check if one group is contained within another
   function isContainedIn(groupA: Node, groupB: Node): boolean {
@@ -74,6 +76,8 @@ export default function startProcess() {
 
         // Call the recursive function to process the nested .canvas file
         processCanvasFile(canvasFilePath, canvasData, processedCanvasSet);
+
+
       });
   }
 
@@ -87,7 +91,7 @@ export default function startProcess() {
 
   // Call the recursive function to process .canvas files starting with the original JSON data
   processCanvasFile(
-    '/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/5. DOCS/BEESPACE/Test.canvas',
+    '/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/5. DOCS/BEESPACE/Entry.canvas',
     jsonData,
     processedCanvasSet
   );

@@ -11,14 +11,11 @@
             "id": "bdb2cc6756fd95af",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "5. DOCS/BEESPACE/Canvase/susi.canvas",
-                "viewState": {
-                  "x": 40.609375,
-                  "y": 179.46875,
-                  "zoom": 0
-                }
+                "file": "Files/Einraumbeute.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. DOCS/BEESPACE/Canvase/susi.canvas",
+                "file": "Files/Einraumbeute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. DOCS/BEESPACE/Canvase/susi.canvas",
+                "file": "Files/Einraumbeute.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. DOCS/BEESPACE/Canvase/susi.canvas"
+                "file": "Files/Einraumbeute.md"
               }
             }
           }
@@ -151,12 +148,16 @@
       "bernstein:Sample Plugin": false
     }
   },
-  "active": "bdb2cc6756fd95af",
+  "active": "a69453d56e73ecba",
   "lastOpenFiles": [
-    "5. DOCS/BEESPACE/Canvase/Test2.canvas",
+    "Files",
+    "5. DOCS/BEESPACE/Canvase/Betriebweisen.canvas",
     "5. DOCS/BEESPACE/Canvase/susi.canvas",
-    "5. DOCS/BEESPACE/Test.canvas",
+    "Files/Einraumbeute.md",
+    "5. DOCS/BEESPACE/Entry.canvas",
     "5. DOCS/BEESPACE/Canvase/Produkte.canvas",
+    "Files/Honig.md",
+    "Files/Wachs.md",
     "5. DOCS/BEESPACE/Canvase/Betriebsweisen.canvas",
     "5. DOCS/BEESPACE/Resources.canvas",
     "5. DOCS/BEESPACE/WEBSITE.canvas",
@@ -171,7 +172,6 @@
     "hot-reload",
     "5. DOCS/BEESPACE/Canvase",
     "5. DOCS/BEESPACE/BLOG.canvas",
-    "5. DOCS/🗺️ Overview.canvas",
     "5. DOCS/PERMAKULTUR",
     "5. DOCS/LOOPINUM",
     "5. DOCS/INGRAVITY",

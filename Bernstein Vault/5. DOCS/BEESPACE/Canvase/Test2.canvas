@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"66746dbb64b8add0","type":"group","x":-275,"y":-421,"width":815,"height":721,"label":"This sucks"},
-		{"id":"6e99402e5cfe751e","type":"group","x":-176,"y":-357,"width":400,"height":400,"label":"asdasd"},
-		{"id":"70dffcdeced521e1","type":"group","x":-240,"y":400,"width":400,"height":400,"label":"asdasd2131"},
-		{"id":"c4f0fe7f539fb9d1","x":380,"y":460,"width":400,"height":400,"type":"file","file":"5. DOCS/BEESPACE/Canvase/susi.canvas"}
-	],
-	"edges":[]
-}

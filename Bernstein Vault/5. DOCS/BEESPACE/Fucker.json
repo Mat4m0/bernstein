@@ -1,36 +1,110 @@
 {
   "nodes": [
     {
-      "id": "fc52abf531bf32ed",
+      "id": "3e3d8c6d58acf86a",
       "type": "group",
-      "x": -155,
-      "y": -800,
-      "width": 400,
-      "height": 520,
-      "label": "Betriebsweisen",
+      "x": 224,
+      "y": -942,
+      "width": 1155,
+      "height": 1133,
+      "label": "Produkte",
       "children": [
-        "48375aaa516ad477",
-        "328497f2fd72363f"
+        "b6c6c5f1818d9286",
+        "735177b953c4c681",
+        "69514b32a001e530",
+        "a8313a9c8695bca1",
+        "49cc796f4e80cc55",
+        "df3259e0ad5d0fea",
+        "5e9a22441d77c396"
       ]
     },
     {
-      "id": "48375aaa516ad477",
+      "id": "792a1417711a9280",
       "type": "group",
-      "x": -74,
-      "y": -740,
-      "width": 238,
-      "height": 200,
-      "label": "Zander",
+      "x": 214,
+      "y": -1536,
+      "width": 1165,
+      "height": 500,
+      "label": "Betriebsweisen",
       "children": []
     },
     {
-      "id": "328497f2fd72363f",
+      "id": "b6c6c5f1818d9286",
       "type": "group",
-      "x": -74,
-      "y": -460,
-      "width": 238,
-      "height": 134,
-      "label": "Dadant",
+      "x": 335,
+      "y": -849,
+      "width": 417,
+      "height": 400,
+      "label": "Honig",
+      "children": [
+        "a8313a9c8695bca1",
+        "49cc796f4e80cc55",
+        "df3259e0ad5d0fea",
+        "5e9a22441d77c396"
+      ]
+    },
+    {
+      "id": "735177b953c4c681",
+      "type": "group",
+      "x": 352,
+      "y": -375,
+      "width": 400,
+      "height": 400,
+      "label": "Test",
+      "children": []
+    },
+    {
+      "id": "69514b32a001e530",
+      "type": "group",
+      "x": 859,
+      "y": -822,
+      "width": 400,
+      "height": 400,
+      "label": "Wachs",
+      "children": []
+    },
+    {
+      "id": "a8313a9c8695bca1",
+      "type": "group",
+      "x": 385,
+      "y": -722,
+      "width": 167,
+      "height": 139,
+      "label": "Met",
+      "children": [
+        "df3259e0ad5d0fea"
+      ]
+    },
+    {
+      "id": "49cc796f4e80cc55",
+      "type": "group",
+      "x": 568,
+      "y": -718,
+      "width": 167,
+      "height": 139,
+      "label": "Creme",
+      "children": [
+        "5e9a22441d77c396"
+      ]
+    },
+    {
+      "id": "df3259e0ad5d0fea",
+      "type": "group",
+      "x": 436,
+      "y": -672,
+      "width": 76,
+      "height": 50,
+      "label": "Blub",
+      "children": []
+    },
+    {
+      "id": "5e9a22441d77c396",
+      "type": "group",
+      "x": 614,
+      "y": -672,
+      "width": 76,
+      "height": 50,
+      "label": "Blub",
       "children": []
     },
     {
@@ -43,15 +117,6 @@
       "height": 1620
     },
     {
-      "id": "61809c15fafb5bd2",
-      "type": "file",
-      "file": "5. DOCS/BEESPACE/Canvase/Produkte.canvas",
-      "x": -160,
-      "y": -160,
-      "width": 400,
-      "height": 400
-    },
-    {
       "id": "9c60c47ebfeef021",
       "type": "text",
       "text": "```\n...\n{\"id\":\"61809c15fafb5bd2\",\"x\":-160,\"y\":-160,\"width\":400,\"height\":400,\"type\":\"file\",\"file\":\"5. DOCS/BEESPACE/Canvase/Produkte.canvas\"}\n```",
@@ -59,6 +124,51 @@
       "y": -600,
       "width": 1280,
       "height": 320
+    },
+    {
+      "id": "4e782eb5b53fea5f",
+      "type": "file",
+      "file": "Files/Honig.md",
+      "x": 381,
+      "y": -816,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "1ac7c9f7d40bc27e",
+      "type": "file",
+      "file": "5. DOCS/BEESPACE/Canvase/Betriebweisen.canvas",
+      "x": 451,
+      "y": -1496,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "f5e60968450453ee",
+      "type": "file",
+      "file": "Files/Wachs.md",
+      "x": 901,
+      "y": -776,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "3c7f3f4f13356506",
+      "type": "text",
+      "text": "Wachs 2",
+      "x": 901,
+      "y": -676,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "ed65730e29c3da2f",
+      "type": "text",
+      "text": "Honig??",
+      "x": 401,
+      "y": -556,
+      "width": 250,
+      "height": 60
     }
   ],
   "edges": [
