@@ -1,4 +1,5 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
+import startProcess from 'src/canvasGroup';
 
 // Remember to rename these classes and interfaces!
 
@@ -18,8 +19,10 @@ export default class MyPlugin extends Plugin {
 
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
+
 			// Called when the user clicks the icon.
-			new Notice('This is a notice!');
+			startProcess();
+			new Notice('This is a notice!!!');
 		});
 		// Perform additional things with the ribbon
 		ribbonIconEl.addClass('my-plugin-ribbon-class');

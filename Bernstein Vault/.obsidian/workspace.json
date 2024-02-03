@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "019cdf1e0d3509d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "569423f31239d262",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdb2cc6756fd95af",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "5. DOCS/BEESPACE/Test.canvas",
+                "viewState": {
+                  "x": 395.02167979031447,
+                  "y": 307.18762189694604,
+                  "zoom": 0.2758260091145833
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d74a2815b8811f3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0d3ada0c15589e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a69453d56e73ecba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ffe7d992a45cac0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad276fd0e0b0e585",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "298a4fb3a1b695c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4b70e32123c88fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a17d6e92cefca406",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5. DOCS/BEESPACE/Test.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c94a1e2be9cab5c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "5. DOCS/BEESPACE/Test.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fd50c95a94669b9d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5180d9e0c10544d7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5. DOCS/BEESPACE/Test.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "bernstein:Sample Plugin": false
+    }
+  },
+  "active": "bdb2cc6756fd95af",
+  "lastOpenFiles": [
+    "5. DOCS/BEESPACE/Handbuch.canvas",
+    "5. DOCS/BEESPACE/Test.canvas",
+    "Welcome.md",
+    "hot-reload/manifest.json",
+    "hot-reload/main.js",
+    "hot-reload/README.md",
+    "hot-reload/LICENSE",
+    "hot-reload",
+    "5. DOCS/BEESPACE/Canvase/Betriebsweisen.canvas",
+    "5. DOCS/BEESPACE/🗺️ ROADMAP.canvas",
+    "5. DOCS/BEESPACE/WEBSITE.canvas",
+    "5. DOCS/BEESPACE/Resources.canvas",
+    "5. DOCS/BEESPACE/Canvase",
+    "5. DOCS/BEESPACE/BLOG.canvas",
+    "5. DOCS/🗺️ Overview.canvas",
+    "5. DOCS/PERMAKULTUR",
+    "5. DOCS/LOOPINUM",
+    "5. DOCS/INGRAVITY",
+    "5. DOCS/CREATIVE",
+    "5. DOCS/BEESPACE"
+  ]
+}
