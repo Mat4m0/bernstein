@@ -1,5 +1,5 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
-import startProcess from 'src/canvasGroup';
+import startProcess from 'src/new';
 
 // Remember to rename these classes and interfaces!
 
