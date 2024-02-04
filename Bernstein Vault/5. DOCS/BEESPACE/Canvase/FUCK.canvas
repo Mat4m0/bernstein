@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"8ec29f03f8832e8f","type":"group","x":-500,"y":-500,"width":917,"height":694,"label":"FUCKER"},
+		{"id":"b9b0849c83e0b92a","type":"text","text":"FUCK","x":-191,"y":-445,"width":250,"height":60},
+		{"id":"d5439c8622120f7c","type":"text","text":"","x":-125,"y":-30,"width":250,"height":60}
+	],
+	"edges":[]
+}
