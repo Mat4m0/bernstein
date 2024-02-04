@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "5. DOCS/BEESPACE/Entry.canvas",
+                "file": "BEESPACE/Canvase/Betriebsweisen.canvas",
                 "viewState": {
-                  "x": 721.352519631454,
-                  "y": -681.0575685992185,
-                  "zoom": -0.1173082062799154
+                  "x": -1274.121700451799,
+                  "y": 2048.140537918564,
+                  "zoom": -3.9733317057291666
                 }
               }
             }
@@ -59,14 +59,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "ad276fd0e0b0e585",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
@@ -88,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. DOCS/BEESPACE/Entry.canvas",
+                "file": "BEESPACE/Canvase/Betriebsweisen.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. DOCS/BEESPACE/Entry.canvas",
+                "file": "BEESPACE/Canvase/Betriebsweisen.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. DOCS/BEESPACE/Entry.canvas"
+                "file": "BEESPACE/Canvase/Betriebsweisen.canvas"
               }
             }
           }
@@ -153,9 +145,17 @@
   },
   "active": "3d255a608ec8a8a9",
   "lastOpenFiles": [
+    "BEESPACE/Handbuch.canvas",
+    "BEESPACE/BLOG.canvas",
+    "5. DOCS/BEESPACE/Entry.canvas",
+    "BEESPACE/🗺️ ROADMAP.canvas",
+    "BEESPACE/WEBSITE.canvas",
+    "BEESPACE/Canvase/Betriebsweisen.canvas",
+    "BEESPACE/Canvase",
+    "BEESPACE/Resources.canvas",
+    "BEESPACE",
     "5. DOCS/BEESPACE/Canvase/FUCK.canvas",
     "5. DOCS/BEESPACE/Canvase/Betriebweisen.canvas",
-    "5. DOCS/BEESPACE/Entry.canvas",
     "combinedNodes.json",
     "5. DOCS/VITE/docs.canvas",
     "5. DOCS/VITE/docs_de/guide/api-hmr__de - 🇩🇪.md",
@@ -188,8 +188,6 @@
     "5. DOCS/VITE/docs/blog",
     "5. DOCS/VITE/docs/blog.md",
     "5. DOCS/VITE/docs/plugins/index.md",
-    "5. DOCS/VITE/docs/plugins",
-    "5. DOCS/VITE/docs/images/diagrams.fig",
     "5. DOCS/VITE/docs/config/worker-options.md",
     "5. DOCS/VITE/docs/config/ssr-options.md",
     "5. DOCS/VITE/docs/config/shared-options.md",
@@ -202,11 +200,6 @@
     "5. DOCS/VITE/docs/guide/why.md",
     "5. DOCS/VITE/docs/guide/using-plugins.md",
     "5. DOCS/VITE/docs/guide/troubleshooting.md",
-    "5. DOCS/VITE/docs/guide/static-deploy.md",
-    "5. DOCS/BEESPACE/Canvase/susi.canvas",
-    "5. DOCS/BEESPACE/Canvase/Produkte.canvas",
-    "5. DOCS/BEESPACE/Canvase/Betriebsweisen.canvas",
-    "5. DOCS/BEESPACE/Resources.canvas",
-    "5. DOCS/BEESPACE/WEBSITE.canvas"
+    "5. DOCS/VITE/docs/guide/static-deploy.md"
   ]
 }

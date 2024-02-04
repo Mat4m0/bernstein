@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"0aaeafc82a1673da","type":"file","file":"5. DOCS/BEESPACE/Handbuch.canvas","x":1120,"y":1120,"width":400,"height":400},
+		{"id":"75d8a37dc8679258","type":"file","file":"5. DOCS/BEESPACE/Resources.canvas","x":1620,"y":1120,"width":400,"height":400},
+		{"id":"502b48530f57c894","x":2100,"y":1120,"width":400,"height":400,"type":"file","file":"5. DOCS/BEESPACE/BLOG.canvas"}
+	],
+	"edges":[]
+}

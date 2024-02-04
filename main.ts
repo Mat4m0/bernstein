@@ -1,5 +1,6 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
-import startProcess from 'src/new';
+import startCopyProcess from 'src/copy'
+import startProcess from 'src/getNewJson';
 
 // Remember to rename these classes and interfaces!
 
@@ -21,7 +22,8 @@ export default class MyPlugin extends Plugin {
 		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
 
 			// Called when the user clicks the icon.
-			startProcess();
+			//startProcess();
+			startCopyProcess();
 			new Notice('This is a notice!!!');
 		});
 		// Perform additional things with the ribbon

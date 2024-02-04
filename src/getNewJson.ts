@@ -14,7 +14,7 @@ interface CanvasType {
 
 export default async function startProcess() {
 	const combinedData: CanvasData = { nodes: [], edges: [] }
-	const entryCanvas = new Canvas('/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/', '5. DOCS/BEESPACE/Entry.canvas', false, "", combinedData);
+	const entryCanvas = new Canvas('/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/', 'BEESPACE/Handbuch.canvas', false, "", combinedData);
 	await entryCanvas.initializeCanvas()
 	console.log(combinedData)
 	combinedData.nodes = await removeSubCanvase(combinedData.nodes)
