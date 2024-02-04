@@ -25,7 +25,6 @@ export default function startProcess() {
   const jsonData = JSON.parse(rawData);
   console.log('JSON file read.');
 
-  const combinedNodes = {}
 
   // Function to check if one group is contained within another
   function isContainedIn(groupA: Node, groupB: Node): boolean {
@@ -81,10 +80,10 @@ export default function startProcess() {
       });
   }
 
-  const groups: Group[] = jsonData.nodes.filter((node: Node) => node.type === 'group') as Group[];
+
 
   // Add children property to groups
-  addChildrenToGroups(groups);
+  addChildrenToGroups(jsonData.nodes);
 
   // Create a set to keep track of processed canvases
   const processedCanvasSet = new Set<string>();
