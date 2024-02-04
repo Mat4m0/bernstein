@@ -13,9 +13,8 @@ interface CanvasType {
 }
 
 export default async function startProcess() {
-	const combinedNodes: AllCanvasNodeData = {};
 	// Note: Handling of async creation and initialization of Canvas instances may need adjustment
-	const entryCanvas: CanvasType = new Canvas('/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/', '5. DOCS/BEESPACE/Entry.canvas', false, "");
+	new Canvas('/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/', '5. DOCS/BEESPACE/Entry.canvas', false, "");
   }
   
 
@@ -43,7 +42,7 @@ class Canvas implements CanvasType {
       await this.readFile();
       this.checkForSubCanvas();
       this.subCanvasProcessing();
-      this.canvasProcessing();
+	  this.aggregateData();
     } catch (error) {
       console.error('Failed to initialize canvas:', error);
     }
@@ -64,9 +63,7 @@ class Canvas implements CanvasType {
 			.filter((node: AllCanvasNodeData) => node.type === 'file' && node.file && node.file.endsWith('.canvas'))
 			.forEach((subCanvasNode: CanvasFileData) => {
 				const subCanvas: CanvasType = new Canvas(this.vaultPath, subCanvasNode.file, true, subCanvasNode.id);
-
 			})
-
 	}
 
 	subCanvasProcessing() {
@@ -74,16 +71,13 @@ class Canvas implements CanvasType {
 			addNewGroup(this.canvasData, this.canvasName, this.nodeId)
 
 		}
-
 	}
 
-	canvasProcessing() {
-
-		addChildrenToGroups(this.canvasData.nodes)
-		console.log(this.canvasData.nodes)
-
+	aggregateData() {
+		
 	}
 
+	
 }
 
 
