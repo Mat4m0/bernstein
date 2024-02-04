@@ -4,5 +4,9 @@
 		{"id":"b9b0849c83e0b92a","type":"text","text":"FUCK","x":-191,"y":-445,"width":250,"height":60},
 		{"id":"d5439c8622120f7c","type":"text","text":"","x":-125,"y":-30,"width":250,"height":60}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"5161a71bf59a352b","fromNode":"b9b0849c83e0b92a","fromSide":"bottom","toNode":"d5439c8622120f7c","toSide":"bottom"},
+		{"id":"b5e6e3b1713f96f0","fromNode":"d5439c8622120f7c","fromSide":"right","toNode":"b9b0849c83e0b92a","toSide":"right"},
+		{"id":"49c254d22204ece1","fromNode":"d5439c8622120f7c","fromSide":"left","toNode":"b9b0849c83e0b92a","toSide":"left"}
+	]
 }

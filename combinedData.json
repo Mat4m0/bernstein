@@ -1,0 +1,306 @@
+{
+  "nodes": [
+    {
+      "id": "8ec29f03f8832e8f",
+      "type": "group",
+      "x": -500,
+      "y": -500,
+      "width": 917,
+      "height": 694,
+      "label": "FUCKER",
+      "children": [
+        "b9b0849c83e0b92a",
+        "d5439c8622120f7c"
+      ]
+    },
+    {
+      "id": "b9b0849c83e0b92a",
+      "type": "text",
+      "text": "FUCK",
+      "x": -191,
+      "y": -445,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "d5439c8622120f7c",
+      "type": "text",
+      "text": "",
+      "x": -125,
+      "y": -30,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "f385848faa6ec450",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "type": "group",
+      "label": "FUCK.canvas",
+      "children": [
+        "8ec29f03f8832e8f",
+        "b9b0849c83e0b92a",
+        "d5439c8622120f7c"
+      ]
+    },
+    {
+      "id": "d86321ad14235ae5",
+      "type": "group",
+      "x": -15,
+      "y": -300,
+      "width": 995,
+      "height": 600,
+      "label": "Trogbeute",
+      "children": [
+        "7f04904a79531025"
+      ]
+    },
+    {
+      "id": "e8140a966309ba67",
+      "type": "group",
+      "x": -15,
+      "y": 400,
+      "width": 995,
+      "height": 600,
+      "label": "Magazin",
+      "children": [
+        "8b186052b1ae3404",
+        "a3c48c7e60ffe92f"
+      ]
+    },
+    {
+      "id": "8b186052b1ae3404",
+      "type": "group",
+      "x": 80,
+      "y": 500,
+      "width": 537,
+      "height": 300,
+      "label": "Pia Aumeier",
+      "children": [
+        "a3c48c7e60ffe92f"
+      ]
+    },
+    {
+      "id": "a3c48c7e60ffe92f",
+      "type": "text",
+      "text": "Gerhard Liebig",
+      "x": 137,
+      "y": 540,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "7f04904a79531025",
+      "type": "file",
+      "file": "Files/Einraumbeute.md",
+      "x": 80,
+      "y": -160,
+      "width": 403,
+      "height": 160,
+      "children": []
+    },
+    {
+      "id": "1ac7c9f7d40bc27e",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "type": "group",
+      "label": "Betriebweisen.canvas",
+      "children": [
+        "d86321ad14235ae5",
+        "e8140a966309ba67",
+        "8b186052b1ae3404",
+        "f385848faa6ec450",
+        "a3c48c7e60ffe92f",
+        "7f04904a79531025"
+      ]
+    },
+    {
+      "id": "3e3d8c6d58acf86a",
+      "type": "group",
+      "x": 224,
+      "y": -942,
+      "width": 1155,
+      "height": 1133,
+      "label": "Produkte",
+      "children": [
+        "b6c6c5f1818d9286",
+        "735177b953c4c681",
+        "69514b32a001e530",
+        "a8313a9c8695bca1",
+        "49cc796f4e80cc55",
+        "df3259e0ad5d0fea",
+        "5e9a22441d77c396",
+        "4e782eb5b53fea5f",
+        "3c7f3f4f13356506",
+        "f5e60968450453ee",
+        "ed65730e29c3da2f"
+      ]
+    },
+    {
+      "id": "792a1417711a9280",
+      "type": "group",
+      "x": 214,
+      "y": -1536,
+      "width": 1165,
+      "height": 500,
+      "label": "Betriebsweisen",
+      "children": [
+        "1ac7c9f7d40bc27e"
+      ]
+    },
+    {
+      "id": "b6c6c5f1818d9286",
+      "type": "group",
+      "x": 335,
+      "y": -849,
+      "width": 417,
+      "height": 400,
+      "label": "Honig",
+      "children": [
+        "a8313a9c8695bca1",
+        "49cc796f4e80cc55",
+        "df3259e0ad5d0fea",
+        "5e9a22441d77c396",
+        "4e782eb5b53fea5f",
+        "ed65730e29c3da2f"
+      ]
+    },
+    {
+      "id": "735177b953c4c681",
+      "type": "group",
+      "x": 352,
+      "y": -375,
+      "width": 400,
+      "height": 400,
+      "label": "Test",
+      "children": []
+    },
+    {
+      "id": "69514b32a001e530",
+      "type": "group",
+      "x": 859,
+      "y": -822,
+      "width": 400,
+      "height": 400,
+      "label": "Wachs",
+      "children": [
+        "3c7f3f4f13356506",
+        "f5e60968450453ee"
+      ]
+    },
+    {
+      "id": "a8313a9c8695bca1",
+      "type": "group",
+      "x": 385,
+      "y": -722,
+      "width": 167,
+      "height": 139,
+      "label": "Met",
+      "children": [
+        "df3259e0ad5d0fea"
+      ]
+    },
+    {
+      "id": "49cc796f4e80cc55",
+      "type": "group",
+      "x": 568,
+      "y": -718,
+      "width": 167,
+      "height": 139,
+      "label": "Creme",
+      "children": [
+        "5e9a22441d77c396"
+      ]
+    },
+    {
+      "id": "df3259e0ad5d0fea",
+      "type": "group",
+      "x": 436,
+      "y": -672,
+      "width": 76,
+      "height": 50,
+      "label": "Blub",
+      "children": []
+    },
+    {
+      "id": "5e9a22441d77c396",
+      "type": "group",
+      "x": 614,
+      "y": -672,
+      "width": 76,
+      "height": 50,
+      "label": "Blub",
+      "children": []
+    },
+    {
+      "id": "4e782eb5b53fea5f",
+      "type": "file",
+      "file": "Files/Honig.md",
+      "x": 381,
+      "y": -816,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "3c7f3f4f13356506",
+      "type": "text",
+      "text": "Wachs 2",
+      "x": 901,
+      "y": -676,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "f5e60968450453ee",
+      "type": "file",
+      "file": "Files/Wachs.md",
+      "x": 901,
+      "y": -776,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "ed65730e29c3da2f",
+      "type": "text",
+      "text": "Honig??",
+      "x": 401,
+      "y": -556,
+      "width": 250,
+      "height": 60,
+      "children": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "5161a71bf59a352b",
+      "fromNode": "b9b0849c83e0b92a",
+      "fromSide": "bottom",
+      "toNode": "d5439c8622120f7c",
+      "toSide": "bottom"
+    },
+    {
+      "id": "b5e6e3b1713f96f0",
+      "fromNode": "d5439c8622120f7c",
+      "fromSide": "right",
+      "toNode": "b9b0849c83e0b92a",
+      "toSide": "right"
+    },
+    {
+      "id": "49c254d22204ece1",
+      "fromNode": "d5439c8622120f7c",
+      "fromSide": "left",
+      "toNode": "b9b0849c83e0b92a",
+      "toSide": "left"
+    }
+  ]
+}
