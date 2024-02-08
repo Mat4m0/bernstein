@@ -19,11 +19,11 @@ export default class MyPlugin extends Plugin {
 		await this.loadSettings();
 
 		// This creates an icon in the left ribbon.
-		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', (evt: MouseEvent) => {
+		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', async (evt: MouseEvent) => {
 
 			// Called when the user clicks the icon.
-			startProcess();
-			//startCopyProcess();
+			await startProcess();
+			startCopyProcess();
 			new Notice('This is a notice!!!');
 		});
 		// Perform additional things with the ribbon

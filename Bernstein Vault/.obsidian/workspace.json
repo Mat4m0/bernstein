@@ -15,9 +15,9 @@
               "state": {
                 "file": "ingravity/canvas.canvas",
                 "viewState": {
-                  "x": 3655.1844223299336,
-                  "y": 924.2736141728378,
-                  "zoom": -2.575439453125
+                  "x": 843.4918547426,
+                  "y": 9330.952001459547,
+                  "zoom": -0.8044230143229156
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ingravity/canvas.canvas",
+                "file": "2.faq2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ingravity/canvas.canvas",
+                "file": "2.faq2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ingravity/canvas.canvas"
+                "file": "2.faq2.md"
               }
             }
           }
@@ -151,13 +151,14 @@
       "bernstein:Sample Plugin": false
     }
   },
-  "active": "a69453d56e73ecba",
+  "active": "3d255a608ec8a8a9",
   "lastOpenFiles": [
-    "ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
+    "2.faq2.md",
+    "ingravity/content/wissen/5.faq/haeufige-fragen.md",
     "ingravity/canvas.canvas",
+    "ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
     "BEESPACE/Canvase/Betriebsweisen.canvas",
     "ingravity/content/index.yml",
-    "ingravity/content/wissen/5.faq/haeufige-fragen.md",
     "ingravity/content/wissen/5.faq/_dir.yml",
     "ingravity/content/wissen/4.ueber-mich/_dir.yml",
     "ingravity/content/wissen/4.ueber-mich/2.ausbildung.md",
