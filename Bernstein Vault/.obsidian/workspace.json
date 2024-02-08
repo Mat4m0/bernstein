@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "BEESPACE/Canvase/Betriebsweisen.canvas",
+                "file": "ingravity/canvas.canvas",
                 "viewState": {
-                  "x": -1274.121700451799,
-                  "y": 2048.140537918564,
-                  "zoom": -3.9733317057291666
+                  "x": 3655.1844223299336,
+                  "y": 924.2736141728378,
+                  "zoom": -2.575439453125
                 }
               }
             }
@@ -59,6 +59,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "9e31952a73088831",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -80,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BEESPACE/Canvase/Betriebsweisen.canvas",
+                "file": "ingravity/canvas.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BEESPACE/Canvase/Betriebsweisen.canvas",
+                "file": "ingravity/canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BEESPACE/Canvase/Betriebsweisen.canvas"
+                "file": "ingravity/canvas.canvas"
               }
             }
           }
@@ -143,63 +151,62 @@
       "bernstein:Sample Plugin": false
     }
   },
-  "active": "3d255a608ec8a8a9",
+  "active": "a69453d56e73ecba",
   "lastOpenFiles": [
+    "ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
+    "ingravity/canvas.canvas",
+    "BEESPACE/Canvase/Betriebsweisen.canvas",
+    "ingravity/content/index.yml",
+    "ingravity/content/wissen/5.faq/haeufige-fragen.md",
+    "ingravity/content/wissen/5.faq/_dir.yml",
+    "ingravity/content/wissen/4.ueber-mich/_dir.yml",
+    "ingravity/content/wissen/4.ueber-mich/2.ausbildung.md",
+    "ingravity/content/wissen/4.ueber-mich/1.romi-netzberger.md",
+    "ingravity/content/wissen/3.fuer-wen/_dir.yml",
+    "ingravity/content/wissen/3.fuer-wen/4.sportler.md",
+    "ingravity/content/wissen/3.fuer-wen/3.chronische-bewschwerden.md",
+    "ingravity/content/wissen/3.fuer-wen/2.körperlich-arbeitende.md",
+    "ingravity/content/wissen/3.fuer-wen/1.einseitige-belastung.md",
+    "ingravity/content/wissen/2.vorteile/_dir.yml",
+    "ingravity/content/wissen/2.vorteile/6.wohlbefinden.md",
+    "ingravity/content/wissen/2.vorteile/5.koordination.md",
+    "ingravity/content/wissen/2.vorteile/4.flexibilität.md",
+    "ingravity/content/wissen/2.vorteile/3.bewegungs-freiheit.md",
+    "ingravity/content/wissen/2.vorteile/2.verbesserte-haltung.md",
+    "ingravity/content/wissen/2.vorteile/1.verspannungen.md",
+    "ingravity/content/wissen/1.methode/_dir.yml",
+    "ingravity/content/wissen/1.methode/4.ida-rolf.md",
+    "ingravity/content/wissen/1.methode/3.faszien.md",
+    "ingravity/content/wissen/1.methode/2.wie-funktioniert-rofling.md",
+    "ingravity/content/wissen/5.faq",
+    "ingravity/content/wissen/4.ueber-mich",
+    "ingravity/content/wissen/3.fuer-wen",
+    "ingravity/content/wissen/2.vorteile",
+    "Untitled/Untitled.md",
     "BEESPACE/Handbuch.canvas",
     "BEESPACE/BLOG.canvas",
     "5. DOCS/BEESPACE/Entry.canvas",
     "BEESPACE/🗺️ ROADMAP.canvas",
     "BEESPACE/WEBSITE.canvas",
-    "BEESPACE/Canvase/Betriebsweisen.canvas",
-    "BEESPACE/Canvase",
     "BEESPACE/Resources.canvas",
-    "BEESPACE",
     "5. DOCS/BEESPACE/Canvase/FUCK.canvas",
     "5. DOCS/BEESPACE/Canvase/Betriebweisen.canvas",
-    "combinedNodes.json",
-    "5. DOCS/VITE/docs.canvas",
     "5. DOCS/VITE/docs_de/guide/api-hmr__de - 🇩🇪.md",
-    "5. DOCS/asdad.canvas",
     "5. DOCS/VITE/docs_de/guide/why.md",
     "5. DOCS/VITE/docs/guide/api-hmr.md",
     "5. DOCS/VITE/docs/team.md",
-    "5. DOCS/VITE/docs/_data/team.js",
-    "5. DOCS/VITE/docs/_data",
     "5. DOCS/VITE/docs/index.md",
     "5. DOCS/VITE/docs/public/voice.svg",
     "5. DOCS/VITE/docs/public/viteconf.svg",
     "5. DOCS/VITE/docs/public/vite4-3-startup-time.png",
     "5. DOCS/VITE/docs/public/vite4-3-hmr-time.png",
-    "5. DOCS/VITE/docs/public/vite.mp3",
     "5. DOCS/VITE/docs/public/stackblitz.svg",
     "5. DOCS/VITE/docs/public/remix.svg",
     "5. DOCS/VITE/docs/public/og-image.png",
     "5. DOCS/VITE/docs/public/og-image-announcing-vite5.png",
     "5. DOCS/VITE/docs/public/og-image-announcing-vite4.png",
     "5. DOCS/VITE/docs/public/og-image-announcing-vite4-3.png",
-    "5. DOCS/VITE/docs/public/_redirects",
-    "5. DOCS/VITE/docs/public/_headers",
-    "5. DOCS/VITE/docs/public",
     "5. DOCS/VITE/docs/blog/announcing-vite5.md",
-    "5. DOCS/VITE/docs/blog/announcing-vite4.md",
-    "5. DOCS/VITE/docs/blog/announcing-vite4-3.md",
-    "5. DOCS/VITE/docs/blog/announcing-vite3.md",
-    "5. DOCS/VITE/docs/blog/announcing-vite2.md",
-    "5. DOCS/VITE/docs/blog",
-    "5. DOCS/VITE/docs/blog.md",
-    "5. DOCS/VITE/docs/plugins/index.md",
-    "5. DOCS/VITE/docs/config/worker-options.md",
-    "5. DOCS/VITE/docs/config/ssr-options.md",
-    "5. DOCS/VITE/docs/config/shared-options.md",
-    "5. DOCS/VITE/docs/config/server-options.md",
-    "5. DOCS/VITE/docs/config/preview-options.md",
-    "5. DOCS/VITE/docs/config/index.md",
-    "5. DOCS/VITE/docs/config/dep-optimization-options.md",
-    "5. DOCS/VITE/docs/config/build-options.md",
-    "5. DOCS/VITE/docs/releases.md",
-    "5. DOCS/VITE/docs/guide/why.md",
-    "5. DOCS/VITE/docs/guide/using-plugins.md",
-    "5. DOCS/VITE/docs/guide/troubleshooting.md",
-    "5. DOCS/VITE/docs/guide/static-deploy.md"
+    "5. DOCS/VITE/docs/blog/announcing-vite4.md"
   ]
 }

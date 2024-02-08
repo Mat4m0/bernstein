@@ -6,10 +6,8 @@ import { CanvasData, AllCanvasNodeData, CanvasFileData, CanvasGroupData, CanvasN
 export default async function startCopyProcess() {
 	const canvasData: CanvasData = await readJson('/Users/matthias/Git/_Loopinum/bernstein/combinedData.json')
 	console.log(canvasData)
-
-	// Okay i have now the data what now?
-
-	// check for cyan colored 
+	// build matching table
+	const 
 }
 
 async function readJson(path: string): Promise<CanvasData> {

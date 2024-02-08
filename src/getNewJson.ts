@@ -14,7 +14,7 @@ interface CanvasType {
 
 export default async function startProcess() {
 	const combinedData: CanvasData = { nodes: [], edges: [] }
-	const entryCanvas = new Canvas('/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/', 'BEESPACE/Handbuch.canvas', false, "", combinedData);
+	const entryCanvas = new Canvas('/Users/matthias/Git/_Loopinum/bernstein/Bernstein Vault/', 'ingravity/canvas.canvas', false, "", combinedData);
 	await entryCanvas.initializeCanvas()
 	console.log(combinedData)
 	combinedData.nodes = await removeSubCanvase(combinedData.nodes)
@@ -115,7 +115,6 @@ async function removeSubCanvase(combinedData: AllCanvasNodeData[]) {
 
 function addNewGroup(canvasData: CanvasData, canvasName: string, nodeId: string) {
 	// Generate a UUID for the new group
-	const newGroupId = generateCustomId();
 
 	// Get all node IDs to add as children to the new group
 	const allNodeIds = canvasData.nodes.map((node) => node.id);
@@ -143,10 +142,6 @@ function isContainedIn(groupA: AllCanvasNodeData, groupB: AllCanvasNodeData): bo
 	);
 }
 
-function generateCustomId(length: number = 16): string {
-	let uuid = uuidv4().replace(/-/g, ''); // Remove hyphens
-	return uuid.substring(0, length); // Truncate to the desired length
-}
 
 function addChildrenToGroups(groups: AllCanvasNodeData[]): void {
 	groups.forEach((groupA) => {

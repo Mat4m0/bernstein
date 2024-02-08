@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"8cd1cd775812003f","type":"group","x":-101,"y":1040,"width":6821,"height":2320,"label":"vorteile"},
+		{"id":"0cfeabc67ed1c50d","type":"group","x":-101,"y":-1000,"width":4821,"height":1840,"label":"methode"},
+		{"id":"dc8d343cb1439f6d","x":40,"y":-720,"width":1000,"height":1120,"type":"file","file":"ingravity/content/wissen/1.methode/1.was-ist-rolfing.md"},
+		{"id":"5112ce14468b74eb","x":1160,"y":-720,"width":920,"height":1120,"type":"file","file":"ingravity/content/wissen/1.methode/2.wie-funktioniert-rofling.md"},
+		{"id":"b112037d793484ae","x":2200,"y":-720,"width":880,"height":1120,"type":"file","file":"ingravity/content/wissen/1.methode/3.faszien.md"},
+		{"id":"cb507e33f2c24c70","x":3200,"y":-720,"width":1000,"height":1120,"type":"file","file":"ingravity/content/wissen/1.methode/4.ida-rolf.md"},
+		{"id":"513eba77bb14ff13","x":40,"y":1520,"width":1000,"height":1280,"type":"file","file":"ingravity/content/wissen/2.vorteile/1.verspannungen.md"},
+		{"id":"81fd4895530467ba","x":1160,"y":1520,"width":920,"height":1280,"type":"file","file":"ingravity/content/wissen/2.vorteile/2.verbesserte-haltung.md"},
+		{"id":"c51f13554848e2dd","x":2200,"y":1520,"width":1000,"height":1280,"type":"file","file":"ingravity/content/wissen/2.vorteile/3.bewegungs-freiheit.md"},
+		{"id":"5001c6bf3791241c","x":3320,"y":1520,"width":960,"height":1280,"type":"file","file":"ingravity/content/wissen/2.vorteile/4.flexibilität.md"},
+		{"id":"b465955c7eababb3","x":4400,"y":1520,"width":880,"height":1280,"type":"file","file":"ingravity/content/wissen/2.vorteile/5.koordination.md"},
+		{"id":"83a26f7c1e3fd06f","x":5480,"y":1520,"width":840,"height":1280,"type":"file","file":"ingravity/content/wissen/2.vorteile/6.wohlbefinden.md"}
+	],
+	"edges":[]
+}
