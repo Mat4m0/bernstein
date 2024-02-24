@@ -1,8 +1,7 @@
 // Readin Canvas
 import * as fs from 'fs/promises'; // Import the promises API for fs
 import * as path from 'path';
-import { CanvasData, AllCanvasNodeData, CanvasFileData, CanvasGroupData, CanvasNodeData } from 'canvas';
-import { v4 as uuidv4 } from 'uuid';
+import { CanvasData, AllCanvasNodeData, CanvasFileData, CanvasGroupData } from 'canvas';
 
 interface CanvasType {
 	path: string;

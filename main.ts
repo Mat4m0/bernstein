@@ -1,19 +1,20 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
 import startCopyProcess from 'src/copy'
 import startProcess from 'src/getNewJson';
+import Ahoi from 'src/new';
 
 // Remember to rename these classes and interfaces!
 
-interface MyPluginSettings {
-	mySetting: string;
+interface BernsteinSettings {
+	sitesRepoPath: string;
 }
 
-const DEFAULT_SETTINGS: MyPluginSettings = {
-	mySetting: 'default'
+export const BERNSTEIN_SETTINGS: BernsteinSettings = {
+	sitesRepoPath: '/Users/matthias/Git/chilirepo'
 }
 
 export default class MyPlugin extends Plugin {
-	settings: MyPluginSettings;
+	settings: BernsteinSettings;
 
 	async onload() {
 		await this.loadSettings();
@@ -22,8 +23,9 @@ export default class MyPlugin extends Plugin {
 		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', async (evt: MouseEvent) => {
 
 			// Called when the user clicks the icon.
-			await startProcess();
-			startCopyProcess();
+			// await startProcess();
+			// startCopyProcess();
+			Ahoi();
 			new Notice('This is a notice!!!');
 		});
 		// Perform additional things with the ribbon
@@ -88,7 +90,7 @@ export default class MyPlugin extends Plugin {
 	}
 
 	async loadSettings() {
-		this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+		this.settings = Object.assign({}, BERNSTEIN_SETTINGS, await this.loadData());
 	}
 
 	async saveSettings() {
@@ -130,9 +132,9 @@ class SampleSettingTab extends PluginSettingTab {
 			.setDesc('It\'s a secret')
 			.addText(text => text
 				.setPlaceholder('Enter your secret')
-				.setValue(this.plugin.settings.mySetting)
+				.setValue(this.plugin.settings.sitesRepoPath)
 				.onChange(async (value) => {
-					this.plugin.settings.mySetting = value;
+					this.plugin.settings.sitesRepoPath = value;
 					await this.plugin.saveSettings();
 				}));
 	}

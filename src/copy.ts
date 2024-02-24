@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises'; // Import the promises API for fs
 import * as path from 'path';
-import { CanvasData, AllCanvasNodeData, CanvasFileData, CanvasGroupData, CanvasNodeData } from 'canvas';
+import { CanvasData, AllCanvasNodeData, CanvasFileData, CanvasGroupData, CanvasNodeData } from 'obsidian/canvas';
 import { group } from 'console';
 
 
