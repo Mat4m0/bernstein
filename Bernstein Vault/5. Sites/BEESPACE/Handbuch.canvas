@@ -33,7 +33,7 @@
 		{"id":"cd9ce602d1666fe6","type":"group","x":-4813,"y":-6410,"width":853,"height":321,"label":"Pollen"},
 		{"id":"dd7779cb5339f797","type":"group","x":-4813,"y":-5930,"width":853,"height":321,"label":"Met"},
 		{"id":"8549fb03d3557b0f","type":"group","x":-5820,"y":-7351,"width":853,"height":321,"label":"Bienengift"},
-		{"id":"96e1c3d08c251b9d","x":-6672,"y":1464,"width":400,"height":400,"type":"file","file":"BEESPACE/Canvase/Betriebsweisen.canvas"},
+		{"id":"96e1c3d08c251b9d","x":-6672,"y":1464,"width":400,"height":400,"type":"file","file":"5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas"},
 		{"id":"d008b6908ede0af9","type":"text","text":"Bienenkiste","x":-1937,"y":-10210,"width":250,"height":60},
 		{"id":"f07413390d65a5a0","type":"text","text":"Segeberger Beute","x":-4040,"y":-11110,"width":300,"height":60},
 		{"id":"58628343a7bf434b","type":"text","text":"Hohenheimer Zanderbeute","x":-4040,"y":-11210,"width":300,"height":60},

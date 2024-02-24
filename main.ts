@@ -2,15 +2,20 @@ import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Set
 import startCopyProcess from 'src/copy'
 import startProcess from 'src/getNewJson';
 import Ahoi from 'src/new';
+import path from 'path';
 
 // Remember to rename these classes and interfaces!
 
 interface BernsteinSettings {
 	sitesRepoPath: string;
+	sitesObsidianFolder: string;
+	vaultPath: string;
 }
 
 export const BERNSTEIN_SETTINGS: BernsteinSettings = {
-	sitesRepoPath: '/Users/matthias/Git/chilirepo'
+	sitesRepoPath: '/Users/matthias/Git/chilirepo',
+	sitesObsidianFolder: '5. Sites',
+	vaultPath: ''
 }
 
 export default class MyPlugin extends Plugin {
@@ -18,6 +23,11 @@ export default class MyPlugin extends Plugin {
 
 	async onload() {
 		await this.loadSettings();
+
+		if(this.app.vault.adapter instanceof FileSystemAdapter) {
+			const settings. = path.dirname(this.app.vault.adapter.getBasePath());
+		
+		}
 
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', async (evt: MouseEvent) => {

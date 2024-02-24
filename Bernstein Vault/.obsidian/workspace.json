@@ -11,14 +11,11 @@
             "id": "3d255a608ec8a8a9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ingravity/canvas.canvas",
-                "viewState": {
-                  "x": 3309.5,
-                  "y": 4800,
-                  "zoom": -4
-                }
+                "file": "5. Sites/BEESPACE/__meta.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ingravity/canvas.canvas",
+                "file": "5. Sites/BEESPACE/__meta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ingravity/canvas.canvas",
+                "file": "5. Sites/BEESPACE/__meta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ingravity/canvas.canvas"
+                "file": "5. Sites/BEESPACE/__meta.md"
               }
             }
           }
@@ -153,42 +150,44 @@
   },
   "active": "3d255a608ec8a8a9",
   "lastOpenFiles": [
-    "BEESPACE/Canvase/Betriebsweisen.canvas",
-    "BEESPACE/🗺️ ROADMAP.canvas",
-    "BEESPACE/BLOG.canvas",
-    "BEESPACE/Handbuch.canvas",
-    "BEESPACE/Resources.canvas",
-    "BEESPACE/WEBSITE.canvas",
+    "5. Sites/BEESPACE/Resources.canvas",
+    "5. Sites/BEESPACE/__meta.md",
+    "5. Sites/BEESPACE/Handbuch.canvas",
+    "Resources.md",
+    "5. Sites/ingravity/canvas.canvas",
+    "5. Sites",
+    "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
+    "5. Sites/BEESPACE/🗺️ ROADMAP.canvas",
+    "5. Sites/BEESPACE/BLOG.canvas",
+    "5. Sites/BEESPACE/WEBSITE.canvas",
     "5. DOCS/BEESPACE/Entry.canvas",
-    "ingravity/canvas.canvas",
     "2.faq2.md",
-    "ingravity/content/wissen/5.faq/haeufige-fragen.md",
-    "ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
-    "ingravity/content/index.yml",
-    "ingravity/content/wissen/5.faq/_dir.yml",
-    "ingravity/content/wissen/4.ueber-mich/_dir.yml",
-    "ingravity/content/wissen/4.ueber-mich/2.ausbildung.md",
-    "ingravity/content/wissen/4.ueber-mich/1.romi-netzberger.md",
-    "ingravity/content/wissen/3.fuer-wen/_dir.yml",
-    "ingravity/content/wissen/3.fuer-wen/4.sportler.md",
-    "ingravity/content/wissen/3.fuer-wen/3.chronische-bewschwerden.md",
-    "ingravity/content/wissen/3.fuer-wen/2.körperlich-arbeitende.md",
-    "ingravity/content/wissen/3.fuer-wen/1.einseitige-belastung.md",
-    "ingravity/content/wissen/2.vorteile/_dir.yml",
-    "ingravity/content/wissen/2.vorteile/6.wohlbefinden.md",
-    "ingravity/content/wissen/2.vorteile/5.koordination.md",
-    "ingravity/content/wissen/2.vorteile/4.flexibilität.md",
-    "ingravity/content/wissen/2.vorteile/3.bewegungs-freiheit.md",
-    "ingravity/content/wissen/2.vorteile/2.verbesserte-haltung.md",
-    "ingravity/content/wissen/2.vorteile/1.verspannungen.md",
-    "ingravity/content/wissen/1.methode/_dir.yml",
-    "ingravity/content/wissen/1.methode/4.ida-rolf.md",
-    "ingravity/content/wissen/1.methode/3.faszien.md",
-    "ingravity/content/wissen/1.methode/2.wie-funktioniert-rofling.md",
-    "ingravity/content/wissen/5.faq",
-    "ingravity/content/wissen/4.ueber-mich",
-    "ingravity/content/wissen/3.fuer-wen",
-    "ingravity/content/wissen/2.vorteile",
+    "5. Sites/ingravity/content/wissen/5.faq/haeufige-fragen.md",
+    "5. Sites/ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
+    "5. Sites/ingravity/content/index.yml",
+    "5. Sites/ingravity/content/wissen/5.faq/_dir.yml",
+    "5. Sites/ingravity/content/wissen/4.ueber-mich/_dir.yml",
+    "5. Sites/ingravity/content/wissen/4.ueber-mich/2.ausbildung.md",
+    "5. Sites/ingravity/content/wissen/4.ueber-mich/1.romi-netzberger.md",
+    "5. Sites/ingravity/content/wissen/3.fuer-wen/_dir.yml",
+    "5. Sites/ingravity/content/wissen/3.fuer-wen/4.sportler.md",
+    "5. Sites/ingravity/content/wissen/3.fuer-wen/3.chronische-bewschwerden.md",
+    "5. Sites/ingravity/content/wissen/3.fuer-wen/2.körperlich-arbeitende.md",
+    "5. Sites/ingravity/content/wissen/3.fuer-wen/1.einseitige-belastung.md",
+    "5. Sites/ingravity/content/wissen/2.vorteile/_dir.yml",
+    "5. Sites/ingravity/content/wissen/2.vorteile/6.wohlbefinden.md",
+    "5. Sites/ingravity/content/wissen/2.vorteile/5.koordination.md",
+    "5. Sites/ingravity/content/wissen/2.vorteile/4.flexibilität.md",
+    "5. Sites/ingravity/content/wissen/2.vorteile/3.bewegungs-freiheit.md",
+    "5. Sites/ingravity/content/wissen/2.vorteile/2.verbesserte-haltung.md",
+    "5. Sites/ingravity/content/wissen/2.vorteile/1.verspannungen.md",
+    "5. Sites/ingravity/content/wissen/1.methode/_dir.yml",
+    "5. Sites/ingravity/content/wissen/1.methode/4.ida-rolf.md",
+    "5. Sites/ingravity/content/wissen/1.methode/3.faszien.md",
+    "5. Sites/ingravity/content/wissen/1.methode/2.wie-funktioniert-rofling.md",
+    "5. Sites/ingravity/content/wissen/5.faq",
+    "5. Sites/ingravity/content/wissen/4.ueber-mich",
+    "5. Sites/ingravity/content/wissen/3.fuer-wen",
     "Untitled/Untitled.md",
     "5. DOCS/BEESPACE/Canvase/FUCK.canvas",
     "5. DOCS/BEESPACE/Canvase/Betriebweisen.canvas",
@@ -196,7 +195,6 @@
     "5. DOCS/VITE/docs_de/guide/why.md",
     "5. DOCS/VITE/docs/guide/api-hmr.md",
     "5. DOCS/VITE/docs/team.md",
-    "5. DOCS/VITE/docs/index.md",
     "5. DOCS/VITE/docs/public/voice.svg",
     "5. DOCS/VITE/docs/public/viteconf.svg",
     "5. DOCS/VITE/docs/public/vite4-3-startup-time.png",
@@ -206,7 +204,6 @@
     "5. DOCS/VITE/docs/public/og-image.png",
     "5. DOCS/VITE/docs/public/og-image-announcing-vite5.png",
     "5. DOCS/VITE/docs/public/og-image-announcing-vite4.png",
-    "5. DOCS/VITE/docs/public/og-image-announcing-vite4-3.png",
-    "5. DOCS/VITE/docs/blog/announcing-vite5.md"
+    "5. DOCS/VITE/docs/public/og-image-announcing-vite4-3.png"
   ]
 }
