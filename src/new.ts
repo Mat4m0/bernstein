@@ -1,11 +1,8 @@
-import {BERNSTEIN_SETTINGS} from '../main'
 
-export default function Ahoi () 
-{
+import { BERNSTEIN_SETTINGS } from '../main';
 
-	const obsidianVaultPath =
-
-
+export default async function Ahoi() {
+  console.log(BERNSTEIN_SETTINGS.vaultPath);
 
 }
 

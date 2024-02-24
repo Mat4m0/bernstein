@@ -1,21 +1,27 @@
-import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
+import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, FileSystemAdapter } from 'obsidian';
 import startCopyProcess from 'src/copy'
 import startProcess from 'src/getNewJson';
 import Ahoi from 'src/new';
 import path from 'path';
+import fs from 'fs';
+
 
 // Remember to rename these classes and interfaces!
 
 interface BernsteinSettings {
 	sitesRepoPath: string;
 	sitesObsidianFolder: string;
-	vaultPath: string;
+	vaultDirectory: string;
+	vaultName: string;
+	vaultPath: string;	
 }
 
 export const BERNSTEIN_SETTINGS: BernsteinSettings = {
 	sitesRepoPath: '/Users/matthias/Git/chilirepo',
 	sitesObsidianFolder: '5. Sites',
-	vaultPath: ''
+	vaultDirectory: '',
+	vaultName: '',
+	vaultPath: '',
 }
 
 export default class MyPlugin extends Plugin {
@@ -24,10 +30,21 @@ export default class MyPlugin extends Plugin {
 	async onload() {
 		await this.loadSettings();
 
-		if(this.app.vault.adapter instanceof FileSystemAdapter) {
-			const settings. = path.dirname(this.app.vault.adapter.getBasePath());
-		
+		if (this.app.vault.adapter instanceof FileSystemAdapter) {
+			// Correctly update the vaultPath property of BERNSTEIN_SETTINGS
+			BERNSTEIN_SETTINGS.vaultDirectory = path.dirname(this.app.vault.adapter.getBasePath());
 		}
+
+		const vaultName = await searchForVaultName(BERNSTEIN_SETTINGS.vaultDirectory);
+		if (typeof vaultName === 'string') {
+			BERNSTEIN_SETTINGS.vaultName = vaultName;
+		} else {
+			// Handle the undefined case, for example, by setting a default name or showing an error.
+			console.error('Vault name could not be determined.');
+			BERNSTEIN_SETTINGS.vaultName = 'DefaultVaultName'; // Set a default name or handle appropriately.
+		}
+
+		BERNSTEIN_SETTINGS.vaultPath = path.join(BERNSTEIN_SETTINGS.vaultDirectory, BERNSTEIN_SETTINGS.vaultName);
 
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', async (evt: MouseEvent) => {
@@ -35,7 +52,7 @@ export default class MyPlugin extends Plugin {
 			// Called when the user clicks the icon.
 			// await startProcess();
 			// startCopyProcess();
-			Ahoi();
+			await Ahoi();
 			new Notice('This is a notice!!!');
 		});
 		// Perform additional things with the ribbon
@@ -114,12 +131,12 @@ class SampleModal extends Modal {
 	}
 
 	onOpen() {
-		const {contentEl} = this;
+		const { contentEl } = this;
 		contentEl.setText('Woah!');
 	}
 
 	onClose() {
-		const {contentEl} = this;
+		const { contentEl } = this;
 		contentEl.empty();
 	}
 }
@@ -133,7 +150,7 @@ class SampleSettingTab extends PluginSettingTab {
 	}
 
 	display(): void {
-		const {containerEl} = this;
+		const { containerEl } = this;
 
 		containerEl.empty();
 
@@ -148,4 +165,29 @@ class SampleSettingTab extends PluginSettingTab {
 					await this.plugin.saveSettings();
 				}));
 	}
+}
+
+
+
+export async function searchForVaultName(searchPath: string): Promise<string | undefined> {
+	try {
+		const folders = await fs.promises.readdir(searchPath, { withFileTypes: true });
+		for (const folder of folders) {
+			if (folder.isDirectory()) {
+				const potentialObsidianPath = path.join(searchPath, folder.name, '.obsidian');
+				try {
+					await fs.promises.access(potentialObsidianPath);
+					// .obsidian folder found, return the parent folder's name
+					return folder.name;
+				} catch (error: any) { // Explicitly marking error as any for clarity; consider more specific typing if applicable.
+					// .obsidian folder not found in this directory, ignore error
+				}
+			}
+		}
+	} catch (error: any) { // Similarly, marking error as any; can be typed more specifically based on expected errors.
+		console.error('Error searching for vault name:', error);
+	}
+	// Log a clear message if the .obsidian folder was not found in any subdirectories.
+	console.log('No .obsidian folder found in', searchPath);
+	return undefined;
 }
