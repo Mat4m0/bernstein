@@ -16,6 +16,13 @@ export default async function Ahoi() {
     }
 }
 
+interface SiteMetaData {
+    target: string;
+    domain: string;
+	entry: string[];
+	entryMulti: string[] ;
+}
+
 class Site {
     path: string;
     metaData: SiteMetaData | null = null;
@@ -57,17 +64,21 @@ class Site {
             return;
         }
 
-		for (const entry of this.metaData.entry) {
-            let fullPath: string;
-            let canvasInstance: Canvas;
+        // Combine entry and entryMulti, tagging entryMulti items as multi-instance
+        const combinedEntries = [
+            ...this.metaData.entry.map(entry => ({ entry, isMulti: false })),
+            ...this.metaData.entryMulti.map(entry => ({ entry, isMulti: true }))
+        ];
 
+        for (const { entry, isMulti } of combinedEntries) {
+            let fullPath: string;
             if (entry.includes("/")) {
                 fullPath = path.join(BERNSTEIN_SETTINGS.vaultPath, entry);
-                canvasInstance = new Canvas(fullPath, this.metaData.target, this.metaData.domain, true);
             } else {
                 fullPath = path.join(this.path, entry);
-                canvasInstance = new Canvas(fullPath, this.metaData.target, this.metaData.domain, false);
             }
+
+            const canvasInstance = new Canvas(fullPath, this.metaData.target, this.metaData.domain, isMulti);
 
             // For demonstration purposes, displaying the info of the created instance
             canvasInstance.displayInfo();
@@ -103,11 +114,7 @@ class Canvas {
     displayInfo() {
         console.log(`Path: ${this.path}, Target: ${this.target}, Domain: ${this.domain}, Is Multi Instance: ${this.isMultiInstance}`);
     }
+
+	// Implement get newJSON
 }
 
-interface SiteMetaData {
-    target: string;
-    domain: string;
-	entry: string[];
-	entryMulti: string[] ;
-}
