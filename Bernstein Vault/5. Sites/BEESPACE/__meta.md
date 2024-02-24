@@ -1,8 +1,10 @@
 ---
 target: chilirepo/docs/beespace-info
 domain: beespace.info
-docs1: "[[Handbuch.canvas|Handbuch]]"
-docs1-multi: "false"
-docs2: "[[Resources.canvas|Resources]]"
-docs2-multi: "false"
+entry:
+  - "[[5. Sites/BEESPACE/Handbuch.canvas|Handbuch]]"
+  - "[[5. Sites/BEESPACE/Canvase/Resources.canvas|Resources]]"
+entry-multi:
+  - "[[5. Sites/BEESPACE/Handbuch.canvas|Handbuch]]"
+  - "[[5. Sites/BEESPACE/Canvase/Resources.canvas|Resources]]"
 ---

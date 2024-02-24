@@ -13,7 +13,7 @@ interface BernsteinSettings {
 	sitesObsidianFolder: string;
 	vaultDirectory: string;
 	vaultName: string;
-	vaultPath: string;	
+	vaultPath: string;
 }
 
 export const BERNSTEIN_SETTINGS: BernsteinSettings = {
@@ -22,6 +22,7 @@ export const BERNSTEIN_SETTINGS: BernsteinSettings = {
 	vaultDirectory: '',
 	vaultName: '',
 	vaultPath: '',
+
 }
 
 export default class MyPlugin extends Plugin {
