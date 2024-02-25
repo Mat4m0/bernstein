@@ -4,6 +4,8 @@ import path from 'path';
 import matter from 'gray-matter';
 import * as fs from 'fs/promises';
 
+import { uniq } from 'lodash'
+
 import { CanvasData, AllCanvasNodeData, CanvasFileData, CanvasGroupData } from 'canvas';
 
 export default async function Ahoi() {
@@ -138,8 +140,6 @@ class EntryCanvas extends Canvas {
 	domain: string;
 	isMultiInstance: boolean;
 	combinedData: CanvasData;
-
-
 	constructor(canvasPath: string, target: string, domain: string, isMultiInstance: boolean) {
 		super(canvasPath);
 		this.target = target;
@@ -183,40 +183,83 @@ class EntryCanvas extends Canvas {
 
 		const groups = this.combinedData.nodes.filter((node) => node.type === 'group') as CanvasGroupData[]
 
-		groups.forEach((group) => {
-			group.children.forEach((child) => {
+		let combinedAssets: string[] = []
+	
 
-				// search in CanvasData for this id (child)
-				const node = this.combinedData.nodes.find((node) => node.id === child) as CanvasFileData
+		// Process each group sequentially
+		for (const group of groups) {
+			// Await the processing of each child within the group
+			for (const child of group.children) {
+				const node = this.combinedData.nodes.find((n) => n.id === child) as CanvasFileData;
+				if (!node || node.type !== 'file') continue; // Skip if not a file node
+	
+				const sourcePath = path.join(BERNSTEIN_SETTINGS.vaultPath, node.file);
+				const markdownFile = new MarkdownFile(sourcePath, combinedAssets);
+				await markdownFile.initialize(); // Ensure initialize() is awaited
+				// Additional processing...
+			}
+		}
 
-				console.log(node.file)
-				if (node.type !== 'file') return
-				node.file.split('/').pop()
+		console.log([...new Set(combinedAssets)]);
 
-				// build copyPath
-				const copyPath = path.join('/Users/matthias/Git/chilirepo/docs/beespace-info/content', this.canvasName.split(".")[0], group.label.split(".")[0] as string, node.file.split('/').pop() as string)
-				console.log(group.label)
-				//console.log(path.join(vaultPath, node.file))
 
-				// copy file to copyPath
+		
 
-				// check if directory exists
-				// if not create it
-				const sourcePath = path.join(BERNSTEIN_SETTINGS.vaultPath, node.file)
 
-				try {
-					fs.mkdir(path.dirname(copyPath), { recursive: true }).then(() => {
-						fs.copyFile(sourcePath, copyPath)
-					})
-					console.log('File was copied to', copyPath, sourcePath)
-				} catch (error) {
-					console.error('Error copying file:', error);
-					throw error; // Rethrow to allow the caller to handle it
-				}
-			})
-		})
+
+
 	}
 
+}
+
+
+async function searchForAsset() {
+return
+}
+
+class MarkdownFile {
+	filePath: string;
+	assets: string[];
+	fileContent: string;
+	combinedAssets: string[];
+
+	constructor(filePath: string, combinedAssets: string[]) {
+		this.filePath = filePath;
+		this.assets = [];
+		this.fileContent = '';
+		this.combinedAssets = combinedAssets;
+		console.log(filePath)
+
+		this.initialize();
+	}
+
+	async initialize(): Promise<void> {
+		await this.readMarkdownFile();
+		await this.findAssetsInContent();
+		await this.addAssetsToCombinedAssets();
+	}
+
+	async readMarkdownFile() {
+		try {
+			this.fileContent = await fs.readFile(this.filePath, 'utf8');
+		} catch (error) {
+			console.error('Error reading markdown file:', error);
+			throw error;
+		}
+	}
+
+	async addAssetsToCombinedAssets() {
+		this.combinedAssets.push(...this.assets);
+	}
+
+	async findAssetsInContent(): Promise<void> {
+		const assetRegex = /!\[\[(.*?)\]\]/g;
+		let match;
+		while ((match = assetRegex.exec(this.fileContent)) !== null) {
+			console.log(match[1]);
+			this.assets.push(match[1]);
+		}
+	}
 }
 
 class SubCanvas extends Canvas {
@@ -260,6 +303,14 @@ async function cleanupChildren(nodes: AllCanvasNodeData[]) {
 
 
 }
+async function removeDuplicates(assets: string[]): string[] {
+	const uniqueAssets = asset
+
+	return uniqueAssets;
+}
+
+
+
 
 
 

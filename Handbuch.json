@@ -25,13 +25,13 @@
       "children": [
         "721a5f06d67542d2",
         "f859a7b83003ea69",
-        "cc5452aa599ea42e",
-        "ec7f957d48b9bbbf",
         "f5ae5dd9ee3de982",
         "f0933dbfc41b6e3b",
         "cd9ce602d1666fe6",
         "dd7779cb5339f797",
         "8549fb03d3557b0f",
+        "cc5452aa599ea42e",
+        "ec7f957d48b9bbbf",
         "7029f0f3436417bc",
         "8a70f0520eaec600",
         "d9b28db0980f1c28"
@@ -100,6 +100,19 @@
       ]
     },
     {
+      "id": "04cd4866231ae36d",
+      "type": "group",
+      "x": -8695,
+      "y": -15557,
+      "width": 10800,
+      "height": 3507,
+      "label": "2. Verhalten",
+      "children": [
+        "58ab12764e9d888e",
+        "506f67826a7dfb8f"
+      ]
+    },
+    {
       "id": "df2136d9df33c720",
       "type": "group",
       "x": -8695,
@@ -122,12 +135,12 @@
       "label": "Rezepte",
       "children": [
         "d863bf9f682f387e",
-        "bccf9d56713e89e3",
-        "6d805990ba888903",
-        "9b2ed272a15559cd",
         "523d55dae6d8cf95",
         "412caa6ad083bb93",
-        "03956f89999359ce"
+        "03956f89999359ce",
+        "bccf9d56713e89e3",
+        "6d805990ba888903",
+        "9b2ed272a15559cd"
       ]
     },
     {
@@ -237,56 +250,6 @@
       "children": []
     },
     {
-      "id": "bccf9d56713e89e3",
-      "type": "group",
-      "x": -3502,
-      "y": -5813,
-      "width": 853,
-      "height": 321,
-      "label": "Met",
-      "children": []
-    },
-    {
-      "id": "cc5452aa599ea42e",
-      "type": "group",
-      "x": -4813,
-      "y": -5450,
-      "width": 853,
-      "height": 321,
-      "label": "Gelee Royal",
-      "children": []
-    },
-    {
-      "id": "6d805990ba888903",
-      "type": "group",
-      "x": -3502,
-      "y": -5333,
-      "width": 853,
-      "height": 321,
-      "label": "Gelee Royal",
-      "children": []
-    },
-    {
-      "id": "9b2ed272a15559cd",
-      "type": "group",
-      "x": -3502,
-      "y": -4813,
-      "width": 853,
-      "height": 321,
-      "label": "Propolis",
-      "children": []
-    },
-    {
-      "id": "ec7f957d48b9bbbf",
-      "type": "group",
-      "x": -4813,
-      "y": -4930,
-      "width": 853,
-      "height": 321,
-      "label": "Propolis",
-      "children": []
-    },
-    {
       "id": "523d55dae6d8cf95",
       "type": "group",
       "x": -3502,
@@ -324,7 +287,9 @@
       "width": 853,
       "height": 321,
       "label": "Honig",
-      "children": []
+      "children": [
+        "305bf8717c98e1f3"
+      ]
     },
     {
       "id": "f0933dbfc41b6e3b",
@@ -334,7 +299,9 @@
       "width": 853,
       "height": 321,
       "label": "Wachs",
-      "children": []
+      "children": [
+        "103bf39806bdfb02"
+      ]
     },
     {
       "id": "cd9ce602d1666fe6",
@@ -344,7 +311,9 @@
       "width": 853,
       "height": 321,
       "label": "Pollen",
-      "children": []
+      "children": [
+        "0d50a6905cc4d519"
+      ]
     },
     {
       "id": "dd7779cb5339f797",
@@ -354,7 +323,9 @@
       "width": 853,
       "height": 321,
       "label": "Met",
-      "children": []
+      "children": [
+        "7bb7d7e4e8efd8d0"
+      ]
     },
     {
       "id": "8549fb03d3557b0f",
@@ -364,6 +335,56 @@
       "width": 853,
       "height": 321,
       "label": "Bienengift",
+      "children": []
+    },
+    {
+      "id": "cc5452aa599ea42e",
+      "type": "group",
+      "x": -4813,
+      "y": -5450,
+      "width": 853,
+      "height": 321,
+      "label": "Gelee Royal",
+      "children": []
+    },
+    {
+      "id": "bccf9d56713e89e3",
+      "type": "group",
+      "x": -3502,
+      "y": -5813,
+      "width": 853,
+      "height": 321,
+      "label": "Met",
+      "children": []
+    },
+    {
+      "id": "6d805990ba888903",
+      "type": "group",
+      "x": -3502,
+      "y": -5333,
+      "width": 853,
+      "height": 321,
+      "label": "Gelee Royal",
+      "children": []
+    },
+    {
+      "id": "9b2ed272a15559cd",
+      "type": "group",
+      "x": -3502,
+      "y": -4813,
+      "width": 853,
+      "height": 321,
+      "label": "Propolis",
+      "children": []
+    },
+    {
+      "id": "ec7f957d48b9bbbf",
+      "type": "group",
+      "x": -4813,
+      "y": -4930,
+      "width": 853,
+      "height": 321,
+      "label": "Propolis",
       "children": []
     },
     {
@@ -392,19 +413,6 @@
       ]
     },
     {
-      "id": "04cd4866231ae36d",
-      "type": "group",
-      "x": -8695,
-      "y": -15557,
-      "width": 10800,
-      "height": 3507,
-      "label": "2. Verhalten",
-      "children": [
-        "58ab12764e9d888e",
-        "506f67826a7dfb8f"
-      ]
-    },
-    {
       "id": "015b18faf48a01f0",
       "type": "group",
       "x": -8695,
@@ -417,36 +425,6 @@
         "2426a79366a978a6",
         "1346f3ede3638dea"
       ]
-    },
-    {
-      "id": "c11c3494dfcc2e01",
-      "type": "text",
-      "text": "\n- **Topic: Zucht**\n   - **Page: Grundlagen der Bienenzucht**\n     - **Group: Einführung in die Zucht**\n         - **Page: Einführung in die Bienen-Genetik** (Grundlagen der Genetik und ihre Bedeutung für die Zucht)\n         - **Page: Überblick über Zuchtmethoden** (Verschiedene Ansätze und Techniken in der Bienenzucht)\n   - **Page: Zuchtkalender und Timing**\n     - **Group: Planung und Zeitmanagement in der Zucht**\n         - **Page: Jahreszeiten und Zuchtzyklen** (Anleitung zur Planung von Zuchtaktivitäten über das Jahr)\n         - **Page: Optimales Timing für Zuchtaktivitäten** (Bestimmung des idealen Zeitpunkts für verschiedene Zuchtverfahren)\n   - **Page: Praktische Zuchttechniken**\n     - **Group: Zuchtverfahren und -praktiken**\n         - **Page: Umlarven und Königinnenzucht** (Techniken und Methoden des Umlarvens zur Königinnenzucht)\n         - **Page: Künstliche Besamung von Bienenköniginnen** (Verfahren und Anwendung der künstlichen Besamung)\n   - **Page: Zuchtsysteme und -methoden**\n     - **Group: Systematische Ansätze in der Zucht**\n         - **Page: Traditionelle vs. moderne Zuchtsysteme** (Vergleich und Bewertung verschiedener Zuchtsysteme)\n         - **Page: Selektionskriterien und Zuchtauswahl** (Kriterien für die Auswahl und Förderung bestimmter Zuchtmerkmale)\n   - **Page: Basiszucht und Zuchtprogramme**\n     - **Group: Entwicklung von Zuchtprogrammen**\n         - **Page: Etablierung einer Basiszucht** (Anleitung zur Einrichtung und Pflege einer Basiszucht)\n         - **Page: Langfristige Zuchtprogramme und -ziele** (Planung und Durchführung langfristiger Zuchtprogramme)\n   - **Page: Herausforderungen und Lösungen in der Zucht**\n     - **Group: Problembehandlung in der Zucht**\n         - **Page: Häufige Probleme in der Bienenzucht** (Identifikation und Lösungsansätze für gängige Zuchtprobleme)\n         - **Page: Nachhaltige Zuchtpraktiken** (Empfehlungen für nachhaltige und verantwortungsvolle Zuchtmethoden)",
-      "x": -7360,
-      "y": 8642,
-      "width": 1040,
-      "height": 1148,
-      "children": []
-    },
-    {
-      "id": "68908507769ef378",
-      "type": "text",
-      "text": "\n- **Topic: Zucht**\n   - **Page: Grundlagen der Bienenzucht**\n     - **Group: Einführung in die Zucht**\n         - **Page: Einführung in die Bienenzucht** (Überblick über das Konzept und die Bedeutung der Bienenzucht)\n         - **Page: Zuchtkalender und Zeitplanung** (Detaillierter Zuchtkalender mit wichtigen Zeitpunkten und Ereignissen)\n   - **Page: Zuchtmethoden und Techniken**\n     - **Group: Praktische Anwendung**\n         - **Page: Umlarven per Hand** (Schritt-für-Schritt-Anleitung zum manuellen Umlarven)\n         - **Page: Natürliche vs. künstliche Zuchtmethoden** (Vergleich zwischen natürlichen und künstlichen Zuchtmethoden)\n   - **Page: Zuchtsysteme und -strategien**\n     - **Group: Systematischer Ansatz**\n         - **Page: Verschiedene Zuchtsysteme** (Überblick und Bewertung unterschiedlicher Zuchtsysteme)\n         - **Page: Auswahl und Bewertung von Zuchtmaterial** (Kriterien und Methoden zur Auswahl von Zuchtmaterial)\n   - **Page: Genetik in der Bienenzucht**\n     - **Group: Wissenschaftliche Grundlagen**\n         - **Page: Grundlagen der Bienen-Genetik** (Einführung in die genetischen Prinzipien der Bienenzucht)\n         - **Page: Anwendung genetischer Prinzipien in der Zucht** (Praktische Anwendung genetischer Kenntnisse in der Zucht)\n   - **Page: Basiszucht und Zuchtprogramme**\n     - **Group: Aufbau einer Zucht**\n         - **Page: Entwicklung eines Basiszuchtprogramms** (Anleitung zur Erstellung und Umsetzung eines Basiszuchtprogramms)\n         - **Page: Langfristige Zuchtstrategien** (Entwicklung und Implementierung langfristiger Zuchtstrategien)\n   - **Page: Herausforderungen und Lösungen in der Zucht**\n     - **Group: Problemlösung**\n         - **Page: Häufige Probleme in der Bienenzucht** (Diskussion gängiger Herausforderungen in der Bienenzucht)\n         - **Page: Innovative Lösungen und Verbesserungen** (Vorstellung neuer Techniken und Ansätze zur Optimierung der Zucht)",
-      "x": -6260,
-      "y": 8642,
-      "width": 1140,
-      "height": 1148,
-      "children": []
-    },
-    {
-      "id": "361e5f535ea3d096",
-      "type": "text",
-      "text": "\n- **Topic: Zucht**\n   - **Page: Grundlagen der Bienenzucht**\n     - **Group: Einführung in die Zucht**\n         - **Page: Geschichte und Bedeutung der Bienenzucht** (Einblick in die historische und aktuelle Bedeutung der Zucht)\n         - **Page: Grundprinzipien der Bienenzucht** (Einführung in die Grundlagen und Ziele der Zucht)\n   - **Page: Zuchtkalender und Zeitplanung**\n     - **Group: Planung und Timing in der Zucht**\n         - **Page: Jahreszeiten und Zuchtzyklen** (Übersicht über die Zuchtaktivitäten im Jahresverlauf)\n         - **Page: Optimale Zeitpunkte für Zuchtmaßnahmen** (Bestimmung der besten Zeiten für verschiedene Zuchtschritte)\n   - **Page: Zuchttechniken**\n     - **Group: Methoden der Bienenzucht**\n         - **Page: Umlarven und Königinnenzucht** (Techniken und Schritte beim Umlarven und bei der Königinnenzucht)\n         - **Page: Auswahl und Pflege von Zuchtstämmen** (Kriterien und Pflege von Bienenstämmen für die Zucht)\n   - **Page: Zuchtsysteme und -ansätze**\n     - **Group: Verschiedene Zuchtsysteme**\n         - **Page: Traditionelle und moderne Zuchtsysteme** (Überblick über unterschiedliche Zuchtsysteme)\n         - **Page: Bewertung und Auswahl von Zuchtsystemen** (Kriterien zur Auswahl des passenden Zuchtsystems)\n   - **Page: Einführung in die Bienen-Genetik**\n     - **Group: Genetische Grundlagen der Zucht**\n         - **Page: Grundzüge der Bienen-Genetik** (Einführung in die genetischen Prinzipien bei Bienen)\n         - **Page: Genetische Selektion und Zuchtstrategien** (Methoden der genetischen Selektion und deren Anwendung in der Zucht)\n   - **Page: Basiszucht und Zuchterhaltung**\n     - **Group: Langfristige Zuchtstrategien**\n         - **Page: Aufbau und Erhalt einer Basiszucht** (Anleitung zum Aufbau einer nachhaltigen Basiszucht)\n         - **Page: Langzeitstrategien in der Bienenzucht** (Methoden zur langfristigen Erhaltung und Verbesserung von Bienenpopulationen)",
-      "x": -8450,
-      "y": 8642,
-      "width": 1010,
-      "height": 1148,
-      "children": []
     },
     {
       "id": "cd54d295d8c4fe43",
@@ -669,26 +647,6 @@
       "children": []
     },
     {
-      "id": "7029f0f3436417bc",
-      "type": "text",
-      "text": "Expert: Apitherapie- und Bienenproduktespezialist\nObjective: Entwickeln eines strukturierten Inhaltsverzeichnisses zum Thema \"Bienenprodukte\", das detaillierte Informationen, Verarbeitungsmethoden, Vermarktungsstrategien und Hygienestandards umfasst.\nAssumptions: Der Inhalt konzentriert sich auf die verschiedenen Bienenprodukte wie Wachs, Propolis, Honig, Gelee Royal, deren chemische Eigenschaften, Anwendungen, Rezepte, Vermarktung und Hygienestandards.\n\n---\n\n- **Topic: Bienenprodukte**\n   - **Page: Grundlagen der Bienenprodukte**\n     - **Group: Einführung und Übersicht**\n         - **Page: Überblick über Bienenprodukte** (Allgemeine Informationen über Wachs, Propolis, Honig und Gelee Royal)\n   - **Page: Chemische Eigenschaften und Nutzen**\n     - **Group: Tiefgehende Analysen**\n         - **Page: Chemische Zusammensetzung von Bienenprodukten** (Detailierte Beschreibung der chemischen Eigenschaften jedes Produkts)\n         - **Page: Gesundheitliche Vorteile und Anwendungen** (Nutzung und Vorteile von Bienenprodukten in der Gesundheitspflege)\n   - **Page: Verarbeitung und Rezepte**\n     - **Group: Praktische Anwendungen**\n         - **Page: Verarbeitung von Bienenprodukten** (Methoden zur Extraktion und Verarbeitung)\n         - **Page: Rezepte mit Bienenprodukten** (Sammlung von Rezepten, die Bienenprodukte verwenden)\n   - **Page: Vermarktung von Bienenprodukten**\n     - **Group: Geschäftliche Aspekte**\n         - **Page: Strategien zur Vermarktung** (Tipps und Strategien zur effektiven Vermarktung von Bienenprodukten)\n         - **Page: Verpackung und Branding** (Wichtige Aspekte der Produktpräsentation und Markenbildung)\n   - **Page: Gesetzliche Vorschriften und Etikettierung**\n     - **Group: Regulatorische Anforderungen**\n         - **Page: Etikettierung und Kennzeichnungsvorschriften** (Anforderungen an die Etikettierung und Kennzeichnung von Bienenprodukten)\n         - **Page: Gesetzliche Richtlinien** (Übersicht über relevante Gesetze und Vorschriften im Zusammenhang mit Bienenprodukten)\n   - **Page: Hygienestandards und Qualitätskontrolle**\n     - **Group: Sicherheit und Qualität**\n         - **Page: Hygienische Praktiken in der Produktion** (Wichtige Hygienemaßnahmen bei der Gewinnung und Verarbeitung von Bienenprodukten)\n         - **Page: Qualitätskontrolle und -sicherung** (Methoden zur Sicherstellung der Qualität von Bienenprodukten)",
-      "x": -8446,
-      "y": -7810,
-      "width": 1126,
-      "height": 1000,
-      "children": []
-    },
-    {
-      "id": "8a70f0520eaec600",
-      "type": "text",
-      "text": "Expert: Bienenprodukt-Experte und Imker\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Bienenprodukte\" für eine Webdokumentation\nAssumptions: Der Fokus liegt auf detaillierten Informationen über verschiedene Bienenprodukte, deren chemische Eigenschaften, Verarbeitung, Rezepte, Vermarktung, sowie Richtlinien und Hygiene.\n\n---\n\n- **Topic: Bienenprodukte**\n   - **Page: Übersicht der Bienenprodukte**\n     - **Group: Einführung in Bienenprodukte**\n         - **Page: Verschiedene Bienenprodukte** (Überblick über Honig, Wachs, Propolis, Gelee Royal und weitere Produkte)\n   - **Page: Chemische Eigenschaften und Nutzen**\n     - **Group: Wissenschaftliche Details**\n         - **Page: Chemische Zusammensetzung von Honig und Wachs** (Detaillierte Analyse der chemischen Zusammensetzung)\n         - **Page: Gesundheitliche Vorteile von Propolis und Gelee Royal** (Diskussion über gesundheitliche Aspekte und Nutzen)\n   - **Page: Ernte und Verarbeitung**\n     - **Group: Gewinnung und Aufbereitung**\n         - **Page: Gewinnungsverfahren von Bienenprodukten** (Methoden zur Ernte von Honig, Wachs, etc.)\n         - **Page: Verarbeitungsschritte und Qualitätskontrolle** (Prozesse zur Verarbeitung und Sicherstellung der Qualität)\n   - **Page: Rezepte und Anwendungen**\n     - **Group: Kulinarisches und mehr**\n         - **Page: Rezepte mit Honig und anderen Bienenprodukten** (Sammlung von Rezepten und Anwendungsmöglichkeiten)\n         - **Page: Kosmetische und medizinische Anwendungen** (Verwendung in Kosmetik und Medizin)\n   - **Page: Vermarktung und Vertrieb**\n     - **Group: Geschäftliche Aspekte**\n         - **Page: Strategien zur Vermarktung von Bienenprodukten** (Ansätze und Tipps für erfolgreichen Verkauf)\n         - **Page: Markttrends und Zielgruppenanalyse** (Aktuelle Trends und potenzielle Kunden für Bienenprodukte)\n   - **Page: Rechtliche Rahmenbedingungen und Hygiene**\n     - **Group: Richtlinien und Vorschriften**\n         - **Page: Gesetzliche Vorschriften und Etikettierung** (Informationen zu rechtlichen Anforderungen und Etikettengestaltung)\n         - **Page: Hygienestandards in der Produktion** (Wichtige Hygienemaßnahmen in der Herstellung und Verarbeitung)",
-      "x": -7206,
-      "y": -7810,
-      "width": 1140,
-      "height": 1000,
-      "children": []
-    },
-    {
       "id": "ab08fc662780dcce",
       "type": "text",
       "text": "Expert: Imkermeister und Bienenhaltungs-Praktiker\nObjective: Entwickeln eines strukturierten Inhaltsverzeichnisses für das Thema \"Tätigkeiten in der Imkerei\" innerhalb einer Webdokumentation\nAssumptions: Der Fokus liegt auf praktischen Aspekten der Imkerei, einschließlich Schwarmkontrolle, Ablegerbildung, Honigernte und anderen wesentlichen Tätigkeiten.\n\n---\n\n- **Topic: Tätigkeiten in der Imkerei**\n   - **Page: Schwarmmanagement**\n     - **Group: Schwarmkontrolle und -verhinderung**\n         - **Page: Grundlagen der Schwarmkontrolle** (Techniken und Methoden zur Kontrolle und Verhinderung von Bienenschwärmen)\n         - **Page: Ablegerbildung** (Anleitung zur Bildung von Ablegern als Mittel der Schwarmkontrolle)\n   - **Page: Königinnenmanagement**\n     - **Group: Umgang mit Bienenköniginnen**\n         - **Page: Weiselprobe und Beurteilung der Königin** (Methoden zur Beurteilung und Auswahl von Königinnen)\n         - **Page: Königinnenzeichnen** (Techniken zum Markieren von Königinnen für einfache Identifikation)\n   - **Page: Bienenstockpflege**\n     - **Group: Instandhaltung des Bienenstocks**\n         - **Page: Wachsumtrieb und Wachsverarbeitung** (Verfahren zum Umgang mit Bienenwachs)\n         - **Page: Rähmchen Drahten** (Techniken zum Drahten von Rähmchen für Wabenbau)\n   - **Page: Honigernte und -verarbeitung**\n     - **Group: Ernte und Verarbeitung von Honig**\n         - **Page: Honigernte Techniken** (Methoden und beste Praktiken zur Honigernte)\n         - **Page: Verarbeitung und Lagerung von Honig** (Prozesse zur Verarbeitung und Lagerung von Honig)\n   - **Page: Bildung und Management von Kunstschwärmen**\n     - **Group: Erstellung und Umgang mit Kunstschwärmen**\n         - **Page: Erstellung von Kunstschwärmen** (Anleitung zur Bildung künstlicher Bienenschwärme)\n         - **Page: Management von Kunstschwärmen** (Techniken zum effektiven Umgang mit Kunstschwärmen)",
@@ -709,16 +667,6 @@
       "children": []
     },
     {
-      "id": "384f7db1dac5c2d4",
-      "type": "text",
-      "text": "",
-      "x": -8600,
-      "y": 350,
-      "width": 480,
-      "height": 160,
-      "children": []
-    },
-    {
       "id": "97fafff473577504",
       "type": "text",
       "text": "- **Topic: Komplikationen in der Imkerei**\n    - **Page: Parasiten und Krankheitserreger**\n        - **Group: Schädliche Organismen**\n            - **Page: Varroamilbe** (Erkennung, Auswirkungen und Behandlungsmethoden)\n            - **Page: Flügeldeformationsvirus** (Symptome, Übertragung und Managementstrategien)\n            - **Page: Beutenkäfer und Asiatische Hornisse** (Identifikation, Prävention und Kontrollmaßnahmen)\n    - **Page: Bakterielle und Pilzinfektionen**\n        - **Group: Krankheiten und ihre Behandlung**\n            - **Page: Amerikanische und Europäische Faulbrut** (Symptome, Diagnose und Behandlungsansätze)\n            - **Page: Kalkbrut und Nosema** (Erkennungsmerkmale und Bekämpfungsstrategien)\n    - **Page: Probleme im Bienenstock**\n        - **Group: Störungen in der Stockführung**\n            - **Page: Weisellosigkeit und Afterweisel** (Ursachen, Erkennung und Lösungsansätze)\n            - **Page: Bienenfriedhof** (Methoden zur Feststellung der Todesursachen und präventive Maßnahmen)\n    - **Page: Vorbeugung und Management**\n        - **Group: Präventive Maßnahmen und Krisenmanagement**\n            - **Page: Präventionsstrategien gegen Krankheiten und Parasiten** (Vorbeugende Maßnahmen und Best Practices)\n            - **Page: Krisenmanagement bei akuten Problemen** (Schritte zur Bewältigung von Notfällen und akuten Krankheitsausbrüchen)",
@@ -729,13 +677,33 @@
       "children": []
     },
     {
-      "id": "d9b28db0980f1c28",
+      "id": "103bf39806bdfb02",
       "type": "file",
-      "file": "This is a test.md",
-      "x": -7799,
-      "y": -6192,
-      "width": 919,
-      "height": 742,
+      "file": "5. Sites/BEESPACE/Files/Wachs.md",
+      "x": -4720,
+      "y": -6820,
+      "width": 360,
+      "height": 228,
+      "children": []
+    },
+    {
+      "id": "0d50a6905cc4d519",
+      "type": "file",
+      "file": "5. Sites/BEESPACE/Files/Einraumbeute.md",
+      "x": -4581,
+      "y": -6341,
+      "width": 321,
+      "height": 181,
+      "children": []
+    },
+    {
+      "id": "384f7db1dac5c2d4",
+      "type": "text",
+      "text": "",
+      "x": -8600,
+      "y": 350,
+      "width": 480,
+      "height": 160,
       "children": []
     },
     {
@@ -759,6 +727,46 @@
       "children": []
     },
     {
+      "id": "4897f518c39dabf2",
+      "type": "file",
+      "file": "die wichtigsten.md",
+      "x": -5372,
+      "y": -2974,
+      "width": 332,
+      "height": 194,
+      "children": []
+    },
+    {
+      "id": "7029f0f3436417bc",
+      "type": "text",
+      "text": "Expert: Apitherapie- und Bienenproduktespezialist\nObjective: Entwickeln eines strukturierten Inhaltsverzeichnisses zum Thema \"Bienenprodukte\", das detaillierte Informationen, Verarbeitungsmethoden, Vermarktungsstrategien und Hygienestandards umfasst.\nAssumptions: Der Inhalt konzentriert sich auf die verschiedenen Bienenprodukte wie Wachs, Propolis, Honig, Gelee Royal, deren chemische Eigenschaften, Anwendungen, Rezepte, Vermarktung und Hygienestandards.\n\n---\n\n- **Topic: Bienenprodukte**\n   - **Page: Grundlagen der Bienenprodukte**\n     - **Group: Einführung und Übersicht**\n         - **Page: Überblick über Bienenprodukte** (Allgemeine Informationen über Wachs, Propolis, Honig und Gelee Royal)\n   - **Page: Chemische Eigenschaften und Nutzen**\n     - **Group: Tiefgehende Analysen**\n         - **Page: Chemische Zusammensetzung von Bienenprodukten** (Detailierte Beschreibung der chemischen Eigenschaften jedes Produkts)\n         - **Page: Gesundheitliche Vorteile und Anwendungen** (Nutzung und Vorteile von Bienenprodukten in der Gesundheitspflege)\n   - **Page: Verarbeitung und Rezepte**\n     - **Group: Praktische Anwendungen**\n         - **Page: Verarbeitung von Bienenprodukten** (Methoden zur Extraktion und Verarbeitung)\n         - **Page: Rezepte mit Bienenprodukten** (Sammlung von Rezepten, die Bienenprodukte verwenden)\n   - **Page: Vermarktung von Bienenprodukten**\n     - **Group: Geschäftliche Aspekte**\n         - **Page: Strategien zur Vermarktung** (Tipps und Strategien zur effektiven Vermarktung von Bienenprodukten)\n         - **Page: Verpackung und Branding** (Wichtige Aspekte der Produktpräsentation und Markenbildung)\n   - **Page: Gesetzliche Vorschriften und Etikettierung**\n     - **Group: Regulatorische Anforderungen**\n         - **Page: Etikettierung und Kennzeichnungsvorschriften** (Anforderungen an die Etikettierung und Kennzeichnung von Bienenprodukten)\n         - **Page: Gesetzliche Richtlinien** (Übersicht über relevante Gesetze und Vorschriften im Zusammenhang mit Bienenprodukten)\n   - **Page: Hygienestandards und Qualitätskontrolle**\n     - **Group: Sicherheit und Qualität**\n         - **Page: Hygienische Praktiken in der Produktion** (Wichtige Hygienemaßnahmen bei der Gewinnung und Verarbeitung von Bienenprodukten)\n         - **Page: Qualitätskontrolle und -sicherung** (Methoden zur Sicherstellung der Qualität von Bienenprodukten)",
+      "x": -8446,
+      "y": -7810,
+      "width": 1126,
+      "height": 1000,
+      "children": []
+    },
+    {
+      "id": "8a70f0520eaec600",
+      "type": "text",
+      "text": "Expert: Bienenprodukt-Experte und Imker\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Bienenprodukte\" für eine Webdokumentation\nAssumptions: Der Fokus liegt auf detaillierten Informationen über verschiedene Bienenprodukte, deren chemische Eigenschaften, Verarbeitung, Rezepte, Vermarktung, sowie Richtlinien und Hygiene.\n\n---\n\n- **Topic: Bienenprodukte**\n   - **Page: Übersicht der Bienenprodukte**\n     - **Group: Einführung in Bienenprodukte**\n         - **Page: Verschiedene Bienenprodukte** (Überblick über Honig, Wachs, Propolis, Gelee Royal und weitere Produkte)\n   - **Page: Chemische Eigenschaften und Nutzen**\n     - **Group: Wissenschaftliche Details**\n         - **Page: Chemische Zusammensetzung von Honig und Wachs** (Detaillierte Analyse der chemischen Zusammensetzung)\n         - **Page: Gesundheitliche Vorteile von Propolis und Gelee Royal** (Diskussion über gesundheitliche Aspekte und Nutzen)\n   - **Page: Ernte und Verarbeitung**\n     - **Group: Gewinnung und Aufbereitung**\n         - **Page: Gewinnungsverfahren von Bienenprodukten** (Methoden zur Ernte von Honig, Wachs, etc.)\n         - **Page: Verarbeitungsschritte und Qualitätskontrolle** (Prozesse zur Verarbeitung und Sicherstellung der Qualität)\n   - **Page: Rezepte und Anwendungen**\n     - **Group: Kulinarisches und mehr**\n         - **Page: Rezepte mit Honig und anderen Bienenprodukten** (Sammlung von Rezepten und Anwendungsmöglichkeiten)\n         - **Page: Kosmetische und medizinische Anwendungen** (Verwendung in Kosmetik und Medizin)\n   - **Page: Vermarktung und Vertrieb**\n     - **Group: Geschäftliche Aspekte**\n         - **Page: Strategien zur Vermarktung von Bienenprodukten** (Ansätze und Tipps für erfolgreichen Verkauf)\n         - **Page: Markttrends und Zielgruppenanalyse** (Aktuelle Trends und potenzielle Kunden für Bienenprodukte)\n   - **Page: Rechtliche Rahmenbedingungen und Hygiene**\n     - **Group: Richtlinien und Vorschriften**\n         - **Page: Gesetzliche Vorschriften und Etikettierung** (Informationen zu rechtlichen Anforderungen und Etikettengestaltung)\n         - **Page: Hygienestandards in der Produktion** (Wichtige Hygienemaßnahmen in der Herstellung und Verarbeitung)",
+      "x": -7206,
+      "y": -7810,
+      "width": 1140,
+      "height": 1000,
+      "children": []
+    },
+    {
+      "id": "d9b28db0980f1c28",
+      "type": "file",
+      "file": "This is a test.md",
+      "x": -7799,
+      "y": -6192,
+      "width": 919,
+      "height": 742,
+      "children": []
+    },
+    {
       "id": "d008b6908ede0af9",
       "type": "text",
       "text": "Bienenkiste",
@@ -766,6 +774,46 @@
       "y": -10210,
       "width": 250,
       "height": 60,
+      "children": []
+    },
+    {
+      "id": "a2409a7a0031d088",
+      "type": "text",
+      "text": "TopBar Hive",
+      "x": -1640,
+      "y": -10210,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "e39e0d5dd254c096",
+      "type": "text",
+      "text": "Flowhive",
+      "x": -1640,
+      "y": -10090,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "a950c06e5231fbeb",
+      "type": "text",
+      "text": "Flowhive",
+      "x": -1937,
+      "y": -10090,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "305bf8717c98e1f3",
+      "type": "file",
+      "file": "5. Sites/BEESPACE/Files/Honig Test.md",
+      "x": -4643,
+      "y": -7237,
+      "width": 323,
+      "height": 164,
       "children": []
     },
     {
@@ -794,36 +842,6 @@
       "text": "Golzbeute",
       "x": -4780,
       "y": -10310,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "c0faeee874ed91bc",
-      "type": "text",
-      "text": "## Was ist eine Beute?\n\nEine Beute ist die vom Imker zur Verfügung gestellte künstliche Behausung für die Bienen. Anfänglich bestanden sie aus Lehm oder Stroh. Über die Jahrhunderte setzten sich jedoch Beuten aus Holz oder Kunststoff durch. Vorherrschend sind die modularen Magazinbeuten, die vor allem durch ihre gute Handhabbarkeit verwendet werden. Auf der Suche nach bienenfreundlicheren Behausungen oder Beuten, die leichter zu handhaben sind, haben sich in der letzten Zeit weitere Beutenarten entwickelt. Einige werden hier vorgestellt.\n\n## Die Magazinbeute\n\nIm europäischen Raum weitesgehend verwendet sowohl von den Berufs- als auch von den Hobbyimkern ist die Magazinbeute. Diese erfüllt am besten die Anforderung an eine moderne, etragsorientierte Imkerei. Durch das Übereinanderstapeln einzelner Magazine, auch Zargen genannt, kann die Größe des Bienenstock einfach und schnell varriert werden. Da der Raumbedarf des Bienenvolks über das Jahr stark varriert, kann der Bienenstock so entsprechend angepasst werden. Durch die Verwendung eines Absperrgitters kann außerdem der Brutraum von dem Honigraum sauber abgetrennt werden. Die Magazinbeuten werden in Verbindung mit Rähmchen verwendet, von denen 10-12 in jeder Zarge sitzen. Sie geben den Bienen die Baustruktur ihrer Waben vor und können ebenfalls flexibel getauscht werden. Die Zargen gibt es in unterschiedlichsten Maßen und Ausführungen. Mehr zu den Zargen erfährst du hier.\n\n## Die Lagerbeute\n\nLagerbeuten sind große Kisten, in denen ein- oder zweireihig Waben horizontal aufgereiht sind. Lagerbeuten sind so groß bemessen, dass hier keine Erweiterung mit Aufsetzen über das Jahr stattfindet. Da sich das Bienenvolk auf der Ebene ausdehnt, anstatt wie bei der Magazinbeute in die Höhe, gilt das Arbeiten mit der Lagerbeute als sehr rückenfreundlich. Die Lagerbeuten gibt es in unterschiedlichen Ausführungen. Einige sind hier vorgestellt.\n\n### Bienenkiste\n\nDerzeit im Trend liegt die sogenannte _Bienenbox_ oder auch _Bienenkiste_ genannt. Die Besonderheit dieser Kiste ist das Aufstellen der Kiste bei der Durchsicht der Bienen. Für die Kontrolle des Bienenvolks wird dann der Boden der Bienenkiste abgenommen. Durch die einfache Konstruktionsweise bauen viele Imker diese Beute selber. Eine Anleitung dazu findest du hier.\n\n### Golzbeute und Bremer Beute\n\nDie Golzbeute und die Bremer Beute sind die klassischen Vertreter der einetagigen Beuten.\n\n### Einraumbeute\n\n### Oberträgerbeute\n\n## Die Trogbeute\n\nDie Trogbeute kombiniert die System der Lager- und Magazinbeute. Sie besteht aus einem großen, nicht erweiterbaren Brutraum und aufsetzbaren Honigräumen.",
-      "x": -7140,
-      "y": -10160,
-      "width": 1360,
-      "height": 1050,
-      "children": []
-    },
-    {
-      "id": "a2409a7a0031d088",
-      "type": "text",
-      "text": "TopBar Hive",
-      "x": -1640,
-      "y": -10210,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "e39e0d5dd254c096",
-      "type": "text",
-      "text": "Flowhive",
-      "x": -1640,
-      "y": -10090,
       "width": 250,
       "height": 60,
       "children": []
@@ -859,13 +877,33 @@
       "children": []
     },
     {
-      "id": "a950c06e5231fbeb",
+      "id": "804d77b234dcdadc",
       "type": "text",
-      "text": "Flowhive",
-      "x": -1937,
-      "y": -10090,
+      "text": "DadantBlatt",
+      "x": -5180,
+      "y": -10990,
       "width": 250,
       "height": 60,
+      "children": []
+    },
+    {
+      "id": "e47415ea589e5573",
+      "type": "text",
+      "text": "Warmbau Kaltbau\n\nhttps://hausbiene.de/warmbau-oder-kaltbau-was-die-unterschiede/",
+      "x": -10010,
+      "y": -10470,
+      "width": 905,
+      "height": 353,
+      "children": []
+    },
+    {
+      "id": "c0faeee874ed91bc",
+      "type": "text",
+      "text": "## Was ist eine Beute?\n\nEine Beute ist die vom Imker zur Verfügung gestellte künstliche Behausung für die Bienen. Anfänglich bestanden sie aus Lehm oder Stroh. Über die Jahrhunderte setzten sich jedoch Beuten aus Holz oder Kunststoff durch. Vorherrschend sind die modularen Magazinbeuten, die vor allem durch ihre gute Handhabbarkeit verwendet werden. Auf der Suche nach bienenfreundlicheren Behausungen oder Beuten, die leichter zu handhaben sind, haben sich in der letzten Zeit weitere Beutenarten entwickelt. Einige werden hier vorgestellt.\n\n## Die Magazinbeute\n\nIm europäischen Raum weitesgehend verwendet sowohl von den Berufs- als auch von den Hobbyimkern ist die Magazinbeute. Diese erfüllt am besten die Anforderung an eine moderne, etragsorientierte Imkerei. Durch das Übereinanderstapeln einzelner Magazine, auch Zargen genannt, kann die Größe des Bienenstock einfach und schnell varriert werden. Da der Raumbedarf des Bienenvolks über das Jahr stark varriert, kann der Bienenstock so entsprechend angepasst werden. Durch die Verwendung eines Absperrgitters kann außerdem der Brutraum von dem Honigraum sauber abgetrennt werden. Die Magazinbeuten werden in Verbindung mit Rähmchen verwendet, von denen 10-12 in jeder Zarge sitzen. Sie geben den Bienen die Baustruktur ihrer Waben vor und können ebenfalls flexibel getauscht werden. Die Zargen gibt es in unterschiedlichsten Maßen und Ausführungen. Mehr zu den Zargen erfährst du hier.\n\n## Die Lagerbeute\n\nLagerbeuten sind große Kisten, in denen ein- oder zweireihig Waben horizontal aufgereiht sind. Lagerbeuten sind so groß bemessen, dass hier keine Erweiterung mit Aufsetzen über das Jahr stattfindet. Da sich das Bienenvolk auf der Ebene ausdehnt, anstatt wie bei der Magazinbeute in die Höhe, gilt das Arbeiten mit der Lagerbeute als sehr rückenfreundlich. Die Lagerbeuten gibt es in unterschiedlichen Ausführungen. Einige sind hier vorgestellt.\n\n### Bienenkiste\n\nDerzeit im Trend liegt die sogenannte _Bienenbox_ oder auch _Bienenkiste_ genannt. Die Besonderheit dieser Kiste ist das Aufstellen der Kiste bei der Durchsicht der Bienen. Für die Kontrolle des Bienenvolks wird dann der Boden der Bienenkiste abgenommen. Durch die einfache Konstruktionsweise bauen viele Imker diese Beute selber. Eine Anleitung dazu findest du hier.\n\n### Golzbeute und Bremer Beute\n\nDie Golzbeute und die Bremer Beute sind die klassischen Vertreter der einetagigen Beuten.\n\n### Einraumbeute\n\n### Oberträgerbeute\n\n## Die Trogbeute\n\nDie Trogbeute kombiniert die System der Lager- und Magazinbeute. Sie besteht aus einem großen, nicht erweiterbaren Brutraum und aufsetzbaren Honigräumen.",
+      "x": -7140,
+      "y": -10160,
+      "width": 1360,
+      "height": 1050,
       "children": []
     },
     {
@@ -874,16 +912,6 @@
       "text": "**Wielkopolski** (Polen)",
       "x": -2062,
       "y": -11010,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "804d77b234dcdadc",
-      "type": "text",
-      "text": "DadantBlatt",
-      "x": -5180,
-      "y": -10990,
       "width": 250,
       "height": 60,
       "children": []
@@ -909,23 +937,43 @@
       "children": []
     },
     {
-      "id": "e47415ea589e5573",
+      "id": "c11c3494dfcc2e01",
       "type": "text",
-      "text": "Warmbau Kaltbau\n\nhttps://hausbiene.de/warmbau-oder-kaltbau-was-die-unterschiede/",
-      "x": -10010,
-      "y": -10470,
-      "width": 905,
-      "height": 353,
+      "text": "\n- **Topic: Zucht**\n   - **Page: Grundlagen der Bienenzucht**\n     - **Group: Einführung in die Zucht**\n         - **Page: Einführung in die Bienen-Genetik** (Grundlagen der Genetik und ihre Bedeutung für die Zucht)\n         - **Page: Überblick über Zuchtmethoden** (Verschiedene Ansätze und Techniken in der Bienenzucht)\n   - **Page: Zuchtkalender und Timing**\n     - **Group: Planung und Zeitmanagement in der Zucht**\n         - **Page: Jahreszeiten und Zuchtzyklen** (Anleitung zur Planung von Zuchtaktivitäten über das Jahr)\n         - **Page: Optimales Timing für Zuchtaktivitäten** (Bestimmung des idealen Zeitpunkts für verschiedene Zuchtverfahren)\n   - **Page: Praktische Zuchttechniken**\n     - **Group: Zuchtverfahren und -praktiken**\n         - **Page: Umlarven und Königinnenzucht** (Techniken und Methoden des Umlarvens zur Königinnenzucht)\n         - **Page: Künstliche Besamung von Bienenköniginnen** (Verfahren und Anwendung der künstlichen Besamung)\n   - **Page: Zuchtsysteme und -methoden**\n     - **Group: Systematische Ansätze in der Zucht**\n         - **Page: Traditionelle vs. moderne Zuchtsysteme** (Vergleich und Bewertung verschiedener Zuchtsysteme)\n         - **Page: Selektionskriterien und Zuchtauswahl** (Kriterien für die Auswahl und Förderung bestimmter Zuchtmerkmale)\n   - **Page: Basiszucht und Zuchtprogramme**\n     - **Group: Entwicklung von Zuchtprogrammen**\n         - **Page: Etablierung einer Basiszucht** (Anleitung zur Einrichtung und Pflege einer Basiszucht)\n         - **Page: Langfristige Zuchtprogramme und -ziele** (Planung und Durchführung langfristiger Zuchtprogramme)\n   - **Page: Herausforderungen und Lösungen in der Zucht**\n     - **Group: Problembehandlung in der Zucht**\n         - **Page: Häufige Probleme in der Bienenzucht** (Identifikation und Lösungsansätze für gängige Zuchtprobleme)\n         - **Page: Nachhaltige Zuchtpraktiken** (Empfehlungen für nachhaltige und verantwortungsvolle Zuchtmethoden)",
+      "x": -7360,
+      "y": 8642,
+      "width": 1040,
+      "height": 1148,
       "children": []
     },
     {
-      "id": "4897f518c39dabf2",
-      "x": -5372,
-      "y": -2974,
-      "width": 332,
-      "height": 194,
+      "id": "68908507769ef378",
+      "type": "text",
+      "text": "\n- **Topic: Zucht**\n   - **Page: Grundlagen der Bienenzucht**\n     - **Group: Einführung in die Zucht**\n         - **Page: Einführung in die Bienenzucht** (Überblick über das Konzept und die Bedeutung der Bienenzucht)\n         - **Page: Zuchtkalender und Zeitplanung** (Detaillierter Zuchtkalender mit wichtigen Zeitpunkten und Ereignissen)\n   - **Page: Zuchtmethoden und Techniken**\n     - **Group: Praktische Anwendung**\n         - **Page: Umlarven per Hand** (Schritt-für-Schritt-Anleitung zum manuellen Umlarven)\n         - **Page: Natürliche vs. künstliche Zuchtmethoden** (Vergleich zwischen natürlichen und künstlichen Zuchtmethoden)\n   - **Page: Zuchtsysteme und -strategien**\n     - **Group: Systematischer Ansatz**\n         - **Page: Verschiedene Zuchtsysteme** (Überblick und Bewertung unterschiedlicher Zuchtsysteme)\n         - **Page: Auswahl und Bewertung von Zuchtmaterial** (Kriterien und Methoden zur Auswahl von Zuchtmaterial)\n   - **Page: Genetik in der Bienenzucht**\n     - **Group: Wissenschaftliche Grundlagen**\n         - **Page: Grundlagen der Bienen-Genetik** (Einführung in die genetischen Prinzipien der Bienenzucht)\n         - **Page: Anwendung genetischer Prinzipien in der Zucht** (Praktische Anwendung genetischer Kenntnisse in der Zucht)\n   - **Page: Basiszucht und Zuchtprogramme**\n     - **Group: Aufbau einer Zucht**\n         - **Page: Entwicklung eines Basiszuchtprogramms** (Anleitung zur Erstellung und Umsetzung eines Basiszuchtprogramms)\n         - **Page: Langfristige Zuchtstrategien** (Entwicklung und Implementierung langfristiger Zuchtstrategien)\n   - **Page: Herausforderungen und Lösungen in der Zucht**\n     - **Group: Problemlösung**\n         - **Page: Häufige Probleme in der Bienenzucht** (Diskussion gängiger Herausforderungen in der Bienenzucht)\n         - **Page: Innovative Lösungen und Verbesserungen** (Vorstellung neuer Techniken und Ansätze zur Optimierung der Zucht)",
+      "x": -6260,
+      "y": 8642,
+      "width": 1140,
+      "height": 1148,
+      "children": []
+    },
+    {
+      "id": "361e5f535ea3d096",
+      "type": "text",
+      "text": "\n- **Topic: Zucht**\n   - **Page: Grundlagen der Bienenzucht**\n     - **Group: Einführung in die Zucht**\n         - **Page: Geschichte und Bedeutung der Bienenzucht** (Einblick in die historische und aktuelle Bedeutung der Zucht)\n         - **Page: Grundprinzipien der Bienenzucht** (Einführung in die Grundlagen und Ziele der Zucht)\n   - **Page: Zuchtkalender und Zeitplanung**\n     - **Group: Planung und Timing in der Zucht**\n         - **Page: Jahreszeiten und Zuchtzyklen** (Übersicht über die Zuchtaktivitäten im Jahresverlauf)\n         - **Page: Optimale Zeitpunkte für Zuchtmaßnahmen** (Bestimmung der besten Zeiten für verschiedene Zuchtschritte)\n   - **Page: Zuchttechniken**\n     - **Group: Methoden der Bienenzucht**\n         - **Page: Umlarven und Königinnenzucht** (Techniken und Schritte beim Umlarven und bei der Königinnenzucht)\n         - **Page: Auswahl und Pflege von Zuchtstämmen** (Kriterien und Pflege von Bienenstämmen für die Zucht)\n   - **Page: Zuchtsysteme und -ansätze**\n     - **Group: Verschiedene Zuchtsysteme**\n         - **Page: Traditionelle und moderne Zuchtsysteme** (Überblick über unterschiedliche Zuchtsysteme)\n         - **Page: Bewertung und Auswahl von Zuchtsystemen** (Kriterien zur Auswahl des passenden Zuchtsystems)\n   - **Page: Einführung in die Bienen-Genetik**\n     - **Group: Genetische Grundlagen der Zucht**\n         - **Page: Grundzüge der Bienen-Genetik** (Einführung in die genetischen Prinzipien bei Bienen)\n         - **Page: Genetische Selektion und Zuchtstrategien** (Methoden der genetischen Selektion und deren Anwendung in der Zucht)\n   - **Page: Basiszucht und Zuchterhaltung**\n     - **Group: Langfristige Zuchtstrategien**\n         - **Page: Aufbau und Erhalt einer Basiszucht** (Anleitung zum Aufbau einer nachhaltigen Basiszucht)\n         - **Page: Langzeitstrategien in der Bienenzucht** (Methoden zur langfristigen Erhaltung und Verbesserung von Bienenpopulationen)",
+      "x": -8450,
+      "y": 8642,
+      "width": 1010,
+      "height": 1148,
+      "children": []
+    },
+    {
+      "id": "7bb7d7e4e8efd8d0",
       "type": "file",
-      "file": "die wichtigsten.md",
+      "file": "5. Sites/BEESPACE/Files/Einraumbeute.md",
+      "x": -4741,
+      "y": -5853,
+      "width": 321,
+      "height": 181,
       "children": []
     },
     {
@@ -939,16 +987,6 @@
       "children": []
     },
     {
-      "id": "cbae85b91581df6c",
-      "type": "file",
-      "file": "_objects/_notes/@BEESPACE-Einheitsmagazin-übersicht.md",
-      "x": -1813,
-      "y": -1095,
-      "width": 1160,
-      "height": 570,
-      "children": []
-    },
-    {
       "id": "e3d738143eba5ef0",
       "type": "text",
       "text": "",
@@ -956,86 +994,6 @@
       "y": -1078,
       "width": 250,
       "height": 60,
-      "children": []
-    },
-    {
-      "id": "65f9ea994382f714",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Pia Aumeier.md",
-      "x": -453,
-      "y": -1095,
-      "width": 1120,
-      "height": 530,
-      "children": []
-    },
-    {
-      "id": "236c8d8bc21338a4",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Karl Pfefferle.md",
-      "x": 767,
-      "y": -1095,
-      "width": 1120,
-      "height": 480,
-      "children": []
-    },
-    {
-      "id": "7c4a003aaa87de56",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Zander.md",
-      "x": 1947,
-      "y": -1095,
-      "width": 1040,
-      "height": 480,
-      "children": []
-    },
-    {
-      "id": "040176d642751b9c",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Nordbiene - Kai-Michael Engfer.md",
-      "x": 767,
-      "y": -525,
-      "width": 1120,
-      "height": 460,
-      "children": []
-    },
-    {
-      "id": "1986759cd645463d",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Hans Beehr.md",
-      "x": 1947,
-      "y": -525,
-      "width": 1040,
-      "height": 460,
-      "children": []
-    },
-    {
-      "id": "bf05324cd3305dac",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Charles Dadant.md",
-      "x": 3087,
-      "y": -1095,
-      "width": 940,
-      "height": 480,
-      "children": []
-    },
-    {
-      "id": "f91f29d54a086abc",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Jürgen Binder.md",
-      "x": 3087,
-      "y": -525,
-      "width": 940,
-      "height": 460,
-      "children": []
-    },
-    {
-      "id": "94556f68a1618548",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Marian Aschenbrenner.md",
-      "x": 4227,
-      "y": -1095,
-      "width": 805,
-      "height": 391,
       "children": []
     },
     {
@@ -1056,26 +1014,6 @@
       "y": -1255,
       "width": 1120,
       "height": 980,
-      "children": []
-    },
-    {
-      "id": "10ba044e2d599723",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Rainer Schwarz.md",
-      "x": 4227,
-      "y": -525,
-      "width": 805,
-      "height": 430,
-      "children": []
-    },
-    {
-      "id": "76722e823da7cd9f",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Werner Gerdes.md",
-      "x": 5147,
-      "y": -1095,
-      "width": 840,
-      "height": 391,
       "children": []
     },
     {
@@ -1109,43 +1047,13 @@
       "children": []
     },
     {
-      "id": "1b2a403902947384",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Melifferra Einraumbeute Original.md",
-      "x": 5147,
-      "y": -525,
-      "width": 840,
-      "height": 430,
-      "children": []
-    },
-    {
-      "id": "31c61cc7c71f8a64",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Golz.md",
-      "x": 767,
-      "y": 25,
-      "width": 1120,
-      "height": 1080,
-      "children": []
-    },
-    {
-      "id": "a9124fd010a97bc6",
-      "type": "file",
-      "file": "_objects/_notes/Betriebsweise - Melifferra Einraumbeute Original.md",
-      "x": 4227,
-      "y": 25,
-      "width": 805,
-      "height": 440,
-      "children": []
-    },
-    {
       "id": "3fa27352225c7fc1",
+      "type": "file",
+      "file": "5. Sites/BEESPACE/Tuschi as.md",
       "x": -3195,
       "y": 1440,
       "width": 395,
       "height": 389,
-      "type": "file",
-      "file": "Tuschi.md",
       "children": []
     },
     {
@@ -1158,26 +1066,12 @@
       "label": "Betriebsweisen.canvas",
       "children": [
         "3911514fa15d7c0f",
-        "cbae85b91581df6c",
         "e3d738143eba5ef0",
-        "65f9ea994382f714",
-        "236c8d8bc21338a4",
-        "7c4a003aaa87de56",
-        "040176d642751b9c",
-        "1986759cd645463d",
-        "bf05324cd3305dac",
-        "f91f29d54a086abc",
-        "94556f68a1618548",
         "9742fcf9fe03ec5a",
         "6a2a96eea99925f5",
-        "10ba044e2d599723",
-        "76722e823da7cd9f",
         "8334d92123a28b78",
         "122643752bb2c2bc",
         "dafd6d2c75238aae",
-        "1b2a403902947384",
-        "31c61cc7c71f8a64",
-        "a9124fd010a97bc6",
         "3fa27352225c7fc1"
       ]
     }
@@ -1237,13 +1131,6 @@
       "fromNode": "6a2a96eea99925f5",
       "fromSide": "right",
       "toNode": "3911514fa15d7c0f",
-      "toSide": "left"
-    },
-    {
-      "id": "8e4a002bc036a037",
-      "fromNode": "cbae85b91581df6c",
-      "fromSide": "right",
-      "toNode": "65f9ea994382f714",
       "toSide": "left"
     },
     {
