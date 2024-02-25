@@ -11,14 +11,11 @@
             "id": "3d255a608ec8a8a9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
-                "viewState": {
-                  "x": -6171.536417891823,
-                  "y": -913.9684186472879,
-                  "zoom": 1
-                }
+                "file": "5. Sites/BEESPACE/__meta.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
+                "file": "5. Sites/BEESPACE/__meta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
+                "file": "5. Sites/BEESPACE/__meta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas"
+                "file": "5. Sites/BEESPACE/__meta.md"
               }
             }
           }
@@ -153,24 +150,7 @@
   },
   "active": "3d255a608ec8a8a9",
   "lastOpenFiles": [
-    "5. Sites/BEESPACE/Canvase/Resources.canvas",
-    "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
-    "5. Sites/BEESPACE/Handbuch.canvas",
-    "5. Sites/BEESPACE/BLOG.canvas",
-    "5. Sites/BEESPACE/__meta.md",
-    "5. Sites/ingravity/Resources.canvas",
-    "5. Sites/ingravity/Handbuch.canvas",
-    "5. Sites/BEESPACE/🗺️ ROADMAP.canvas",
-    "5. Sites/BEESPACE/WEBSITE.canvas",
-    "5. Sites/BEESPACE/__meta.md.sb-425ab617-nULzvh",
-    "Resources.md",
-    "5. Sites/ingravity/canvas.canvas",
-    "5. Sites",
-    "5. DOCS/BEESPACE/Entry.canvas",
-    "2.faq2.md",
     "5. Sites/ingravity/content/wissen/5.faq/haeufige-fragen.md",
-    "5. Sites/ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
-    "5. Sites/ingravity/content/index.yml",
     "5. Sites/ingravity/content/wissen/5.faq/_dir.yml",
     "5. Sites/ingravity/content/wissen/4.ueber-mich/_dir.yml",
     "5. Sites/ingravity/content/wissen/4.ueber-mich/2.ausbildung.md",
@@ -191,13 +171,31 @@
     "5. Sites/ingravity/content/wissen/1.methode/4.ida-rolf.md",
     "5. Sites/ingravity/content/wissen/1.methode/3.faszien.md",
     "5. Sites/ingravity/content/wissen/1.methode/2.wie-funktioniert-rofling.md",
+    "5. Sites/ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
     "5. Sites/ingravity/content/wissen/5.faq",
     "5. Sites/ingravity/content/wissen/4.ueber-mich",
-    "Untitled/Untitled.md",
-    "5. DOCS/VITE/docs_de/guide/api-hmr__de - 🇩🇪.md",
-    "5. DOCS/VITE/docs_de/guide/why.md",
-    "5. DOCS/VITE/docs/guide/api-hmr.md",
-    "5. DOCS/VITE/docs/team.md",
+    "5. Sites/ingravity/content/wissen/3.fuer-wen",
+    "5. Sites/ingravity/content/wissen/2.vorteile",
+    "5. Sites/ingravity/content/wissen/1.methode",
+    "5. Sites/ingravity/canvas.canvas",
+    "5. Sites/ingravity/Resources.canvas",
+    "5. Sites/ingravity/Handbuch.canvas",
+    "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
+    "5. Sites/BEESPACE/Canvase/Resources.canvas",
+    "5. Sites/BEESPACE/Handbuch.canvas",
+    "5. Sites/BEESPACE/BLOG.canvas",
+    "5. Sites/BEESPACE/__meta.md",
+    "ingravity/Resources.canvas",
+    "ingravity/Handbuch.canvas",
+    "5. Sites/BEESPACE/🗺️ ROADMAP.canvas",
+    "Resources.md",
+    "2.faq2.md",
+    "ingravity/content/wissen/5.faq/haeufige-fragen.md",
+    "ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
+    "ingravity/content/wissen/4.ueber-mich/2.ausbildung.md",
+    "ingravity/content/wissen/4.ueber-mich/1.romi-netzberger.md",
+    "ingravity/content/wissen/3.fuer-wen/4.sportler.md",
+    "ingravity/content/wissen/3.fuer-wen/3.chronische-bewschwerden.md",
     "5. DOCS/VITE/docs/public/voice.svg",
     "5. DOCS/VITE/docs/public/viteconf.svg",
     "5. DOCS/VITE/docs/public/vite4-3-startup-time.png",

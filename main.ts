@@ -192,3 +192,5 @@ export async function searchForVaultName(searchPath: string): Promise<string | u
 	console.log('No .obsidian folder found in', searchPath);
 	return undefined;
 }
+
+
