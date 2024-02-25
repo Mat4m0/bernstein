@@ -15,20 +15,6 @@
       ]
     },
     {
-      "id": "015b18faf48a01f0",
-      "type": "group",
-      "x": -8695,
-      "y": 18110,
-      "width": 10800,
-      "height": 5213,
-      "label": "Wildbienen",
-      "children": [
-        "2d0f94f4325e336d",
-        "2426a79366a978a6",
-        "1346f3ede3638dea"
-      ]
-    },
-    {
       "id": "677a15d34e7e3fe5",
       "type": "group",
       "x": -8695,
@@ -39,22 +25,16 @@
       "children": [
         "721a5f06d67542d2",
         "f859a7b83003ea69",
-        "d863bf9f682f387e",
-        "bccf9d56713e89e3",
         "cc5452aa599ea42e",
-        "6d805990ba888903",
-        "9b2ed272a15559cd",
         "ec7f957d48b9bbbf",
-        "523d55dae6d8cf95",
-        "412caa6ad083bb93",
-        "03956f89999359ce",
         "f5ae5dd9ee3de982",
         "f0933dbfc41b6e3b",
         "cd9ce602d1666fe6",
         "dd7779cb5339f797",
         "8549fb03d3557b0f",
         "7029f0f3436417bc",
-        "8a70f0520eaec600"
+        "8a70f0520eaec600",
+        "d9b28db0980f1c28"
       ]
     },
     {
@@ -72,42 +52,9 @@
         "b06e4b5a583080a3",
         "76d0212dc39e9192",
         "99a82f418573b4b0",
-        "d008b6908ede0af9",
-        "f07413390d65a5a0",
-        "58628343a7bf434b",
-        "b7a39c0222e1bac9",
-        "49fda4715a17fcf3",
-        "a2409a7a0031d088",
-        "a950c06e5231fbeb",
-        "e39e0d5dd254c096",
-        "4a63f2b2458537df",
-        "f1025d7050da98ce",
-        "da33430aa107308c",
-        "30b56f74ea8966f7",
-        "2a80acb7a3e3b34a",
-        "636f98e05ff4b53c",
-        "ebeb7320b3d4ba0f",
-        "3fad73e147cfd328",
-        "616ee359fddf943b",
-        "8da750799e92266e",
-        "93173cfd55cfa473",
-        "804d77b234dcdadc",
         "c0faeee874ed91bc",
         "637b139cbdfe7120",
-        "a62bde4e5abcf9f4",
-        "b0a88d2a8d4d2d83"
-      ]
-    },
-    {
-      "id": "bfb6899df95b30a6",
-      "type": "group",
-      "x": -8695,
-      "y": -23912,
-      "width": 10800,
-      "height": 3942,
-      "label": "0. Einführung",
-      "children": [
-        "cd54d295d8c4fe43"
+        "a62bde4e5abcf9f4"
       ]
     },
     {
@@ -134,7 +81,8 @@
       "label": "Tätigkeiten",
       "children": [
         "ab08fc662780dcce",
-        "9ed15e07ce9a93e9"
+        "9ed15e07ce9a93e9",
+        "4897f518c39dabf2"
       ]
     },
     {
@@ -149,32 +97,6 @@
         "97fafff473577504",
         "4c3fc522baa88359",
         "065f705745b1e56d"
-      ]
-    },
-    {
-      "id": "efb4cd87f406375b",
-      "type": "group",
-      "x": -8695,
-      "y": -19497,
-      "width": 10800,
-      "height": 3527,
-      "label": "1. Biologie",
-      "children": [
-        "7b5a6a3e11a7a297",
-        "7dc31a6a35c26f61"
-      ]
-    },
-    {
-      "id": "04cd4866231ae36d",
-      "type": "group",
-      "x": -8695,
-      "y": -15557,
-      "width": 10800,
-      "height": 3507,
-      "label": "2. Verhalten",
-      "children": [
-        "58ab12764e9d888e",
-        "506f67826a7dfb8f"
       ]
     },
     {
@@ -285,8 +207,8 @@
       "children": [
         "4a63f2b2458537df",
         "f1025d7050da98ce",
-        "da33430aa107308c",
-        "b0a88d2a8d4d2d83"
+        "b0a88d2a8d4d2d83",
+        "da33430aa107308c"
       ]
     },
     {
@@ -300,8 +222,8 @@
       "children": [
         "d008b6908ede0af9",
         "a2409a7a0031d088",
-        "a950c06e5231fbeb",
-        "e39e0d5dd254c096"
+        "e39e0d5dd254c096",
+        "a950c06e5231fbeb"
       ]
     },
     {
@@ -445,194 +367,56 @@
       "children": []
     },
     {
-      "id": "96e1c3d08c251b9d",
-      "x": -6672,
-      "y": 1464,
-      "width": 400,
-      "height": 400,
-      "type": "file",
-      "file": "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
-      "children": []
+      "id": "bfb6899df95b30a6",
+      "type": "group",
+      "x": -8695,
+      "y": -23912,
+      "width": 10800,
+      "height": 3942,
+      "label": "0. Einführung",
+      "children": [
+        "cd54d295d8c4fe43"
+      ]
     },
     {
-      "id": "d008b6908ede0af9",
-      "type": "text",
-      "text": "Bienenkiste",
-      "x": -1937,
-      "y": -10210,
-      "width": 250,
-      "height": 60,
-      "children": []
+      "id": "efb4cd87f406375b",
+      "type": "group",
+      "x": -8695,
+      "y": -19497,
+      "width": 10800,
+      "height": 3527,
+      "label": "1. Biologie",
+      "children": [
+        "7b5a6a3e11a7a297",
+        "7dc31a6a35c26f61"
+      ]
     },
     {
-      "id": "f07413390d65a5a0",
-      "type": "text",
-      "text": "Segeberger Beute",
-      "x": -4040,
-      "y": -11110,
-      "width": 300,
-      "height": 60,
-      "children": []
+      "id": "04cd4866231ae36d",
+      "type": "group",
+      "x": -8695,
+      "y": -15557,
+      "width": 10800,
+      "height": 3507,
+      "label": "2. Verhalten",
+      "children": [
+        "58ab12764e9d888e",
+        "506f67826a7dfb8f"
+      ]
     },
     {
-      "id": "58628343a7bf434b",
-      "type": "text",
-      "text": "Hohenheimer Zanderbeute",
-      "x": -4040,
-      "y": -11210,
-      "width": 300,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "b7a39c0222e1bac9",
-      "type": "text",
-      "text": "Grafbeute",
-      "x": -4420,
-      "y": -11150,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "49fda4715a17fcf3",
-      "type": "text",
-      "text": "Langstroth",
-      "x": -4420,
-      "y": -11210,
-      "width": 240,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "a2409a7a0031d088",
-      "type": "text",
-      "text": "TopBar Hive",
-      "x": -1640,
-      "y": -10210,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "a950c06e5231fbeb",
-      "type": "text",
-      "text": "Flowhive",
-      "x": -1937,
-      "y": -10090,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "e39e0d5dd254c096",
-      "type": "text",
-      "text": "Flowhive",
-      "x": -1640,
-      "y": -10090,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "4a63f2b2458537df",
-      "type": "text",
-      "text": "Warre",
-      "x": -2062,
-      "y": -11210,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "f1025d7050da98ce",
-      "type": "text",
-      "text": "Lusitana (Portugal)",
-      "x": -2062,
-      "y": -11090,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "da33430aa107308c",
-      "type": "text",
-      "text": "**Wielkopolski** (Polen)",
-      "x": -2062,
-      "y": -11010,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "ab08fc662780dcce",
-      "type": "text",
-      "text": "Expert: Imkermeister und Bienenhaltungs-Praktiker\nObjective: Entwickeln eines strukturierten Inhaltsverzeichnisses für das Thema \"Tätigkeiten in der Imkerei\" innerhalb einer Webdokumentation\nAssumptions: Der Fokus liegt auf praktischen Aspekten der Imkerei, einschließlich Schwarmkontrolle, Ablegerbildung, Honigernte und anderen wesentlichen Tätigkeiten.\n\n---\n\n- **Topic: Tätigkeiten in der Imkerei**\n   - **Page: Schwarmmanagement**\n     - **Group: Schwarmkontrolle und -verhinderung**\n         - **Page: Grundlagen der Schwarmkontrolle** (Techniken und Methoden zur Kontrolle und Verhinderung von Bienenschwärmen)\n         - **Page: Ablegerbildung** (Anleitung zur Bildung von Ablegern als Mittel der Schwarmkontrolle)\n   - **Page: Königinnenmanagement**\n     - **Group: Umgang mit Bienenköniginnen**\n         - **Page: Weiselprobe und Beurteilung der Königin** (Methoden zur Beurteilung und Auswahl von Königinnen)\n         - **Page: Königinnenzeichnen** (Techniken zum Markieren von Königinnen für einfache Identifikation)\n   - **Page: Bienenstockpflege**\n     - **Group: Instandhaltung des Bienenstocks**\n         - **Page: Wachsumtrieb und Wachsverarbeitung** (Verfahren zum Umgang mit Bienenwachs)\n         - **Page: Rähmchen Drahten** (Techniken zum Drahten von Rähmchen für Wabenbau)\n   - **Page: Honigernte und -verarbeitung**\n     - **Group: Ernte und Verarbeitung von Honig**\n         - **Page: Honigernte Techniken** (Methoden und beste Praktiken zur Honigernte)\n         - **Page: Verarbeitung und Lagerung von Honig** (Prozesse zur Verarbeitung und Lagerung von Honig)\n   - **Page: Bildung und Management von Kunstschwärmen**\n     - **Group: Erstellung und Umgang mit Kunstschwärmen**\n         - **Page: Erstellung von Kunstschwärmen** (Anleitung zur Bildung künstlicher Bienenschwärme)\n         - **Page: Management von Kunstschwärmen** (Techniken zum effektiven Umgang mit Kunstschwärmen)",
-      "x": -8332,
-      "y": -3650,
-      "width": 1126,
-      "height": 1000,
-      "children": []
-    },
-    {
-      "id": "9ed15e07ce9a93e9",
-      "type": "text",
-      "text": "Expert: Imker und Imkerei-Management-Experte\nObjective: Entwurf eines strukturierten Inhaltsverzeichnisses für das Thema \"Tätigkeiten in der Imkerei\"\nAssumptions: Der Fokus liegt auf detaillierten Beschreibungen von Schlüsselaktivitäten in der Imkerei, einschließlich Schwarmkontrolle, Honigernte und Königinnenmanagement.\n\n---\n\n- **Topic: Tätigkeiten in der Imkerei**\n   - **Page: Schwarmmanagement**\n     - **Group: Schwarmverhalten und -kontrolle**\n         - **Page: Erkennung von Schwarmzeichen** (Wie man Anzeichen eines bevorstehenden Schwarms identifiziert)\n         - **Page: Methoden der Schwarmverhinderung** (Techniken zur Verhinderung von Schwarmbildung)\n         - **Page: Umgang mit Schwärmen** (Effektive Methoden zum Einfangen und Umsiedeln von Schwärmen)\n   - **Page: Zuchtarbeiten**\n     - **Group: Zucht und Vermehrung**\n         - **Page: Ablegerbildung** (Anleitung zur Erstellung von Ablegern zur Kolonievermehrung)\n         - **Page: Weiselprobe und Weiselrichtigkeit** (Durchführung und Bedeutung der Weiselprobe)\n   - **Page: Wartung und Handwerk**\n     - **Group: Ausrüstung und Instandhaltung**\n         - **Page: Wachsumtrieb und Wachsverarbeitung** (Methoden zum Sammeln und Verarbeiten von Bienenwachs)\n         - **Page: Rähmchen Drahten und Vorbereiten** (Anleitung zum Drahten und Vorbereiten von Rähmchen)\n   - **Page: Honigproduktion**\n     - **Group: Honigernte und Verarbeitung**\n         - **Page: Vorbereitung zur Honigernte** (Schritte und Ausrüstung für die Honigernte)\n         - **Page: Honigernte und Extraktion** (Methoden zur Honigernte und Extraktion)\n   - **Page: Königinnenmanagement**\n     - **Group: Zucht und Kennzeichnung**\n         - **Page: Königinnenzeichnen** (Techniken zum Markieren von Königinnen für bessere Überwachung)\n         - **Page: Kunstschwarm bilden** (Schritte zur Bildung eines Kunstschwarms)\n   - **Page: Fortgeschrittene Techniken**\n     - **Group: Spezialisierte Methoden**\n         - **Page: Umgang mit speziellen Herausforderungen** (Strategien für schwierige Situationen in der Imkerei)\n         - **Page: Innovative Ansätze in der Imkerei** (Einblick in moderne Techniken und Innovationen)",
-      "x": -7092,
-      "y": -3650,
-      "width": 1120,
-      "height": 1000,
-      "children": []
-    },
-    {
-      "id": "384f7db1dac5c2d4",
-      "type": "text",
-      "text": "",
-      "x": -8600,
-      "y": 350,
-      "width": 480,
-      "height": 160,
-      "children": []
-    },
-    {
-      "id": "7029f0f3436417bc",
-      "type": "text",
-      "text": "Expert: Apitherapie- und Bienenproduktespezialist\nObjective: Entwickeln eines strukturierten Inhaltsverzeichnisses zum Thema \"Bienenprodukte\", das detaillierte Informationen, Verarbeitungsmethoden, Vermarktungsstrategien und Hygienestandards umfasst.\nAssumptions: Der Inhalt konzentriert sich auf die verschiedenen Bienenprodukte wie Wachs, Propolis, Honig, Gelee Royal, deren chemische Eigenschaften, Anwendungen, Rezepte, Vermarktung und Hygienestandards.\n\n---\n\n- **Topic: Bienenprodukte**\n   - **Page: Grundlagen der Bienenprodukte**\n     - **Group: Einführung und Übersicht**\n         - **Page: Überblick über Bienenprodukte** (Allgemeine Informationen über Wachs, Propolis, Honig und Gelee Royal)\n   - **Page: Chemische Eigenschaften und Nutzen**\n     - **Group: Tiefgehende Analysen**\n         - **Page: Chemische Zusammensetzung von Bienenprodukten** (Detailierte Beschreibung der chemischen Eigenschaften jedes Produkts)\n         - **Page: Gesundheitliche Vorteile und Anwendungen** (Nutzung und Vorteile von Bienenprodukten in der Gesundheitspflege)\n   - **Page: Verarbeitung und Rezepte**\n     - **Group: Praktische Anwendungen**\n         - **Page: Verarbeitung von Bienenprodukten** (Methoden zur Extraktion und Verarbeitung)\n         - **Page: Rezepte mit Bienenprodukten** (Sammlung von Rezepten, die Bienenprodukte verwenden)\n   - **Page: Vermarktung von Bienenprodukten**\n     - **Group: Geschäftliche Aspekte**\n         - **Page: Strategien zur Vermarktung** (Tipps und Strategien zur effektiven Vermarktung von Bienenprodukten)\n         - **Page: Verpackung und Branding** (Wichtige Aspekte der Produktpräsentation und Markenbildung)\n   - **Page: Gesetzliche Vorschriften und Etikettierung**\n     - **Group: Regulatorische Anforderungen**\n         - **Page: Etikettierung und Kennzeichnungsvorschriften** (Anforderungen an die Etikettierung und Kennzeichnung von Bienenprodukten)\n         - **Page: Gesetzliche Richtlinien** (Übersicht über relevante Gesetze und Vorschriften im Zusammenhang mit Bienenprodukten)\n   - **Page: Hygienestandards und Qualitätskontrolle**\n     - **Group: Sicherheit und Qualität**\n         - **Page: Hygienische Praktiken in der Produktion** (Wichtige Hygienemaßnahmen bei der Gewinnung und Verarbeitung von Bienenprodukten)\n         - **Page: Qualitätskontrolle und -sicherung** (Methoden zur Sicherstellung der Qualität von Bienenprodukten)",
-      "x": -8446,
-      "y": -7810,
-      "width": 1126,
-      "height": 1000,
-      "children": []
-    },
-    {
-      "id": "97fafff473577504",
-      "type": "text",
-      "text": "- **Topic: Komplikationen in der Imkerei**\n    - **Page: Parasiten und Krankheitserreger**\n        - **Group: Schädliche Organismen**\n            - **Page: Varroamilbe** (Erkennung, Auswirkungen und Behandlungsmethoden)\n            - **Page: Flügeldeformationsvirus** (Symptome, Übertragung und Managementstrategien)\n            - **Page: Beutenkäfer und Asiatische Hornisse** (Identifikation, Prävention und Kontrollmaßnahmen)\n    - **Page: Bakterielle und Pilzinfektionen**\n        - **Group: Krankheiten und ihre Behandlung**\n            - **Page: Amerikanische und Europäische Faulbrut** (Symptome, Diagnose und Behandlungsansätze)\n            - **Page: Kalkbrut und Nosema** (Erkennungsmerkmale und Bekämpfungsstrategien)\n    - **Page: Probleme im Bienenstock**\n        - **Group: Störungen in der Stockführung**\n            - **Page: Weisellosigkeit und Afterweisel** (Ursachen, Erkennung und Lösungsansätze)\n            - **Page: Bienenfriedhof** (Methoden zur Feststellung der Todesursachen und präventive Maßnahmen)\n    - **Page: Vorbeugung und Management**\n        - **Group: Präventive Maßnahmen und Krisenmanagement**\n            - **Page: Präventionsstrategien gegen Krankheiten und Parasiten** (Vorbeugende Maßnahmen und Best Practices)\n            - **Page: Krisenmanagement bei akuten Problemen** (Schritte zur Bewältigung von Notfällen und akuten Krankheitsausbrüchen)",
-      "x": -7206,
-      "y": 4510,
-      "width": 1120,
-      "height": 800,
-      "children": []
-    },
-    {
-      "id": "4c3fc522baa88359",
-      "type": "text",
-      "text": "- **Topic: Komplikationen in der Imkerei**\n    - **Page: Parasiten und Krankheiten**\n        - **Group: Hauptbedrohungen für Bienen**\n            - **Page: Varroa-Milben** (Ursachen, Symptome und Behandlungsmöglichkeiten)\n            - **Page: Fügeldeformationsvirus** (Beschreibung des Virus und seiner Auswirkungen auf Bienen)\n            - **Page: Beutekäfer und Asiatische Hornisse** (Erkennung, Auswirkungen und Kontrollmethoden)\n    - **Page: Bakterielle und Pilzinfektionen**\n        - **Group: Infektionskrankheiten**\n            - **Page: Faulbrut** (Erkennung, Prävention und Behandlung von Faulbrut)\n            - **Page: Kalkbrut und Nosema** (Symptome, Auswirkungen und Behandlungsmethoden)\n    - **Page: Soziale Komplikationen im Bienenstock**\n        - **Group: Störungen der Stockstruktur**\n            - **Page: Weisellosigkeit und Afterweisel** (Erkennung und Management von weisellosen Zuständen und Afterweiselbildung)\n    - **Page: Analyse von Bienensterben**\n        - **Group: Untersuchung von Bienenverlusten**\n            - **Page: Bienenfriedhof** (Methoden zur Bestimmung der Todesursachen bei Bienen)\n            - **Page: Umweltfaktoren und Bienensterben** (Einfluss von Umweltfaktoren auf die Gesundheit der Bienen)\n    - **Page: Prävention und Management**\n        - **Group: Vorbeugende Maßnahmen**\n            - **Page: Gesundheitsüberwachung und präventive Praktiken** (Regelmäßige Überprüfung der Bienengesundheit und vorbeugende Maßnahmen)\n            - **Page: Strategien zur Krankheitsbekämpfung** (Effektive Methoden zur Kontrolle und Reduzierung von Krankheiten und Parasiten)",
-      "x": -8446,
-      "y": 4510,
-      "width": 1126,
-      "height": 800,
-      "children": []
-    },
-    {
-      "id": "065f705745b1e56d",
-      "type": "text",
-      "text": "- **Topic: Komplikationen in der Imkerei**\n   - **Page: Parasiten und Schädlinge**\n     - **Group: Häufige Bienenparasiten**\n         - **Page: Varroa-Milbe** (Umfassende Informationen zur Varroa-Milbe, deren Auswirkungen und Bekämpfungsmethoden)\n         - **Page: Beutenkäfer** (Beschreibung des Beutenkäfers, seines Lebenszyklus und Bekämpfungsstrategien)\n         - **Page: Asiatische Hornisse** (Informationen zur Asiatischen Hornisse und deren Auswirkungen auf Bienenstöcke)\n   - **Page: Virus- und Bakterienerkrankungen**\n     - **Group: Virusbedingte Krankheiten**\n         - **Page: Flügeldeformationsvirus** (Details zum Flügeldeformationsvirus und dessen Auswirkungen auf Bienen)\n     - **Group: Bakterielle Krankheiten**\n         - **Page: Amerikanische und Europäische Faulbrut** (Erklärung dieser bakteriellen Krankheiten und Behandlungsoptionen)\n         - **Page: Kalkbrut** (Beschreibung von Kalkbrut, deren Symptome und Vorbeugungsmaßnahmen)\n   - **Page: Pilzinfektionen und Parasiten**\n     - **Group: Pilzbefall und interne Parasiten**\n         - **Page: Nosema-Krankheit** (Informationen zur Nosema-Krankheit, deren Diagnose und Behandlung)\n   - **Page: Bienenstockmanagement-Probleme**\n     - **Group: Probleme in der Stockführung**\n         - **Page: Weisellosigkeit** (Ursachen und Lösungen für das Fehlen einer Königin im Bienenstock)\n         - **Page: Afterweiselbildung** (Erklärung der Afterweiselbildung und wie man damit umgeht)\n   - **Page: Diagnose von Bienensterben**\n     - **Group: Ursachenforschung und Prävention**\n         - **Page: Untersuchung von Bienensterben** (Methoden zur Untersuchung und Feststellung der Todesursachen von Bienen)\n         - **Page: Präventive Maßnahmen gegen Bienensterben** (Strategien zur Vermeidung von Bienensterben und zur Gesunderhaltung der Kolonien)",
-      "x": -6020,
-      "y": 4510,
-      "width": 1080,
-      "height": 820,
-      "children": []
+      "id": "015b18faf48a01f0",
+      "type": "group",
+      "x": -8695,
+      "y": 18110,
+      "width": 10800,
+      "height": 5213,
+      "label": "Wildbienen",
+      "children": [
+        "2d0f94f4325e336d",
+        "2426a79366a978a6",
+        "1346f3ede3638dea"
+      ]
     },
     {
       "id": "c11c3494dfcc2e01",
@@ -662,206 +446,6 @@
       "y": 8642,
       "width": 1010,
       "height": 1148,
-      "children": []
-    },
-    {
-      "id": "8a70f0520eaec600",
-      "type": "text",
-      "text": "Expert: Bienenprodukt-Experte und Imker\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Bienenprodukte\" für eine Webdokumentation\nAssumptions: Der Fokus liegt auf detaillierten Informationen über verschiedene Bienenprodukte, deren chemische Eigenschaften, Verarbeitung, Rezepte, Vermarktung, sowie Richtlinien und Hygiene.\n\n---\n\n- **Topic: Bienenprodukte**\n   - **Page: Übersicht der Bienenprodukte**\n     - **Group: Einführung in Bienenprodukte**\n         - **Page: Verschiedene Bienenprodukte** (Überblick über Honig, Wachs, Propolis, Gelee Royal und weitere Produkte)\n   - **Page: Chemische Eigenschaften und Nutzen**\n     - **Group: Wissenschaftliche Details**\n         - **Page: Chemische Zusammensetzung von Honig und Wachs** (Detaillierte Analyse der chemischen Zusammensetzung)\n         - **Page: Gesundheitliche Vorteile von Propolis und Gelee Royal** (Diskussion über gesundheitliche Aspekte und Nutzen)\n   - **Page: Ernte und Verarbeitung**\n     - **Group: Gewinnung und Aufbereitung**\n         - **Page: Gewinnungsverfahren von Bienenprodukten** (Methoden zur Ernte von Honig, Wachs, etc.)\n         - **Page: Verarbeitungsschritte und Qualitätskontrolle** (Prozesse zur Verarbeitung und Sicherstellung der Qualität)\n   - **Page: Rezepte und Anwendungen**\n     - **Group: Kulinarisches und mehr**\n         - **Page: Rezepte mit Honig und anderen Bienenprodukten** (Sammlung von Rezepten und Anwendungsmöglichkeiten)\n         - **Page: Kosmetische und medizinische Anwendungen** (Verwendung in Kosmetik und Medizin)\n   - **Page: Vermarktung und Vertrieb**\n     - **Group: Geschäftliche Aspekte**\n         - **Page: Strategien zur Vermarktung von Bienenprodukten** (Ansätze und Tipps für erfolgreichen Verkauf)\n         - **Page: Markttrends und Zielgruppenanalyse** (Aktuelle Trends und potenzielle Kunden für Bienenprodukte)\n   - **Page: Rechtliche Rahmenbedingungen und Hygiene**\n     - **Group: Richtlinien und Vorschriften**\n         - **Page: Gesetzliche Vorschriften und Etikettierung** (Informationen zu rechtlichen Anforderungen und Etikettengestaltung)\n         - **Page: Hygienestandards in der Produktion** (Wichtige Hygienemaßnahmen in der Herstellung und Verarbeitung)",
-      "x": -7206,
-      "y": -7810,
-      "width": 1140,
-      "height": 1000,
-      "children": []
-    },
-    {
-      "id": "30b56f74ea8966f7",
-      "type": "text",
-      "text": "Schweizer Kasten",
-      "x": -5140,
-      "y": -9190,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "2a80acb7a3e3b34a",
-      "type": "text",
-      "text": "Dadant-Alberti-Blätterstock",
-      "x": -5140,
-      "y": -9090,
-      "width": 360,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "636f98e05ff4b53c",
-      "type": "text",
-      "text": "Layens Hive",
-      "x": -5140,
-      "y": -10190,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "ebeb7320b3d4ba0f",
-      "type": "text",
-      "text": "Meliffera Einraumbeute",
-      "x": -5140,
-      "y": -10310,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "3fad73e147cfd328",
-      "type": "text",
-      "text": "Golzbeute",
-      "x": -4780,
-      "y": -10310,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "616ee359fddf943b",
-      "type": "text",
-      "text": "DadantBlatt",
-      "x": -4880,
-      "y": -11150,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "8da750799e92266e",
-      "type": "text",
-      "text": "Dadant",
-      "x": -5180,
-      "y": -11210,
-      "width": 550,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "93173cfd55cfa473",
-      "type": "text",
-      "text": "DadantUS",
-      "x": -5180,
-      "y": -11150,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "804d77b234dcdadc",
-      "type": "text",
-      "text": "DadantBlatt",
-      "x": -5180,
-      "y": -10990,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "c0faeee874ed91bc",
-      "type": "text",
-      "text": "## Was ist eine Beute?\n\nEine Beute ist die vom Imker zur Verfügung gestellte künstliche Behausung für die Bienen. Anfänglich bestanden sie aus Lehm oder Stroh. Über die Jahrhunderte setzten sich jedoch Beuten aus Holz oder Kunststoff durch. Vorherrschend sind die modularen Magazinbeuten, die vor allem durch ihre gute Handhabbarkeit verwendet werden. Auf der Suche nach bienenfreundlicheren Behausungen oder Beuten, die leichter zu handhaben sind, haben sich in der letzten Zeit weitere Beutenarten entwickelt. Einige werden hier vorgestellt.\n\n## Die Magazinbeute\n\nIm europäischen Raum weitesgehend verwendet sowohl von den Berufs- als auch von den Hobbyimkern ist die Magazinbeute. Diese erfüllt am besten die Anforderung an eine moderne, etragsorientierte Imkerei. Durch das Übereinanderstapeln einzelner Magazine, auch Zargen genannt, kann die Größe des Bienenstock einfach und schnell varriert werden. Da der Raumbedarf des Bienenvolks über das Jahr stark varriert, kann der Bienenstock so entsprechend angepasst werden. Durch die Verwendung eines Absperrgitters kann außerdem der Brutraum von dem Honigraum sauber abgetrennt werden. Die Magazinbeuten werden in Verbindung mit Rähmchen verwendet, von denen 10-12 in jeder Zarge sitzen. Sie geben den Bienen die Baustruktur ihrer Waben vor und können ebenfalls flexibel getauscht werden. Die Zargen gibt es in unterschiedlichsten Maßen und Ausführungen. Mehr zu den Zargen erfährst du hier.\n\n## Die Lagerbeute\n\nLagerbeuten sind große Kisten, in denen ein- oder zweireihig Waben horizontal aufgereiht sind. Lagerbeuten sind so groß bemessen, dass hier keine Erweiterung mit Aufsetzen über das Jahr stattfindet. Da sich das Bienenvolk auf der Ebene ausdehnt, anstatt wie bei der Magazinbeute in die Höhe, gilt das Arbeiten mit der Lagerbeute als sehr rückenfreundlich. Die Lagerbeuten gibt es in unterschiedlichen Ausführungen. Einige sind hier vorgestellt.\n\n### Bienenkiste\n\nDerzeit im Trend liegt die sogenannte _Bienenbox_ oder auch _Bienenkiste_ genannt. Die Besonderheit dieser Kiste ist das Aufstellen der Kiste bei der Durchsicht der Bienen. Für die Kontrolle des Bienenvolks wird dann der Boden der Bienenkiste abgenommen. Durch die einfache Konstruktionsweise bauen viele Imker diese Beute selber. Eine Anleitung dazu findest du hier.\n\n### Golzbeute und Bremer Beute\n\nDie Golzbeute und die Bremer Beute sind die klassischen Vertreter der einetagigen Beuten.\n\n### Einraumbeute\n\n### Oberträgerbeute\n\n## Die Trogbeute\n\nDie Trogbeute kombiniert die System der Lager- und Magazinbeute. Sie besteht aus einem großen, nicht erweiterbaren Brutraum und aufsetzbaren Honigräumen.",
-      "x": -7140,
-      "y": -10160,
-      "width": 1360,
-      "height": 1050,
-      "children": []
-    },
-    {
-      "id": "e47415ea589e5573",
-      "type": "text",
-      "text": "Warmbau Kaltbau\n\nhttps://hausbiene.de/warmbau-oder-kaltbau-was-die-unterschiede/",
-      "x": -10010,
-      "y": -10470,
-      "width": 905,
-      "height": 353,
-      "children": []
-    },
-    {
-      "id": "79fe3c90d06e32c4",
-      "type": "text",
-      "text": "Expert: Apicultural Expert\n\nObjective: Describe the common beehive types used in France, Italy, Portugal, and Spain.\n\nAssumptions: You are interested in understanding the regional preferences for beehive designs in these specific European countries, likely for comparative or beekeeping interest.\n\nIn France, Italy, Portugal, and Spain, several beehive types are commonly used, reflecting both traditional practices and modern beekeeping trends:\n\n1. **France**:\n   - **Dadant Hive**: This is particularly popular in France, given its French origin. The Dadant hive is appreciated for its large brood area and is widely used in commercial beekeeping.\n   - **Langstroth Hive**: Also used in France, especially among modern beekeepers who value its standardized dimensions and ease of management.\n   - **Warre Hive**: Known for mimicking natural bee habitats, the Warre hive is favored by natural beekeeping enthusiasts in France.\n\n2. **Italy**:\n   - **Dadant-Blatt Hive**: A variation of the Dadant hive, it's widely used in Italy. Its slightly different dimensions are tailored to the Italian beekeeping practices.\n   - **Langstroth Hive**: Gaining popularity due to its international standardization, making it a choice for beekeepers focusing on ease of management and honey production.\n   - **Layens Hive**: This horizontal hive is traditional in some parts of Italy and is appreciated for its simplicity and ease of inspection.\n\n3. **Portugal**:\n   - **Lusitana Hive**: A traditional Portuguese hive made of cork, offering excellent insulation. It's less common now but still used by some traditional beekeepers.\n   - **Langstroth Hive**: Increasingly popular, especially among new beekeepers due to its widespread use and ease of management.\n\n4. **Spain**:\n   - **Langstroth Hive**: The most common hive in Spain, used for its practicality and compatibility with modern beekeeping techniques.\n   - **Layens Hive**: Traditional and still widely used in certain regions of Spain, the Layens hive is known for its horizontal structure and large frame size, suitable for the local bee species and climate.\n\nEach of these countries has its unique beekeeping traditions and preferences, influenced by local bee species, climate, and beekeeping practices. Modern trends tend to favor more standardized hives like the Langstroth, but traditional and region-specific hives continue to be important for their cultural and practical values.",
-      "x": -10020,
-      "y": -11631,
-      "width": 924,
-      "height": 1082,
-      "children": []
-    },
-    {
-      "id": "637b139cbdfe7120",
-      "type": "text",
-      "text": "Expert: Imkereibedarf- und Ausrüstungsexperte\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Material für die Imkerei\" für eine Webdokumentation\nAssumptions: Der Fokus liegt auf der detaillierten Darstellung verschiedener Materialien für die Imkerei, einschließlich Werkzeugen, Bienenbehausungen, Königinnenzucht, Honiggewinnung und -verarbeitung.\n\n---\n\n- **Topic: Material für die Imkerei**\n   - **Page: Grundwerkzeuge für Imker**\n     - **Group: Basisausrüstung**\n         - **Page: Stockmeisel und dessen Verwendung** (Funktion und Einsatzmöglichkeiten des Stockmeisels)\n         - **Page: Smoker und Rauchmaterial** (Arten von Smokern und geeignetes Rauchmaterial)\n   - **Page: Bienenbehausungen**\n     - **Group: Arten von Bienenstöcken**\n         - **Page: Traditionelle und moderne Beutentypen** (Überblick über verschiedene Beutentypen, vertikal und horizontal)\n         - **Page: Exotische Bienenbehausungen** (Vorstellung unkonventioneller und exotischer Beutentypen)\n         - **Page: Rähmchen und deren Varianten** (Detailinformationen zu Rähmchen und deren Anpassungen)\n   - **Page: Material für die Königinnenzucht**\n     - **Group: Zuchtwerkzeuge und -methoden**\n         - **Page: Werkzeuge für die Königinnenzucht** (Übersicht über spezialisierte Werkzeuge für die Zucht)\n         - **Page: Methoden der Königinnenzucht** (Techniken und Verfahren zur Zucht von Königinnen)\n   - **Page: Material zur Honiggewinnung**\n     - **Group: Honigernte-Ausrüstung**\n         - **Page: Honigschleudern und Extraktionsmethoden** (Unterschiedliche Typen von Honigschleudern und ihre Verwendung)\n         - **Page: Werkzeuge zur Honigernte** (Spezielle Werkzeuge und Ausrüstungen für die Honigernte)\n   - **Page: Material zur Honigverarbeitung**\n     - **Group: Nach der Ernte**\n         - **Page: Ausrüstung zur Honigreinigung und -filterung** (Geräte und Methoden zur Reinigung und Filterung des Honigs)\n         - **Page: Lagerung und Abfüllung von Honig** (Lösungen und Ausrüstung für die Lagerung und Abfüllung von Honig)",
-      "x": -8426,
-      "y": -11410,
-      "width": 1126,
-      "height": 940,
-      "children": []
-    },
-    {
-      "id": "a62bde4e5abcf9f4",
-      "type": "text",
-      "text": "Expert: Imkereiausrüstungs- und Materialfachmann\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses für das Thema \"Material in der Imkerei\" für eine Webdokumentation\nAssumptions: Der Schwerpunkt liegt auf einer detaillierten Darstellung verschiedener Materialien, die in der Imkerei verwendet werden, einschließlich Werkzeuge, Bienenbehausungen, Ausrüstung für die Königinnenzucht sowie Geräte zur Honiggewinnung und -verarbeitung.\n\n---\n\n- **Topic: Material in der Imkerei**\n   - **Page: Grundausstattung für Imker**\n     - **Group: Basiswerkzeuge**\n         - **Page: Stockmeisel und dessen Anwendung** (Beschreibung und Einsatzmöglichkeiten des Stockmeisels)\n         - **Page: Smoker und Rauchmaterial** (Überblick über verschiedene Smoker-Typen und geeignete Rauchmaterialien)\n   - **Page: Bienenbehausungen**\n     - **Group: Beutentypen und Aufbau**\n         - **Page: Vertikale vs. Horizontale Beuten** (Vergleich und Einsatzgebiete unterschiedlicher Beutentypen)\n         - **Page: Exotische Beutentypen** (Vorstellung unkonventioneller und exotischer Beutenmodelle)\n         - **Page: Rähmchen und deren Konstruktion** (Details zu Rähmchen und deren Rolle in der Bienenbehausung)\n   - **Page: Ausrüstung für die Königinnenzucht**\n     - **Group: Werkzeuge und Methoden**\n         - **Page: Königinnenzuchtgeräte** (Überblick über spezialisierte Geräte für die Zucht von Bienenköniginnen)\n         - **Page: Techniken der Königinnenzucht** (Methoden und Praktiken in der Königinnenzucht)\n   - **Page: Material zur Honiggewinnung**\n     - **Group: Erntewerkzeuge und -methoden**\n         - **Page: Honigernte Ausrüstung** (Vorstellung der Geräte und Werkzeuge zur Honigernte)\n         - **Page: Techniken der Honigernte** (Methoden zur effizienten und schonenden Honiggewinnung)\n   - **Page: Material zur Honigverarbeitung**\n     - **Group: Verarbeitungsgeräte**\n         - **Page: Honigschleudern und Filter** (Geräte zur Trennung und Reinigung von Honig)\n         - **Page: Lagerung und Abfüllung von Honig** (Methoden und Ausrüstung zur Honiglagerung und Abfüllung)\n   - **Page: Wartung und Pflege der Ausrüstung**\n     - **Group: Langfristige Gerätepflege**\n         - **Page: Reinigung und Desinfektion** (Richtlinien zur Reinigung und Wartung der Imkereiausrüstung)\n         - **Page: Lagerung und Instandhaltung** (Tipps zur ordnungsgemäßen Lagerung und Erhaltung der Ausrüstung)",
-      "x": -7186,
-      "y": -11410,
-      "width": 1120,
-      "height": 940,
-      "children": []
-    },
-    {
-      "id": "b0a88d2a8d4d2d83",
-      "type": "text",
-      "text": "Klotbeute",
-      "x": -2062,
-      "y": -11326,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "58ab12764e9d888e",
-      "type": "text",
-      "text": "Expert: Verhaltensbiologe mit Schwerpunkt auf Insekten\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Verhalten der Honigbiene\" für eine Webdokumentation\nAssumptions: Der Schwerpunkt liegt auf einem detaillierten Überblick über das Verhalten verschiedener Apis Mellifera-Arten in der Natur und in der Imkerei, einschließlich ihrer Wahrnehmung, Intelligenz und Schwarmverhalten.\n\n---\n\n- **Topic: Verhalten der Honigbiene**\n   - **Page: Grundlagen des Bienenverhaltens**\n     - **Group: Einführung in das Verhalten**\n         - **Page: Verhaltensbiologie der Honigbiene** (Übersicht über das grundlegende Verhalten von Bienen)\n         - **Page: Unterschiede im Verhalten verschiedener Arten** (Vergleich des Verhaltens verschiedener Apis Mellifera-Arten)\n   - **Page: Sinneswahrnehmung und Kommunikation**\n     - **Group: Sensorik und Kommunikation**\n         - **Page: Farbsehen und visuelle Wahrnehmung** (Wie Bienen Farben sehen und darauf reagieren)\n         - **Page: Kommunikationswege in einem Bienenstock** (Überblick über die Kommunikationsmethoden, z.B. Tanz der Bienen)\n   - **Page: Kognitive Fähigkeiten**\n     - **Group: Intelligenz und Denkprozesse**\n         - **Page: Denk- und Entscheidungsprozesse** (Untersuchung, wie Bienen denken und Entscheidungen treffen)\n         - **Page: Planungsverhalten und Problemlösung** (Beispiele für Planungsfähigkeit und Problemlösung bei Bienen)\n   - **Page: Sozialverhalten und Interaktionen**\n     - **Group: Soziale Dynamiken im Bienenstock**\n         - **Page: Rolle und Interaktionen innerhalb der Kolonie** (Wie verschiedene Bienenrollen interagieren)\n         - **Page: Verhaltensanpassungen beim Imker** (Wie Bienen sich an die Präsenz und Praktiken des Imkers anpassen)\n   - **Page: Schwarmverhalten und Fortpflanzung**\n     - **Group: Schwarmdynamik und Reproduktion**\n         - **Page: Gründe und Mechanismen des Schwärmens** (Erklärung, warum und wie Bienen schwärmen)\n         - **Page: Management von Schwarmverhalten** (Strategien zur Kontrolle und Nutzung von Schwarmverhalten)\n   - **Page: Emotionen und Empfindungen**\n     - **Group: Emotionale und sensorische Erfahrungen**\n         - **Page: Emotionale Zustände bei Bienen** (Untersuchung möglicher emotionaler Reaktionen bei Bienen)\n         - **Page: Schmerzempfinden und Stressreaktionen** (Erforschung des Schmerz- und Stresserlebens von Bienen)",
-      "x": -8426,
-      "y": -15330,
-      "width": 1126,
-      "height": 999,
-      "children": []
-    },
-    {
-      "id": "506f67826a7dfb8f",
-      "type": "text",
-      "text": "Expert: Verhaltensbiologe mit Spezialisierung auf Apis Mellifera\nObjective: Entwicklung eines strukturierten Inhaltsverzeichnisses für das Thema \"Verhalten der Honigbiene\", mit Schwerpunkt auf verschiedenen Arten und deren Verhaltensaspekten\nAssumptions: Der Inhalt soll detaillierte Informationen zum natürlichen Verhalten der Bienen sowie ihr Verhalten in der Imkerei umfassen, einschließlich Aspekten wie Farbsehen, Intelligenz, und Schwarmverhalten.\n\n---\n\n- **Topic: Verhalten der Honigbiene**\n   - **Page: Grundlagen des Bienenverhaltens**\n     - **Group: Einführung in das Verhalten**\n         - **Page: Verhaltensmuster der Honigbiene** (Überblick über grundlegende Verhaltensweisen von Apis Mellifera)\n         - **Page: Unterschiede im Verhalten bei verschiedenen Arten** (Vergleich des Verhaltens verschiedener Apis Mellifera-Arten)\n   - **Page: Wahrnehmung und Kommunikation**\n     - **Group: Sensorik und Interaktion**\n         - **Page: Farbsehen und visuelle Wahrnehmung** (Wie Bienen Farben sehen und darauf reagieren)\n         - **Page: Kommunikationsmethoden** (Tanzsprache und andere Kommunikationsformen der Bienen)\n   - **Page: Kognitive Fähigkeiten**\n     - **Group: Intelligenz und Lernverhalten**\n         - **Page: Kognitive Leistungen und Intelligenz** (Einsichten in die Denkfähigkeit und Intelligenz der Bienen)\n         - **Page: Lernverhalten und Gedächtnis** (Wie Bienen lernen und Informationen speichern)\n   - **Page: Schwarmverhalten**\n     - **Group: Soziale Dynamiken und Fortpflanzung**\n         - **Page: Ursachen und Mechanismen des Schwärmens** (Gründe und Ablauf des Schwarmverhaltens)\n         - **Page: Management von Schwarmtendenzen** (Techniken zum Umgang mit schwarmwilligen Bienen)\n   - **Page: Interaktion mit der Umwelt**\n     - **Group: Umweltbeziehungen und Anpassungen**\n         - **Page: Sammelverhalten und Umweltinteraktion** (Wie Bienen mit ihrer Umwelt interagieren, um Nahrung zu sammeln)\n         - **Page: Anpassung an Umweltbedingungen** (Anpassungen der Bienen an verschiedene ökologische Bedingungen)\n   - **Page: Bienen und Menschen**\n     - **Group: Beziehung zwischen Bienen und Imkern**\n         - **Page: Verhalten der Bienen in der Imkerei** (Wie Bienen auf menschliche Eingriffe reagieren)\n         - **Page: Beeinflussung des Bienenverhaltens durch Imkereipraktiken** (Wie Imkereipraktiken das Verhalten der Bienen beeinflussen können)",
-      "x": -7186,
-      "y": -15330,
-      "width": 1120,
-      "height": 999,
-      "children": []
-    },
-    {
-      "id": "7b5a6a3e11a7a297",
-      "type": "text",
-      "text": "- **Topic: Biologie der Honigbiene**\n    - **Page: Grundlagen der Bienenbiologie**\n        - **Group: Einführung in die Biologie**\n            - **Page: Anatomie der Honigbiene** (Detaillierte Beschreibung der körperlichen Struktur und Funktionen)\n            - **Page: Lebenszyklus und Entwicklung** (Darstellung des Lebenszyklus von der Larve bis zur ausgewachsenen Biene)\n    - **Page: Verhaltensbiologie**\n        - **Group: Soziales und Überlebensverhalten**\n            - **Page: Kommunikation und Orientierung** (Erklärung der Kommunikationsmethoden, wie der Tanz der Bienen)\n            - **Page: Nahrungssuche und Sammelverhalten** (Wie Bienen Nahrung finden und sammeln)\n    - **Page: Apis Mellifera Arten**\n        - **Group: Verschiedene Honigbienenarten**\n            - **Page: Europäische Honigbiene (Apis mellifera mellifera)** (Ursprung, Merkmale und Verbreitung)\n            - **Page: Italienische Biene (Apis mellifera ligustica)** (Eigenschaften und Anpassungsfähigkeit)\n            - **Page: Kärntner Biene (Apis mellifera carnica)** (Besonderheiten und Verbreitung)\n    - **Page: Klimatische Anpassungen**\n        - **Group: Anpassung an Umweltbedingungen**\n            - **Page: Temperaturtoleranz verschiedener Arten** (Wie unterschiedliche Bienenarten verschiedene Klimazonen bewältigen)\n            - **Page: Anpassung an spezifische Ökosysteme** (Anpassungsstrategien an unterschiedliche Umweltbedingungen)\n    - **Page: Bedrohungen und Erhaltungsmaßnahmen**\n        - **Group: Schutz der Honigbiene**\n            - **Page: Globale Bedrohungen für Honigbienen** (Diskussion globaler Gefahren wie Krankheiten und Klimawandel)\n            - **Page: Bemühungen zum Schutz der Honigbiene** (Strategien und Maßnahmen zum Schutz und Erhalt der Bienenarten)",
-      "x": -8540,
-      "y": -19250,
-      "width": 1126,
-      "height": 960,
-      "children": []
-    },
-    {
-      "id": "7dc31a6a35c26f61",
-      "type": "text",
-      "text": "- **Topic: Biologie der Honigbiene**\n    - **Page: Grundlagen der Bienenbiologie**\n        - **Group: Einführung in die Bienenwelt**\n            - **Page: Anatomie der Honigbiene** (Detailierte Beschreibung der physischen Struktur von Apis Mellifera)\n            - **Page: Lebenszyklus und Entwicklungsstadien** (Beschreibung des Lebenszyklus von Ei bis Biene)\n    - **Page: Arten der Honigbienen**\n        - **Group: Verschiedene Apis Mellifera-Arten**\n            - **Page: Übersicht über Apis Mellifera-Arten** (Überblick über verschiedene Arten und ihre Eigenschaften)\n            - **Page: Regionale und klimatische Anpassungen** (Wie sich verschiedene Arten an unterschiedliche Klimazonen angepasst haben)\n    - **Page: Sozialstruktur und Verhalten**\n        - **Group: Das Sozialleben der Bienen**\n            - **Page: Die Rolle der Königin, Arbeiterinnen und Drohnen** (Funktionen und Aufgaben der verschiedenen Bienen in einem Stock)\n            - **Page: Kommunikation und Orientierung** (Wie Bienen kommunizieren und sich orientieren)\n    - **Page: Ernährung und Sammelverhalten**\n        - **Group: Nahrungsaufnahme und Sammelstrategien**\n            - **Page: Nektar und Pollen als Nahrungsquellen** (Wichtigkeit und Gewinnung von Nektar und Pollen)\n            - **Page: Sammelverhalten und -techniken** (Methoden und Strategien der Bienen beim Sammeln von Nektar und Pollen)\n    - **Page: Gesundheit und Krankheiten**\n        - **Group: Bienenkrankheiten und Gesundheitsmanagement**\n            - **Page: Häufige Bienenkrankheiten und Parasiten** (Überblick über gängige Krankheiten und Schädlinge)\n            - **Page: Prävention und Behandlung von Bienenkrankheiten** (Methoden zur Vorbeugung und Behandlung von Krankheiten)\n    - **Page: Fortpflanzung und Schwarmverhalten**\n        - **Group: Reproduktion und Schwarmbildung**\n            - **Page: Schwarmbildung und Fortpflanzung** (Prozess der Schwarmbildung und Reproduktion in Bienenkolonien)\n            - **Page: Management von Schwärmen** (Techniken zum Umgang mit schwärmenden Bienen)",
-      "x": -7300,
-      "y": -19250,
-      "width": 1120,
-      "height": 960,
       "children": []
     },
     {
@@ -942,6 +526,406 @@
       "y": 18359,
       "width": 1160,
       "height": 911,
+      "children": []
+    },
+    {
+      "id": "f07413390d65a5a0",
+      "type": "text",
+      "text": "Segeberger Beute",
+      "x": -4040,
+      "y": -11110,
+      "width": 300,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "58628343a7bf434b",
+      "type": "text",
+      "text": "Hohenheimer Zanderbeute",
+      "x": -4040,
+      "y": -11210,
+      "width": 300,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "b7a39c0222e1bac9",
+      "type": "text",
+      "text": "Grafbeute",
+      "x": -4420,
+      "y": -11150,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "49fda4715a17fcf3",
+      "type": "text",
+      "text": "Langstroth",
+      "x": -4420,
+      "y": -11210,
+      "width": 240,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "4a63f2b2458537df",
+      "type": "text",
+      "text": "Warre",
+      "x": -2062,
+      "y": -11210,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "f1025d7050da98ce",
+      "type": "text",
+      "text": "Lusitana (Portugal)",
+      "x": -2062,
+      "y": -11090,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "616ee359fddf943b",
+      "type": "text",
+      "text": "DadantBlatt",
+      "x": -4880,
+      "y": -11150,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "8da750799e92266e",
+      "type": "text",
+      "text": "Dadant",
+      "x": -5180,
+      "y": -11210,
+      "width": 550,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "93173cfd55cfa473",
+      "type": "text",
+      "text": "DadantUS",
+      "x": -5180,
+      "y": -11150,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "b0a88d2a8d4d2d83",
+      "type": "text",
+      "text": "Klotbeute",
+      "x": -2062,
+      "y": -11326,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "58ab12764e9d888e",
+      "type": "text",
+      "text": "Expert: Verhaltensbiologe mit Schwerpunkt auf Insekten\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Verhalten der Honigbiene\" für eine Webdokumentation\nAssumptions: Der Schwerpunkt liegt auf einem detaillierten Überblick über das Verhalten verschiedener Apis Mellifera-Arten in der Natur und in der Imkerei, einschließlich ihrer Wahrnehmung, Intelligenz und Schwarmverhalten.\n\n---\n\n- **Topic: Verhalten der Honigbiene**\n   - **Page: Grundlagen des Bienenverhaltens**\n     - **Group: Einführung in das Verhalten**\n         - **Page: Verhaltensbiologie der Honigbiene** (Übersicht über das grundlegende Verhalten von Bienen)\n         - **Page: Unterschiede im Verhalten verschiedener Arten** (Vergleich des Verhaltens verschiedener Apis Mellifera-Arten)\n   - **Page: Sinneswahrnehmung und Kommunikation**\n     - **Group: Sensorik und Kommunikation**\n         - **Page: Farbsehen und visuelle Wahrnehmung** (Wie Bienen Farben sehen und darauf reagieren)\n         - **Page: Kommunikationswege in einem Bienenstock** (Überblick über die Kommunikationsmethoden, z.B. Tanz der Bienen)\n   - **Page: Kognitive Fähigkeiten**\n     - **Group: Intelligenz und Denkprozesse**\n         - **Page: Denk- und Entscheidungsprozesse** (Untersuchung, wie Bienen denken und Entscheidungen treffen)\n         - **Page: Planungsverhalten und Problemlösung** (Beispiele für Planungsfähigkeit und Problemlösung bei Bienen)\n   - **Page: Sozialverhalten und Interaktionen**\n     - **Group: Soziale Dynamiken im Bienenstock**\n         - **Page: Rolle und Interaktionen innerhalb der Kolonie** (Wie verschiedene Bienenrollen interagieren)\n         - **Page: Verhaltensanpassungen beim Imker** (Wie Bienen sich an die Präsenz und Praktiken des Imkers anpassen)\n   - **Page: Schwarmverhalten und Fortpflanzung**\n     - **Group: Schwarmdynamik und Reproduktion**\n         - **Page: Gründe und Mechanismen des Schwärmens** (Erklärung, warum und wie Bienen schwärmen)\n         - **Page: Management von Schwarmverhalten** (Strategien zur Kontrolle und Nutzung von Schwarmverhalten)\n   - **Page: Emotionen und Empfindungen**\n     - **Group: Emotionale und sensorische Erfahrungen**\n         - **Page: Emotionale Zustände bei Bienen** (Untersuchung möglicher emotionaler Reaktionen bei Bienen)\n         - **Page: Schmerzempfinden und Stressreaktionen** (Erforschung des Schmerz- und Stresserlebens von Bienen)",
+      "x": -8426,
+      "y": -15330,
+      "width": 1126,
+      "height": 999,
+      "children": []
+    },
+    {
+      "id": "506f67826a7dfb8f",
+      "type": "text",
+      "text": "Expert: Verhaltensbiologe mit Spezialisierung auf Apis Mellifera\nObjective: Entwicklung eines strukturierten Inhaltsverzeichnisses für das Thema \"Verhalten der Honigbiene\", mit Schwerpunkt auf verschiedenen Arten und deren Verhaltensaspekten\nAssumptions: Der Inhalt soll detaillierte Informationen zum natürlichen Verhalten der Bienen sowie ihr Verhalten in der Imkerei umfassen, einschließlich Aspekten wie Farbsehen, Intelligenz, und Schwarmverhalten.\n\n---\n\n- **Topic: Verhalten der Honigbiene**\n   - **Page: Grundlagen des Bienenverhaltens**\n     - **Group: Einführung in das Verhalten**\n         - **Page: Verhaltensmuster der Honigbiene** (Überblick über grundlegende Verhaltensweisen von Apis Mellifera)\n         - **Page: Unterschiede im Verhalten bei verschiedenen Arten** (Vergleich des Verhaltens verschiedener Apis Mellifera-Arten)\n   - **Page: Wahrnehmung und Kommunikation**\n     - **Group: Sensorik und Interaktion**\n         - **Page: Farbsehen und visuelle Wahrnehmung** (Wie Bienen Farben sehen und darauf reagieren)\n         - **Page: Kommunikationsmethoden** (Tanzsprache und andere Kommunikationsformen der Bienen)\n   - **Page: Kognitive Fähigkeiten**\n     - **Group: Intelligenz und Lernverhalten**\n         - **Page: Kognitive Leistungen und Intelligenz** (Einsichten in die Denkfähigkeit und Intelligenz der Bienen)\n         - **Page: Lernverhalten und Gedächtnis** (Wie Bienen lernen und Informationen speichern)\n   - **Page: Schwarmverhalten**\n     - **Group: Soziale Dynamiken und Fortpflanzung**\n         - **Page: Ursachen und Mechanismen des Schwärmens** (Gründe und Ablauf des Schwarmverhaltens)\n         - **Page: Management von Schwarmtendenzen** (Techniken zum Umgang mit schwarmwilligen Bienen)\n   - **Page: Interaktion mit der Umwelt**\n     - **Group: Umweltbeziehungen und Anpassungen**\n         - **Page: Sammelverhalten und Umweltinteraktion** (Wie Bienen mit ihrer Umwelt interagieren, um Nahrung zu sammeln)\n         - **Page: Anpassung an Umweltbedingungen** (Anpassungen der Bienen an verschiedene ökologische Bedingungen)\n   - **Page: Bienen und Menschen**\n     - **Group: Beziehung zwischen Bienen und Imkern**\n         - **Page: Verhalten der Bienen in der Imkerei** (Wie Bienen auf menschliche Eingriffe reagieren)\n         - **Page: Beeinflussung des Bienenverhaltens durch Imkereipraktiken** (Wie Imkereipraktiken das Verhalten der Bienen beeinflussen können)",
+      "x": -7186,
+      "y": -15330,
+      "width": 1120,
+      "height": 999,
+      "children": []
+    },
+    {
+      "id": "7b5a6a3e11a7a297",
+      "type": "text",
+      "text": "- **Topic: Biologie der Honigbiene**\n    - **Page: Grundlagen der Bienenbiologie**\n        - **Group: Einführung in die Biologie**\n            - **Page: Anatomie der Honigbiene** (Detaillierte Beschreibung der körperlichen Struktur und Funktionen)\n            - **Page: Lebenszyklus und Entwicklung** (Darstellung des Lebenszyklus von der Larve bis zur ausgewachsenen Biene)\n    - **Page: Verhaltensbiologie**\n        - **Group: Soziales und Überlebensverhalten**\n            - **Page: Kommunikation und Orientierung** (Erklärung der Kommunikationsmethoden, wie der Tanz der Bienen)\n            - **Page: Nahrungssuche und Sammelverhalten** (Wie Bienen Nahrung finden und sammeln)\n    - **Page: Apis Mellifera Arten**\n        - **Group: Verschiedene Honigbienenarten**\n            - **Page: Europäische Honigbiene (Apis mellifera mellifera)** (Ursprung, Merkmale und Verbreitung)\n            - **Page: Italienische Biene (Apis mellifera ligustica)** (Eigenschaften und Anpassungsfähigkeit)\n            - **Page: Kärntner Biene (Apis mellifera carnica)** (Besonderheiten und Verbreitung)\n    - **Page: Klimatische Anpassungen**\n        - **Group: Anpassung an Umweltbedingungen**\n            - **Page: Temperaturtoleranz verschiedener Arten** (Wie unterschiedliche Bienenarten verschiedene Klimazonen bewältigen)\n            - **Page: Anpassung an spezifische Ökosysteme** (Anpassungsstrategien an unterschiedliche Umweltbedingungen)\n    - **Page: Bedrohungen und Erhaltungsmaßnahmen**\n        - **Group: Schutz der Honigbiene**\n            - **Page: Globale Bedrohungen für Honigbienen** (Diskussion globaler Gefahren wie Krankheiten und Klimawandel)\n            - **Page: Bemühungen zum Schutz der Honigbiene** (Strategien und Maßnahmen zum Schutz und Erhalt der Bienenarten)",
+      "x": -8540,
+      "y": -19250,
+      "width": 1126,
+      "height": 960,
+      "children": []
+    },
+    {
+      "id": "7dc31a6a35c26f61",
+      "type": "text",
+      "text": "- **Topic: Biologie der Honigbiene**\n    - **Page: Grundlagen der Bienenbiologie**\n        - **Group: Einführung in die Bienenwelt**\n            - **Page: Anatomie der Honigbiene** (Detailierte Beschreibung der physischen Struktur von Apis Mellifera)\n            - **Page: Lebenszyklus und Entwicklungsstadien** (Beschreibung des Lebenszyklus von Ei bis Biene)\n    - **Page: Arten der Honigbienen**\n        - **Group: Verschiedene Apis Mellifera-Arten**\n            - **Page: Übersicht über Apis Mellifera-Arten** (Überblick über verschiedene Arten und ihre Eigenschaften)\n            - **Page: Regionale und klimatische Anpassungen** (Wie sich verschiedene Arten an unterschiedliche Klimazonen angepasst haben)\n    - **Page: Sozialstruktur und Verhalten**\n        - **Group: Das Sozialleben der Bienen**\n            - **Page: Die Rolle der Königin, Arbeiterinnen und Drohnen** (Funktionen und Aufgaben der verschiedenen Bienen in einem Stock)\n            - **Page: Kommunikation und Orientierung** (Wie Bienen kommunizieren und sich orientieren)\n    - **Page: Ernährung und Sammelverhalten**\n        - **Group: Nahrungsaufnahme und Sammelstrategien**\n            - **Page: Nektar und Pollen als Nahrungsquellen** (Wichtigkeit und Gewinnung von Nektar und Pollen)\n            - **Page: Sammelverhalten und -techniken** (Methoden und Strategien der Bienen beim Sammeln von Nektar und Pollen)\n    - **Page: Gesundheit und Krankheiten**\n        - **Group: Bienenkrankheiten und Gesundheitsmanagement**\n            - **Page: Häufige Bienenkrankheiten und Parasiten** (Überblick über gängige Krankheiten und Schädlinge)\n            - **Page: Prävention und Behandlung von Bienenkrankheiten** (Methoden zur Vorbeugung und Behandlung von Krankheiten)\n    - **Page: Fortpflanzung und Schwarmverhalten**\n        - **Group: Reproduktion und Schwarmbildung**\n            - **Page: Schwarmbildung und Fortpflanzung** (Prozess der Schwarmbildung und Reproduktion in Bienenkolonien)\n            - **Page: Management von Schwärmen** (Techniken zum Umgang mit schwärmenden Bienen)",
+      "x": -7300,
+      "y": -19250,
+      "width": 1120,
+      "height": 960,
+      "children": []
+    },
+    {
+      "id": "7029f0f3436417bc",
+      "type": "text",
+      "text": "Expert: Apitherapie- und Bienenproduktespezialist\nObjective: Entwickeln eines strukturierten Inhaltsverzeichnisses zum Thema \"Bienenprodukte\", das detaillierte Informationen, Verarbeitungsmethoden, Vermarktungsstrategien und Hygienestandards umfasst.\nAssumptions: Der Inhalt konzentriert sich auf die verschiedenen Bienenprodukte wie Wachs, Propolis, Honig, Gelee Royal, deren chemische Eigenschaften, Anwendungen, Rezepte, Vermarktung und Hygienestandards.\n\n---\n\n- **Topic: Bienenprodukte**\n   - **Page: Grundlagen der Bienenprodukte**\n     - **Group: Einführung und Übersicht**\n         - **Page: Überblick über Bienenprodukte** (Allgemeine Informationen über Wachs, Propolis, Honig und Gelee Royal)\n   - **Page: Chemische Eigenschaften und Nutzen**\n     - **Group: Tiefgehende Analysen**\n         - **Page: Chemische Zusammensetzung von Bienenprodukten** (Detailierte Beschreibung der chemischen Eigenschaften jedes Produkts)\n         - **Page: Gesundheitliche Vorteile und Anwendungen** (Nutzung und Vorteile von Bienenprodukten in der Gesundheitspflege)\n   - **Page: Verarbeitung und Rezepte**\n     - **Group: Praktische Anwendungen**\n         - **Page: Verarbeitung von Bienenprodukten** (Methoden zur Extraktion und Verarbeitung)\n         - **Page: Rezepte mit Bienenprodukten** (Sammlung von Rezepten, die Bienenprodukte verwenden)\n   - **Page: Vermarktung von Bienenprodukten**\n     - **Group: Geschäftliche Aspekte**\n         - **Page: Strategien zur Vermarktung** (Tipps und Strategien zur effektiven Vermarktung von Bienenprodukten)\n         - **Page: Verpackung und Branding** (Wichtige Aspekte der Produktpräsentation und Markenbildung)\n   - **Page: Gesetzliche Vorschriften und Etikettierung**\n     - **Group: Regulatorische Anforderungen**\n         - **Page: Etikettierung und Kennzeichnungsvorschriften** (Anforderungen an die Etikettierung und Kennzeichnung von Bienenprodukten)\n         - **Page: Gesetzliche Richtlinien** (Übersicht über relevante Gesetze und Vorschriften im Zusammenhang mit Bienenprodukten)\n   - **Page: Hygienestandards und Qualitätskontrolle**\n     - **Group: Sicherheit und Qualität**\n         - **Page: Hygienische Praktiken in der Produktion** (Wichtige Hygienemaßnahmen bei der Gewinnung und Verarbeitung von Bienenprodukten)\n         - **Page: Qualitätskontrolle und -sicherung** (Methoden zur Sicherstellung der Qualität von Bienenprodukten)",
+      "x": -8446,
+      "y": -7810,
+      "width": 1126,
+      "height": 1000,
+      "children": []
+    },
+    {
+      "id": "8a70f0520eaec600",
+      "type": "text",
+      "text": "Expert: Bienenprodukt-Experte und Imker\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Bienenprodukte\" für eine Webdokumentation\nAssumptions: Der Fokus liegt auf detaillierten Informationen über verschiedene Bienenprodukte, deren chemische Eigenschaften, Verarbeitung, Rezepte, Vermarktung, sowie Richtlinien und Hygiene.\n\n---\n\n- **Topic: Bienenprodukte**\n   - **Page: Übersicht der Bienenprodukte**\n     - **Group: Einführung in Bienenprodukte**\n         - **Page: Verschiedene Bienenprodukte** (Überblick über Honig, Wachs, Propolis, Gelee Royal und weitere Produkte)\n   - **Page: Chemische Eigenschaften und Nutzen**\n     - **Group: Wissenschaftliche Details**\n         - **Page: Chemische Zusammensetzung von Honig und Wachs** (Detaillierte Analyse der chemischen Zusammensetzung)\n         - **Page: Gesundheitliche Vorteile von Propolis und Gelee Royal** (Diskussion über gesundheitliche Aspekte und Nutzen)\n   - **Page: Ernte und Verarbeitung**\n     - **Group: Gewinnung und Aufbereitung**\n         - **Page: Gewinnungsverfahren von Bienenprodukten** (Methoden zur Ernte von Honig, Wachs, etc.)\n         - **Page: Verarbeitungsschritte und Qualitätskontrolle** (Prozesse zur Verarbeitung und Sicherstellung der Qualität)\n   - **Page: Rezepte und Anwendungen**\n     - **Group: Kulinarisches und mehr**\n         - **Page: Rezepte mit Honig und anderen Bienenprodukten** (Sammlung von Rezepten und Anwendungsmöglichkeiten)\n         - **Page: Kosmetische und medizinische Anwendungen** (Verwendung in Kosmetik und Medizin)\n   - **Page: Vermarktung und Vertrieb**\n     - **Group: Geschäftliche Aspekte**\n         - **Page: Strategien zur Vermarktung von Bienenprodukten** (Ansätze und Tipps für erfolgreichen Verkauf)\n         - **Page: Markttrends und Zielgruppenanalyse** (Aktuelle Trends und potenzielle Kunden für Bienenprodukte)\n   - **Page: Rechtliche Rahmenbedingungen und Hygiene**\n     - **Group: Richtlinien und Vorschriften**\n         - **Page: Gesetzliche Vorschriften und Etikettierung** (Informationen zu rechtlichen Anforderungen und Etikettengestaltung)\n         - **Page: Hygienestandards in der Produktion** (Wichtige Hygienemaßnahmen in der Herstellung und Verarbeitung)",
+      "x": -7206,
+      "y": -7810,
+      "width": 1140,
+      "height": 1000,
+      "children": []
+    },
+    {
+      "id": "ab08fc662780dcce",
+      "type": "text",
+      "text": "Expert: Imkermeister und Bienenhaltungs-Praktiker\nObjective: Entwickeln eines strukturierten Inhaltsverzeichnisses für das Thema \"Tätigkeiten in der Imkerei\" innerhalb einer Webdokumentation\nAssumptions: Der Fokus liegt auf praktischen Aspekten der Imkerei, einschließlich Schwarmkontrolle, Ablegerbildung, Honigernte und anderen wesentlichen Tätigkeiten.\n\n---\n\n- **Topic: Tätigkeiten in der Imkerei**\n   - **Page: Schwarmmanagement**\n     - **Group: Schwarmkontrolle und -verhinderung**\n         - **Page: Grundlagen der Schwarmkontrolle** (Techniken und Methoden zur Kontrolle und Verhinderung von Bienenschwärmen)\n         - **Page: Ablegerbildung** (Anleitung zur Bildung von Ablegern als Mittel der Schwarmkontrolle)\n   - **Page: Königinnenmanagement**\n     - **Group: Umgang mit Bienenköniginnen**\n         - **Page: Weiselprobe und Beurteilung der Königin** (Methoden zur Beurteilung und Auswahl von Königinnen)\n         - **Page: Königinnenzeichnen** (Techniken zum Markieren von Königinnen für einfache Identifikation)\n   - **Page: Bienenstockpflege**\n     - **Group: Instandhaltung des Bienenstocks**\n         - **Page: Wachsumtrieb und Wachsverarbeitung** (Verfahren zum Umgang mit Bienenwachs)\n         - **Page: Rähmchen Drahten** (Techniken zum Drahten von Rähmchen für Wabenbau)\n   - **Page: Honigernte und -verarbeitung**\n     - **Group: Ernte und Verarbeitung von Honig**\n         - **Page: Honigernte Techniken** (Methoden und beste Praktiken zur Honigernte)\n         - **Page: Verarbeitung und Lagerung von Honig** (Prozesse zur Verarbeitung und Lagerung von Honig)\n   - **Page: Bildung und Management von Kunstschwärmen**\n     - **Group: Erstellung und Umgang mit Kunstschwärmen**\n         - **Page: Erstellung von Kunstschwärmen** (Anleitung zur Bildung künstlicher Bienenschwärme)\n         - **Page: Management von Kunstschwärmen** (Techniken zum effektiven Umgang mit Kunstschwärmen)",
+      "x": -8332,
+      "y": -3650,
+      "width": 1126,
+      "height": 1000,
+      "children": []
+    },
+    {
+      "id": "9ed15e07ce9a93e9",
+      "type": "text",
+      "text": "Expert: Imker und Imkerei-Management-Experte\nObjective: Entwurf eines strukturierten Inhaltsverzeichnisses für das Thema \"Tätigkeiten in der Imkerei\"\nAssumptions: Der Fokus liegt auf detaillierten Beschreibungen von Schlüsselaktivitäten in der Imkerei, einschließlich Schwarmkontrolle, Honigernte und Königinnenmanagement.\n\n---\n\n- **Topic: Tätigkeiten in der Imkerei**\n   - **Page: Schwarmmanagement**\n     - **Group: Schwarmverhalten und -kontrolle**\n         - **Page: Erkennung von Schwarmzeichen** (Wie man Anzeichen eines bevorstehenden Schwarms identifiziert)\n         - **Page: Methoden der Schwarmverhinderung** (Techniken zur Verhinderung von Schwarmbildung)\n         - **Page: Umgang mit Schwärmen** (Effektive Methoden zum Einfangen und Umsiedeln von Schwärmen)\n   - **Page: Zuchtarbeiten**\n     - **Group: Zucht und Vermehrung**\n         - **Page: Ablegerbildung** (Anleitung zur Erstellung von Ablegern zur Kolonievermehrung)\n         - **Page: Weiselprobe und Weiselrichtigkeit** (Durchführung und Bedeutung der Weiselprobe)\n   - **Page: Wartung und Handwerk**\n     - **Group: Ausrüstung und Instandhaltung**\n         - **Page: Wachsumtrieb und Wachsverarbeitung** (Methoden zum Sammeln und Verarbeiten von Bienenwachs)\n         - **Page: Rähmchen Drahten und Vorbereiten** (Anleitung zum Drahten und Vorbereiten von Rähmchen)\n   - **Page: Honigproduktion**\n     - **Group: Honigernte und Verarbeitung**\n         - **Page: Vorbereitung zur Honigernte** (Schritte und Ausrüstung für die Honigernte)\n         - **Page: Honigernte und Extraktion** (Methoden zur Honigernte und Extraktion)\n   - **Page: Königinnenmanagement**\n     - **Group: Zucht und Kennzeichnung**\n         - **Page: Königinnenzeichnen** (Techniken zum Markieren von Königinnen für bessere Überwachung)\n         - **Page: Kunstschwarm bilden** (Schritte zur Bildung eines Kunstschwarms)\n   - **Page: Fortgeschrittene Techniken**\n     - **Group: Spezialisierte Methoden**\n         - **Page: Umgang mit speziellen Herausforderungen** (Strategien für schwierige Situationen in der Imkerei)\n         - **Page: Innovative Ansätze in der Imkerei** (Einblick in moderne Techniken und Innovationen)",
+      "x": -7092,
+      "y": -3650,
+      "width": 1120,
+      "height": 1000,
+      "children": []
+    },
+    {
+      "id": "384f7db1dac5c2d4",
+      "type": "text",
+      "text": "",
+      "x": -8600,
+      "y": 350,
+      "width": 480,
+      "height": 160,
+      "children": []
+    },
+    {
+      "id": "97fafff473577504",
+      "type": "text",
+      "text": "- **Topic: Komplikationen in der Imkerei**\n    - **Page: Parasiten und Krankheitserreger**\n        - **Group: Schädliche Organismen**\n            - **Page: Varroamilbe** (Erkennung, Auswirkungen und Behandlungsmethoden)\n            - **Page: Flügeldeformationsvirus** (Symptome, Übertragung und Managementstrategien)\n            - **Page: Beutenkäfer und Asiatische Hornisse** (Identifikation, Prävention und Kontrollmaßnahmen)\n    - **Page: Bakterielle und Pilzinfektionen**\n        - **Group: Krankheiten und ihre Behandlung**\n            - **Page: Amerikanische und Europäische Faulbrut** (Symptome, Diagnose und Behandlungsansätze)\n            - **Page: Kalkbrut und Nosema** (Erkennungsmerkmale und Bekämpfungsstrategien)\n    - **Page: Probleme im Bienenstock**\n        - **Group: Störungen in der Stockführung**\n            - **Page: Weisellosigkeit und Afterweisel** (Ursachen, Erkennung und Lösungsansätze)\n            - **Page: Bienenfriedhof** (Methoden zur Feststellung der Todesursachen und präventive Maßnahmen)\n    - **Page: Vorbeugung und Management**\n        - **Group: Präventive Maßnahmen und Krisenmanagement**\n            - **Page: Präventionsstrategien gegen Krankheiten und Parasiten** (Vorbeugende Maßnahmen und Best Practices)\n            - **Page: Krisenmanagement bei akuten Problemen** (Schritte zur Bewältigung von Notfällen und akuten Krankheitsausbrüchen)",
+      "x": -7206,
+      "y": 4510,
+      "width": 1120,
+      "height": 800,
+      "children": []
+    },
+    {
+      "id": "d9b28db0980f1c28",
+      "type": "file",
+      "file": "This is a test.md",
+      "x": -7799,
+      "y": -6192,
+      "width": 919,
+      "height": 742,
+      "children": []
+    },
+    {
+      "id": "4c3fc522baa88359",
+      "type": "text",
+      "text": "- **Topic: Komplikationen in der Imkerei**\n    - **Page: Parasiten und Krankheiten**\n        - **Group: Hauptbedrohungen für Bienen**\n            - **Page: Varroa-Milben** (Ursachen, Symptome und Behandlungsmöglichkeiten)\n            - **Page: Fügeldeformationsvirus** (Beschreibung des Virus und seiner Auswirkungen auf Bienen)\n            - **Page: Beutekäfer und Asiatische Hornisse** (Erkennung, Auswirkungen und Kontrollmethoden)\n    - **Page: Bakterielle und Pilzinfektionen**\n        - **Group: Infektionskrankheiten**\n            - **Page: Faulbrut** (Erkennung, Prävention und Behandlung von Faulbrut)\n            - **Page: Kalkbrut und Nosema** (Symptome, Auswirkungen und Behandlungsmethoden)\n    - **Page: Soziale Komplikationen im Bienenstock**\n        - **Group: Störungen der Stockstruktur**\n            - **Page: Weisellosigkeit und Afterweisel** (Erkennung und Management von weisellosen Zuständen und Afterweiselbildung)\n    - **Page: Analyse von Bienensterben**\n        - **Group: Untersuchung von Bienenverlusten**\n            - **Page: Bienenfriedhof** (Methoden zur Bestimmung der Todesursachen bei Bienen)\n            - **Page: Umweltfaktoren und Bienensterben** (Einfluss von Umweltfaktoren auf die Gesundheit der Bienen)\n    - **Page: Prävention und Management**\n        - **Group: Vorbeugende Maßnahmen**\n            - **Page: Gesundheitsüberwachung und präventive Praktiken** (Regelmäßige Überprüfung der Bienengesundheit und vorbeugende Maßnahmen)\n            - **Page: Strategien zur Krankheitsbekämpfung** (Effektive Methoden zur Kontrolle und Reduzierung von Krankheiten und Parasiten)",
+      "x": -8446,
+      "y": 4510,
+      "width": 1126,
+      "height": 800,
+      "children": []
+    },
+    {
+      "id": "065f705745b1e56d",
+      "type": "text",
+      "text": "- **Topic: Komplikationen in der Imkerei**\n   - **Page: Parasiten und Schädlinge**\n     - **Group: Häufige Bienenparasiten**\n         - **Page: Varroa-Milbe** (Umfassende Informationen zur Varroa-Milbe, deren Auswirkungen und Bekämpfungsmethoden)\n         - **Page: Beutenkäfer** (Beschreibung des Beutenkäfers, seines Lebenszyklus und Bekämpfungsstrategien)\n         - **Page: Asiatische Hornisse** (Informationen zur Asiatischen Hornisse und deren Auswirkungen auf Bienenstöcke)\n   - **Page: Virus- und Bakterienerkrankungen**\n     - **Group: Virusbedingte Krankheiten**\n         - **Page: Flügeldeformationsvirus** (Details zum Flügeldeformationsvirus und dessen Auswirkungen auf Bienen)\n     - **Group: Bakterielle Krankheiten**\n         - **Page: Amerikanische und Europäische Faulbrut** (Erklärung dieser bakteriellen Krankheiten und Behandlungsoptionen)\n         - **Page: Kalkbrut** (Beschreibung von Kalkbrut, deren Symptome und Vorbeugungsmaßnahmen)\n   - **Page: Pilzinfektionen und Parasiten**\n     - **Group: Pilzbefall und interne Parasiten**\n         - **Page: Nosema-Krankheit** (Informationen zur Nosema-Krankheit, deren Diagnose und Behandlung)\n   - **Page: Bienenstockmanagement-Probleme**\n     - **Group: Probleme in der Stockführung**\n         - **Page: Weisellosigkeit** (Ursachen und Lösungen für das Fehlen einer Königin im Bienenstock)\n         - **Page: Afterweiselbildung** (Erklärung der Afterweiselbildung und wie man damit umgeht)\n   - **Page: Diagnose von Bienensterben**\n     - **Group: Ursachenforschung und Prävention**\n         - **Page: Untersuchung von Bienensterben** (Methoden zur Untersuchung und Feststellung der Todesursachen von Bienen)\n         - **Page: Präventive Maßnahmen gegen Bienensterben** (Strategien zur Vermeidung von Bienensterben und zur Gesunderhaltung der Kolonien)",
+      "x": -6020,
+      "y": 4510,
+      "width": 1080,
+      "height": 820,
+      "children": []
+    },
+    {
+      "id": "d008b6908ede0af9",
+      "type": "text",
+      "text": "Bienenkiste",
+      "x": -1937,
+      "y": -10210,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "636f98e05ff4b53c",
+      "type": "text",
+      "text": "Layens Hive",
+      "x": -5140,
+      "y": -10190,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "ebeb7320b3d4ba0f",
+      "type": "text",
+      "text": "Meliffera Einraumbeute",
+      "x": -5140,
+      "y": -10310,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "3fad73e147cfd328",
+      "type": "text",
+      "text": "Golzbeute",
+      "x": -4780,
+      "y": -10310,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "c0faeee874ed91bc",
+      "type": "text",
+      "text": "## Was ist eine Beute?\n\nEine Beute ist die vom Imker zur Verfügung gestellte künstliche Behausung für die Bienen. Anfänglich bestanden sie aus Lehm oder Stroh. Über die Jahrhunderte setzten sich jedoch Beuten aus Holz oder Kunststoff durch. Vorherrschend sind die modularen Magazinbeuten, die vor allem durch ihre gute Handhabbarkeit verwendet werden. Auf der Suche nach bienenfreundlicheren Behausungen oder Beuten, die leichter zu handhaben sind, haben sich in der letzten Zeit weitere Beutenarten entwickelt. Einige werden hier vorgestellt.\n\n## Die Magazinbeute\n\nIm europäischen Raum weitesgehend verwendet sowohl von den Berufs- als auch von den Hobbyimkern ist die Magazinbeute. Diese erfüllt am besten die Anforderung an eine moderne, etragsorientierte Imkerei. Durch das Übereinanderstapeln einzelner Magazine, auch Zargen genannt, kann die Größe des Bienenstock einfach und schnell varriert werden. Da der Raumbedarf des Bienenvolks über das Jahr stark varriert, kann der Bienenstock so entsprechend angepasst werden. Durch die Verwendung eines Absperrgitters kann außerdem der Brutraum von dem Honigraum sauber abgetrennt werden. Die Magazinbeuten werden in Verbindung mit Rähmchen verwendet, von denen 10-12 in jeder Zarge sitzen. Sie geben den Bienen die Baustruktur ihrer Waben vor und können ebenfalls flexibel getauscht werden. Die Zargen gibt es in unterschiedlichsten Maßen und Ausführungen. Mehr zu den Zargen erfährst du hier.\n\n## Die Lagerbeute\n\nLagerbeuten sind große Kisten, in denen ein- oder zweireihig Waben horizontal aufgereiht sind. Lagerbeuten sind so groß bemessen, dass hier keine Erweiterung mit Aufsetzen über das Jahr stattfindet. Da sich das Bienenvolk auf der Ebene ausdehnt, anstatt wie bei der Magazinbeute in die Höhe, gilt das Arbeiten mit der Lagerbeute als sehr rückenfreundlich. Die Lagerbeuten gibt es in unterschiedlichen Ausführungen. Einige sind hier vorgestellt.\n\n### Bienenkiste\n\nDerzeit im Trend liegt die sogenannte _Bienenbox_ oder auch _Bienenkiste_ genannt. Die Besonderheit dieser Kiste ist das Aufstellen der Kiste bei der Durchsicht der Bienen. Für die Kontrolle des Bienenvolks wird dann der Boden der Bienenkiste abgenommen. Durch die einfache Konstruktionsweise bauen viele Imker diese Beute selber. Eine Anleitung dazu findest du hier.\n\n### Golzbeute und Bremer Beute\n\nDie Golzbeute und die Bremer Beute sind die klassischen Vertreter der einetagigen Beuten.\n\n### Einraumbeute\n\n### Oberträgerbeute\n\n## Die Trogbeute\n\nDie Trogbeute kombiniert die System der Lager- und Magazinbeute. Sie besteht aus einem großen, nicht erweiterbaren Brutraum und aufsetzbaren Honigräumen.",
+      "x": -7140,
+      "y": -10160,
+      "width": 1360,
+      "height": 1050,
+      "children": []
+    },
+    {
+      "id": "a2409a7a0031d088",
+      "type": "text",
+      "text": "TopBar Hive",
+      "x": -1640,
+      "y": -10210,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "e39e0d5dd254c096",
+      "type": "text",
+      "text": "Flowhive",
+      "x": -1640,
+      "y": -10090,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "30b56f74ea8966f7",
+      "type": "text",
+      "text": "Schweizer Kasten",
+      "x": -5140,
+      "y": -9190,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "2a80acb7a3e3b34a",
+      "type": "text",
+      "text": "Dadant-Alberti-Blätterstock",
+      "x": -5140,
+      "y": -9090,
+      "width": 360,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "79fe3c90d06e32c4",
+      "type": "text",
+      "text": "Expert: Apicultural Expert\n\nObjective: Describe the common beehive types used in France, Italy, Portugal, and Spain.\n\nAssumptions: You are interested in understanding the regional preferences for beehive designs in these specific European countries, likely for comparative or beekeeping interest.\n\nIn France, Italy, Portugal, and Spain, several beehive types are commonly used, reflecting both traditional practices and modern beekeeping trends:\n\n1. **France**:\n   - **Dadant Hive**: This is particularly popular in France, given its French origin. The Dadant hive is appreciated for its large brood area and is widely used in commercial beekeeping.\n   - **Langstroth Hive**: Also used in France, especially among modern beekeepers who value its standardized dimensions and ease of management.\n   - **Warre Hive**: Known for mimicking natural bee habitats, the Warre hive is favored by natural beekeeping enthusiasts in France.\n\n2. **Italy**:\n   - **Dadant-Blatt Hive**: A variation of the Dadant hive, it's widely used in Italy. Its slightly different dimensions are tailored to the Italian beekeeping practices.\n   - **Langstroth Hive**: Gaining popularity due to its international standardization, making it a choice for beekeepers focusing on ease of management and honey production.\n   - **Layens Hive**: This horizontal hive is traditional in some parts of Italy and is appreciated for its simplicity and ease of inspection.\n\n3. **Portugal**:\n   - **Lusitana Hive**: A traditional Portuguese hive made of cork, offering excellent insulation. It's less common now but still used by some traditional beekeepers.\n   - **Langstroth Hive**: Increasingly popular, especially among new beekeepers due to its widespread use and ease of management.\n\n4. **Spain**:\n   - **Langstroth Hive**: The most common hive in Spain, used for its practicality and compatibility with modern beekeeping techniques.\n   - **Layens Hive**: Traditional and still widely used in certain regions of Spain, the Layens hive is known for its horizontal structure and large frame size, suitable for the local bee species and climate.\n\nEach of these countries has its unique beekeeping traditions and preferences, influenced by local bee species, climate, and beekeeping practices. Modern trends tend to favor more standardized hives like the Langstroth, but traditional and region-specific hives continue to be important for their cultural and practical values.",
+      "x": -10020,
+      "y": -11631,
+      "width": 924,
+      "height": 1082,
+      "children": []
+    },
+    {
+      "id": "a950c06e5231fbeb",
+      "type": "text",
+      "text": "Flowhive",
+      "x": -1937,
+      "y": -10090,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "da33430aa107308c",
+      "type": "text",
+      "text": "**Wielkopolski** (Polen)",
+      "x": -2062,
+      "y": -11010,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "804d77b234dcdadc",
+      "type": "text",
+      "text": "DadantBlatt",
+      "x": -5180,
+      "y": -10990,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "637b139cbdfe7120",
+      "type": "text",
+      "text": "Expert: Imkereibedarf- und Ausrüstungsexperte\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Material für die Imkerei\" für eine Webdokumentation\nAssumptions: Der Fokus liegt auf der detaillierten Darstellung verschiedener Materialien für die Imkerei, einschließlich Werkzeugen, Bienenbehausungen, Königinnenzucht, Honiggewinnung und -verarbeitung.\n\n---\n\n- **Topic: Material für die Imkerei**\n   - **Page: Grundwerkzeuge für Imker**\n     - **Group: Basisausrüstung**\n         - **Page: Stockmeisel und dessen Verwendung** (Funktion und Einsatzmöglichkeiten des Stockmeisels)\n         - **Page: Smoker und Rauchmaterial** (Arten von Smokern und geeignetes Rauchmaterial)\n   - **Page: Bienenbehausungen**\n     - **Group: Arten von Bienenstöcken**\n         - **Page: Traditionelle und moderne Beutentypen** (Überblick über verschiedene Beutentypen, vertikal und horizontal)\n         - **Page: Exotische Bienenbehausungen** (Vorstellung unkonventioneller und exotischer Beutentypen)\n         - **Page: Rähmchen und deren Varianten** (Detailinformationen zu Rähmchen und deren Anpassungen)\n   - **Page: Material für die Königinnenzucht**\n     - **Group: Zuchtwerkzeuge und -methoden**\n         - **Page: Werkzeuge für die Königinnenzucht** (Übersicht über spezialisierte Werkzeuge für die Zucht)\n         - **Page: Methoden der Königinnenzucht** (Techniken und Verfahren zur Zucht von Königinnen)\n   - **Page: Material zur Honiggewinnung**\n     - **Group: Honigernte-Ausrüstung**\n         - **Page: Honigschleudern und Extraktionsmethoden** (Unterschiedliche Typen von Honigschleudern und ihre Verwendung)\n         - **Page: Werkzeuge zur Honigernte** (Spezielle Werkzeuge und Ausrüstungen für die Honigernte)\n   - **Page: Material zur Honigverarbeitung**\n     - **Group: Nach der Ernte**\n         - **Page: Ausrüstung zur Honigreinigung und -filterung** (Geräte und Methoden zur Reinigung und Filterung des Honigs)\n         - **Page: Lagerung und Abfüllung von Honig** (Lösungen und Ausrüstung für die Lagerung und Abfüllung von Honig)",
+      "x": -8426,
+      "y": -11410,
+      "width": 1126,
+      "height": 940,
+      "children": []
+    },
+    {
+      "id": "a62bde4e5abcf9f4",
+      "type": "text",
+      "text": "Expert: Imkereiausrüstungs- und Materialfachmann\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses für das Thema \"Material in der Imkerei\" für eine Webdokumentation\nAssumptions: Der Schwerpunkt liegt auf einer detaillierten Darstellung verschiedener Materialien, die in der Imkerei verwendet werden, einschließlich Werkzeuge, Bienenbehausungen, Ausrüstung für die Königinnenzucht sowie Geräte zur Honiggewinnung und -verarbeitung.\n\n---\n\n- **Topic: Material in der Imkerei**\n   - **Page: Grundausstattung für Imker**\n     - **Group: Basiswerkzeuge**\n         - **Page: Stockmeisel und dessen Anwendung** (Beschreibung und Einsatzmöglichkeiten des Stockmeisels)\n         - **Page: Smoker und Rauchmaterial** (Überblick über verschiedene Smoker-Typen und geeignete Rauchmaterialien)\n   - **Page: Bienenbehausungen**\n     - **Group: Beutentypen und Aufbau**\n         - **Page: Vertikale vs. Horizontale Beuten** (Vergleich und Einsatzgebiete unterschiedlicher Beutentypen)\n         - **Page: Exotische Beutentypen** (Vorstellung unkonventioneller und exotischer Beutenmodelle)\n         - **Page: Rähmchen und deren Konstruktion** (Details zu Rähmchen und deren Rolle in der Bienenbehausung)\n   - **Page: Ausrüstung für die Königinnenzucht**\n     - **Group: Werkzeuge und Methoden**\n         - **Page: Königinnenzuchtgeräte** (Überblick über spezialisierte Geräte für die Zucht von Bienenköniginnen)\n         - **Page: Techniken der Königinnenzucht** (Methoden und Praktiken in der Königinnenzucht)\n   - **Page: Material zur Honiggewinnung**\n     - **Group: Erntewerkzeuge und -methoden**\n         - **Page: Honigernte Ausrüstung** (Vorstellung der Geräte und Werkzeuge zur Honigernte)\n         - **Page: Techniken der Honigernte** (Methoden zur effizienten und schonenden Honiggewinnung)\n   - **Page: Material zur Honigverarbeitung**\n     - **Group: Verarbeitungsgeräte**\n         - **Page: Honigschleudern und Filter** (Geräte zur Trennung und Reinigung von Honig)\n         - **Page: Lagerung und Abfüllung von Honig** (Methoden und Ausrüstung zur Honiglagerung und Abfüllung)\n   - **Page: Wartung und Pflege der Ausrüstung**\n     - **Group: Langfristige Gerätepflege**\n         - **Page: Reinigung und Desinfektion** (Richtlinien zur Reinigung und Wartung der Imkereiausrüstung)\n         - **Page: Lagerung und Instandhaltung** (Tipps zur ordnungsgemäßen Lagerung und Erhaltung der Ausrüstung)",
+      "x": -7186,
+      "y": -11410,
+      "width": 1120,
+      "height": 940,
+      "children": []
+    },
+    {
+      "id": "e47415ea589e5573",
+      "type": "text",
+      "text": "Warmbau Kaltbau\n\nhttps://hausbiene.de/warmbau-oder-kaltbau-was-die-unterschiede/",
+      "x": -10010,
+      "y": -10470,
+      "width": 905,
+      "height": 353,
+      "children": []
+    },
+    {
+      "id": "4897f518c39dabf2",
+      "x": -5372,
+      "y": -2974,
+      "width": 332,
+      "height": 194,
+      "type": "file",
+      "file": "die wichtigsten.md",
       "children": []
     },
     {
@@ -1155,6 +1139,16 @@
       "children": []
     },
     {
+      "id": "3fa27352225c7fc1",
+      "x": -3195,
+      "y": 1440,
+      "width": 395,
+      "height": 389,
+      "type": "file",
+      "file": "Tuschi.md",
+      "children": []
+    },
+    {
       "id": "96e1c3d08c251b9d",
       "x": 0,
       "y": 0,
@@ -1183,7 +1177,8 @@
         "dafd6d2c75238aae",
         "1b2a403902947384",
         "31c61cc7c71f8a64",
-        "a9124fd010a97bc6"
+        "a9124fd010a97bc6",
+        "3fa27352225c7fc1"
       ]
     }
   ],

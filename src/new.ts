@@ -83,7 +83,8 @@ class Site {
 
 			const entryCanvas = new EntryCanvas(fullPath, this.metaData.target, this.metaData.domain, isMulti);
 			await entryCanvas.initialize();
-			await entryCanvas.writeCombinedDataToDisk(BERNSTEIN_SETTINGS.vaultDirectory + "/" + entryCanvas.canvasName.split(".")[0] + ".json");
+			//await entryCanvas.writeCombinedDataToDisk(BERNSTEIN_SETTINGS.vaultDirectory + "/" + entryCanvas.canvasName.split(".")[0] + ".json");
+			entryCanvas.copyToWebsite();
 			//console.log(entryCanvas.combinedData);
 
 		}
@@ -153,7 +154,7 @@ class EntryCanvas extends Canvas {
 		this.combineCanvasData(this.canvasData);
 
 		await this.checkForSubCanvas(this.combinedData);
-		console.log(this.combinedData);
+		//console.log(this.combinedData);
 	}
 
 	combineCanvasData(sourceCanvasData: CanvasData): void {
@@ -163,8 +164,8 @@ class EntryCanvas extends Canvas {
 
 	async writeCombinedDataToDisk(outputFilePath: string): void {
 		// Convert combinedData to JSON format
-		await removeSubCanvase(this.combinedData.nodes);
-		//this.combinedData.nodes = await cleanupChildren(this.combinedData.nodes);
+		this.combinedData.nodes = await removeSubCanvase(this.combinedData.nodes);
+		await cleanupChildren(this.combinedData.nodes);
 		const combinedDataJSON = JSON.stringify(this.combinedData, null, 2); // Use null and 2 for pretty formatting
 
 		// Write the JSON data to the file
@@ -172,7 +173,50 @@ class EntryCanvas extends Canvas {
 			.then(() => console.log(`Combined data has been written to ${outputFilePath}`))
 			.catch((error) => console.error('Error writing combinedData to disk:', error));
 	}
-		
+
+	async copyToWebsite(): Promise<void> {
+
+		this.combinedData.nodes = await removeSubCanvase(this.combinedData.nodes);
+		await cleanupChildren(this.combinedData.nodes);
+
+		this.writeCombinedDataToDisk(BERNSTEIN_SETTINGS.vaultDirectory + "/" + this.canvasName.split(".")[0] + ".json")
+
+		const groups = this.combinedData.nodes.filter((node) => node.type === 'group') as CanvasGroupData[]
+
+		groups.forEach((group) => {
+			group.children.forEach((child) => {
+
+				// search in CanvasData for this id (child)
+				const node = this.combinedData.nodes.find((node) => node.id === child) as CanvasFileData
+
+				console.log(node.file)
+				if (node.type !== 'file') return
+				node.file.split('/').pop()
+
+				// build copyPath
+				const copyPath = path.join('/Users/matthias/Git/chilirepo/docs/beespace-info/content', this.canvasName.split(".")[0], group.label.split(".")[0] as string, node.file.split('/').pop() as string)
+				console.log(group.label)
+				//console.log(path.join(vaultPath, node.file))
+
+				// copy file to copyPath
+
+				// check if directory exists
+				// if not create it
+				const sourcePath = path.join(BERNSTEIN_SETTINGS.vaultPath, node.file)
+
+				try {
+					fs.mkdir(path.dirname(copyPath), { recursive: true }).then(() => {
+						fs.copyFile(sourcePath, copyPath)
+					})
+					console.log('File was copied to', copyPath, sourcePath)
+				} catch (error) {
+					console.error('Error copying file:', error);
+					throw error; // Rethrow to allow the caller to handle it
+				}
+			})
+		})
+	}
+
 }
 
 class SubCanvas extends Canvas {
@@ -193,86 +237,17 @@ class SubCanvas extends Canvas {
 
 	}
 	async subCanvasProcessing() {
-			addNewGroup(this.canvasData, this.canvasName, this.nodeId)
+		addNewGroup(this.canvasData, this.canvasName, this.nodeId)
 	}
 }
 
 
-class Canvasx implements CanvasType {
-	target: string;
-	domain: string;
-	isMultiInstance: boolean;
-	canvasPath: string;
-	isSubCanvas: boolean;
-	canvasData: CanvasData;
-	canvasName: string;
-	nodeId: string;
-	combinedData: CanvasData;
-
-	constructor(canvasPath: string, target: string, domain: string, isMultiInstance: boolean, isSubCanvas: boolean, nodeId: string, combinedData: CanvasData) {
-		this.canvasPath = canvasPath;
-		this.target = target;
-		this.domain = domain;
-		this.isMultiInstance = isMultiInstance;
-		this.isSubCanvas = isSubCanvas;
-		this.canvasData = {} as CanvasData;
-		this.canvasName = canvasPath.split("/").pop() as string
-		this.nodeId = nodeId
-		this.combinedData = combinedData;
-	}
-
-	async initializeCanvas() {
-		try {
-			await this.readFile();
-			await this.checkForSubCanvas();
-			await this.subCanvasProcessing();
-			this.aggregateData();
-		} catch (error) {
-			console.error('Failed to initialize canvas:', error);
-		}
-	}
-
-	async readFile() {
-		try {
-			const canvasFile = await fs.readFile(this.canvasPath, 'utf8');
-			this.canvasData = JSON.parse(canvasFile);
-			addChildrenToGroups(this.canvasData.nodes)
-		} catch (error) {
-			console.error('Error reading canvas file:', error);
-			throw error; // Rethrow to allow the caller to handle it
-		}
-	}
-
-	async checkForSubCanvas() {
-		await Promise.all(
-			this.canvasData.nodes
-				.filter((node: AllCanvasNodeData) => node.type === 'file' && node.file && node.file.endsWith('.canvas'))
-				.map(async (subCanvasNode: CanvasFileData) => {
-					const subCanvas: CanvasType = new Canvas((path.join(BERNSTEIN_SETTINGS.vaultPath, subCanvasNode.file)), this.target, this.domain, this.isMultiInstance, true, subCanvasNode.id, this.combinedData);
-					await subCanvas.initializeCanvas();
-				})
-		);
-	}
-
-	async subCanvasProcessing() {
-		if (this.isSubCanvas == true) {
-			addNewGroup(this.canvasData, this.canvasName, this.nodeId)
-
-		}
-	}
-
-	aggregateData() {
-		this.combinedData.nodes.push(...this.canvasData.nodes);
-		this.combinedData.edges.push(...this.canvasData.edges);
-	}
-
-}
-
-async function cleanupChildren(groups: AllCanvasNodeData[]) {
-	groups.forEach((groupA) => {
+// makes sure that each element has only 1 parent above it
+async function cleanupChildren(nodes: AllCanvasNodeData[]) {
+	nodes.forEach((groupA) => {
 		const removeIds: Set<string> = new Set();
 		groupA.children.forEach((childId) => {
-			const childNode = groups.find((groupB) => groupB.id === childId);
+			const childNode = nodes.find((groupB) => groupB.id === childId);
 			if (childNode) {
 				childNode.children.forEach((grandChildId) => {
 					removeIds.add(grandChildId);
@@ -281,6 +256,9 @@ async function cleanupChildren(groups: AllCanvasNodeData[]) {
 		});
 		groupA.children = groupA.children.filter((childId: string) => !removeIds.has(childId));
 	});
+	return nodes;
+
+
 }
 
 
@@ -301,7 +279,6 @@ function addNewGroup(canvasData: CanvasData, canvasName: string, nodeId: string)
 		children: allNodeIds,
 	};
 
-	console.log(newGroup);	
 	canvasData.nodes.push(newGroup);
 }
 
@@ -329,23 +306,10 @@ function addChildrenToGroups(groups: AllCanvasNodeData[]): void {
 	});
 }
 
-async function writeCombinedDataToDisk(combinedData: CanvasData, outputFilePath: string): Promise<void> {
-	try {
-		// Convert combinedData to JSON format
-		const combinedDataJSON = JSON.stringify(combinedData, null, 2); // Use null and 2 for pretty formatting
-
-		// Write the JSON data to the file
-		await fs.writeFile(outputFilePath, combinedDataJSON, 'utf8');
-		console.log(`Combined data has been written to ${outputFilePath}`);
-	} catch (error) {
-		console.error('Error writing combinedData to disk:', error);
-		throw error; // Rethrow the error to handle it externally if needed
-	}
-}
 
 
-async function removeSubCanvase(combinedData: AllCanvasNodeData[]) {
-	return combinedData.filter((node) => !(node.type == 'file' && node.file.endsWith(".canvas")))
+async function removeSubCanvase(combinedDataNodes: AllCanvasNodeData[]) {
+	return combinedDataNodes.filter((node) => !(node.type == 'file' && node.file.endsWith(".canvas")))
 
 
 }

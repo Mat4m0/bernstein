@@ -17,7 +17,7 @@ interface BernsteinSettings {
 }
 
 export const BERNSTEIN_SETTINGS: BernsteinSettings = {
-	sitesRepoPath: '/Users/matthias/Git/chilirepo',
+	sitesRepoPath: '/Users/matthias/Git/',
 	sitesObsidianFolder: '5. Sites',
 	vaultDirectory: '',
 	vaultName: '',
