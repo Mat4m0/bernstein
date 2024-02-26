@@ -185,29 +185,25 @@ class EntryCanvas extends Canvas {
 
 		let combinedAssets: string[] = []
 	
-
 		// Process each group sequentially
 		for (const group of groups) {
 			// Await the processing of each child within the group
 			for (const child of group.children) {
 				const node = this.combinedData.nodes.find((n) => n.id === child) as CanvasFileData;
-				if (!node || node.type !== 'file') continue; // Skip if not a file node
+				if (!node || node.type !== 'file' || !node.file.endsWith(".md")) continue; // Skip if not a file node
 	
 				const sourcePath = path.join(BERNSTEIN_SETTINGS.vaultPath, node.file);
+				console.log(sourcePath)				
 				const markdownFile = new MarkdownFile(sourcePath, combinedAssets);
 				await markdownFile.initialize(); // Ensure initialize() is awaited
 				// Additional processing...
 			}
 		}
+		console.log(combinedAssets)
 
-		console.log([...new Set(combinedAssets)]);
+		const combinedAssetsx = [...new Set(combinedAssets)];
 
-
-		
-
-
-
-
+		console.log(combinedAssetsx)
 	}
 
 }
@@ -228,9 +224,6 @@ class MarkdownFile {
 		this.assets = [];
 		this.fileContent = '';
 		this.combinedAssets = combinedAssets;
-		console.log(filePath)
-
-		this.initialize();
 	}
 
 	async initialize(): Promise<void> {
@@ -249,6 +242,7 @@ class MarkdownFile {
 	}
 
 	async addAssetsToCombinedAssets() {
+		console.log(this.combinedAssets)
 		this.combinedAssets.push(...this.assets);
 	}
 
@@ -309,12 +303,6 @@ async function removeDuplicates(assets: string[]): string[] {
 	return uniqueAssets;
 }
 
-
-
-
-
-
-
 function addNewGroup(canvasData: CanvasData, canvasName: string, nodeId: string) {
 	const allNodeIds = canvasData.nodes.map((node) => node.id);
 
@@ -361,8 +349,6 @@ function addChildrenToGroups(groups: AllCanvasNodeData[]): void {
 
 async function removeSubCanvase(combinedDataNodes: AllCanvasNodeData[]) {
 	return combinedDataNodes.filter((node) => !(node.type == 'file' && node.file.endsWith(".canvas")))
-
-
 }
 
 
