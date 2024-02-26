@@ -183,16 +183,17 @@ class EntryCanvas extends Canvas {
 		const groups = this.combinedData.nodes.filter((node) => node.type === 'group') as CanvasGroupData[]
 
 		let combinedAssets: string[] = []
-	
+
 		// Process each group sequentially
 		for (const group of groups) {
 			// Await the processing of each child within the group
 			for (const child of group.children) {
 				const node = this.combinedData.nodes.find((n) => n.id === child) as CanvasFileData;
 				if (!node || node.type !== 'file' || !node.file.endsWith(".md")) continue; // Skip if not a file node
-	
-				const sourcePath = path.join(BERNSTEIN_SETTINGS.vaultPath, node.file);		
-				const markdownFile = new MarkdownFile(sourcePath, combinedAssets);
+
+				const sourcePath = path.join(BERNSTEIN_SETTINGS.vaultPath, node.file);
+				const markdownConverter = new NuxtDocsConversionStrategy();
+				const markdownFile = new MarkdownFile(sourcePath, combinedAssets, markdownConverter);
 				await markdownFile.initialize(); // Ensure initialize() is awaited
 				// Additional processing...
 			}
@@ -201,7 +202,6 @@ class EntryCanvas extends Canvas {
 		combinedAssets = [...new Set(combinedAssets)];
 		const assetsPaths = await this.searchForAsset(combinedAssets)
 		console.log(assetsPaths)
-
 
 	}
 
@@ -214,8 +214,6 @@ class EntryCanvas extends Canvas {
 			if (assetPath) {
 				assetsPaths.push(assetPath.path)
 			}
-			
-			
 		}
 		return assetsPaths
 	}
@@ -223,21 +221,39 @@ class EntryCanvas extends Canvas {
 }
 
 
-async function searchForAsset() {
-return
+class NuxtDocsConversionStrategy implements MarkdownConversionStrategy {
+	convert(markdownContent: string): string {
+		// Implement conversion logic here
+		return markdownContent
+	}
 }
+
+// class DocusaurusConversionStrategy implements MarkdownConversionStrategy {
+// 	convert(markdownContent: string): string {
+// 		// No conversion, return original
+// 		return markdownContent;
+// 	}
+// }
+
+
+interface MarkdownConversionStrategy {
+	convert(markdownContent: string): string;
+}
+
 
 class MarkdownFile {
 	filePath: string;
 	assets: string[];
 	fileContent: string;
 	combinedAssets: string[];
+	conversionStrategy: MarkdownConversionStrategy;
 
-	constructor(filePath: string, combinedAssets: string[]) {
+	constructor(filePath: string, combinedAssets: string[], conversionStrategy: MarkdownConversionStrategy) {
 		this.filePath = filePath;
 		this.assets = [];
 		this.fileContent = '';
 		this.combinedAssets = combinedAssets;
+		this.conversionStrategy = conversionStrategy;
 	}
 
 	async initialize(): Promise<void> {
@@ -255,6 +271,10 @@ class MarkdownFile {
 		}
 	}
 
+	async convertMarkdown() {
+		this.fileContent = this.conversionStrategy.convert(this.fileContent);
+	}
+
 	async addAssetsToCombinedAssets() {
 		this.combinedAssets.push(...this.assets);
 	}
@@ -266,7 +286,12 @@ class MarkdownFile {
 			this.assets.push(match[1]);
 		}
 	}
+
 }
+
+
+
+
 
 class SubCanvas extends Canvas {
 	nodeId: string;
@@ -309,11 +334,7 @@ async function cleanupChildren(nodes: AllCanvasNodeData[]) {
 
 
 }
-async function removeDuplicates(assets: string[]): string[] {
-	const uniqueAssets = asset
 
-	return uniqueAssets;
-}
 
 function addNewGroup(canvasData: CanvasData, canvasName: string, nodeId: string) {
 	const allNodeIds = canvasData.nodes.map((node) => node.id);
