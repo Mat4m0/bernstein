@@ -4,6 +4,7 @@ import startProcess from 'src/getNewJson';
 import Ahoi from 'src/new';
 import path from 'path';
 import fs from 'fs';
+import { TFile } from 'obsidian';
 
 
 // Remember to rename these classes and interfaces!
@@ -25,6 +26,8 @@ export const BERNSTEIN_SETTINGS: BernsteinSettings = {
 
 }
 
+export let ALLFILES: TFile[] = []
+
 export default class MyPlugin extends Plugin {
 	settings: BernsteinSettings;
 
@@ -35,6 +38,7 @@ export default class MyPlugin extends Plugin {
 			// Correctly update the vaultPath property of BERNSTEIN_SETTINGS
 			BERNSTEIN_SETTINGS.vaultDirectory = path.dirname(this.app.vault.adapter.getBasePath());
 		}
+
 
 		const vaultName = await searchForVaultName(BERNSTEIN_SETTINGS.vaultDirectory);
 		if (typeof vaultName === 'string') {
@@ -50,9 +54,8 @@ export default class MyPlugin extends Plugin {
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon('dice', 'Sample Plugin', async (evt: MouseEvent) => {
 
-			// Called when the user clicks the icon.
-			// await startProcess();
-			// startCopyProcess();
+			console.log("TESTS")
+			ALLFILES = this.app.vault.getFiles()
 			await Ahoi();
 			new Notice('This is a notice!!!');
 		});

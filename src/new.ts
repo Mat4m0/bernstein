@@ -1,12 +1,11 @@
-import { BERNSTEIN_SETTINGS } from '../main';
+import { BERNSTEIN_SETTINGS, ALLFILES } from '../main';
 import { promises as fsPromises } from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import * as fs from 'fs/promises';
 
-import { uniq } from 'lodash'
-
 import { CanvasData, AllCanvasNodeData, CanvasFileData, CanvasGroupData } from 'canvas';
+
 
 export default async function Ahoi() {
 	const sitesObsidianPath = path.join(BERNSTEIN_SETTINGS.vaultPath, BERNSTEIN_SETTINGS.sitesObsidianFolder);
@@ -192,18 +191,31 @@ class EntryCanvas extends Canvas {
 				const node = this.combinedData.nodes.find((n) => n.id === child) as CanvasFileData;
 				if (!node || node.type !== 'file' || !node.file.endsWith(".md")) continue; // Skip if not a file node
 	
-				const sourcePath = path.join(BERNSTEIN_SETTINGS.vaultPath, node.file);
-				console.log(sourcePath)				
+				const sourcePath = path.join(BERNSTEIN_SETTINGS.vaultPath, node.file);		
 				const markdownFile = new MarkdownFile(sourcePath, combinedAssets);
 				await markdownFile.initialize(); // Ensure initialize() is awaited
 				// Additional processing...
 			}
 		}
-		console.log(combinedAssets)
 
-		const combinedAssetsx = [...new Set(combinedAssets)];
 
-		console.log(combinedAssetsx)
+		combinedAssets = [...new Set(combinedAssets)];
+		this.searchForAsset(combinedAssets)
+
+		// Search for each Asset in ALLFILES create an Array with the paths
+
+	}
+
+	async searchForAsset(combinedAssets: string[]) {
+		// Search for each Asset in ALLFILES create an Array with the paths
+
+		
+
+		for (const asset of combinedAssets) {
+			const assetPath = ALLFILES.find((file) => file.path.endsWith(asset));
+			
+			console.log(assetPath?.path)
+		}
 	}
 
 }
@@ -242,7 +254,6 @@ class MarkdownFile {
 	}
 
 	async addAssetsToCombinedAssets() {
-		console.log(this.combinedAssets)
 		this.combinedAssets.push(...this.assets);
 	}
 
@@ -250,7 +261,6 @@ class MarkdownFile {
 		const assetRegex = /!\[\[(.*?)\]\]/g;
 		let match;
 		while ((match = assetRegex.exec(this.fileContent)) !== null) {
-			console.log(match[1]);
 			this.assets.push(match[1]);
 		}
 	}
