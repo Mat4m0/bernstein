@@ -198,24 +198,26 @@ class EntryCanvas extends Canvas {
 			}
 		}
 
-
 		combinedAssets = [...new Set(combinedAssets)];
-		this.searchForAsset(combinedAssets)
+		const assetsPaths = await this.searchForAsset(combinedAssets)
+		console.log(assetsPaths)
 
-		// Search for each Asset in ALLFILES create an Array with the paths
 
 	}
 
 	async searchForAsset(combinedAssets: string[]) {
 		// Search for each Asset in ALLFILES create an Array with the paths
 
-		
-
+		const assetsPaths: string[] = []
 		for (const asset of combinedAssets) {
 			const assetPath = ALLFILES.find((file) => file.path.endsWith(asset));
+			if (assetPath) {
+				assetsPaths.push(assetPath.path)
+			}
 			
-			console.log(assetPath?.path)
+			
 		}
+		return assetsPaths
 	}
 
 }
