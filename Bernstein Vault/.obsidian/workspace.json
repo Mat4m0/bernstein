@@ -15,9 +15,9 @@
               "state": {
                 "file": "5. Sites/BEESPACE/Handbuch.canvas",
                 "viewState": {
-                  "x": -4669.806948138594,
-                  "y": -5656.53890794859,
-                  "zoom": -1.5991617838541656
+                  "x": -4629.374157825792,
+                  "y": -5317.2179561174535,
+                  "zoom": 0.15632324218750027
                 }
               }
             }
@@ -72,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 571.5
   },
   "right": {
     "id": "298a4fb3a1b695c4",
@@ -151,11 +151,14 @@
       "bernstein:Sample Plugin": false
     }
   },
-  "active": "a69453d56e73ecba",
+  "active": "3d255a608ec8a8a9",
   "lastOpenFiles": [
+    "5. Sites/BEESPACE/Files/Einraumbeute.md",
+    "5. Sites/BEESPACE/Handbuch.canvas",
+    "5. Sites/BEESPACE/Canvase/Einraumbeute.md",
+    "scheißn.md",
     "5. Sites/BEESPACE/Canvase/Resources.canvas",
     "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
-    "5. Sites/BEESPACE/Handbuch.canvas",
     "5. Sites/ingravity/Handbuch.canvas",
     "5. Sites/BEESPACE/Tuschi as.md",
     "5. Sites/BEESPACE/Files/Honig Test.md",
@@ -190,7 +193,6 @@
     "5. Sites/ingravity/content/wissen/1.methode/4.ida-rolf.md",
     "5. Sites/ingravity/content/wissen/1.methode/3.faszien.md",
     "5. Sites/ingravity/content/wissen/1.methode/2.wie-funktioniert-rofling.md",
-    "5. Sites/ingravity/content/wissen/1.methode/1.was-ist-rolfing.md",
     "5. Sites/ingravity/content/wissen/5.faq",
     "5. Sites/ingravity/content/wissen/4.ueber-mich",
     "5. Sites/ingravity/content/wissen/3.fuer-wen",
@@ -201,8 +203,6 @@
     "5. Sites/BEESPACE/BLOG.canvas",
     "ingravity/Resources.canvas",
     "ingravity/Handbuch.canvas",
-    "Resources.md",
-    "2.faq2.md",
     "5. DOCS/VITE/docs/public/voice.svg",
     "5. DOCS/VITE/docs/public/viteconf.svg",
     "5. DOCS/VITE/docs/public/vite4-3-startup-time.png",

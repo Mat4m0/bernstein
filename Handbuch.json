@@ -23,19 +23,53 @@
       "height": 3751,
       "label": "Bienenprodukte",
       "children": [
+        "dd7779cb5339f797",
+        "cc5452aa599ea42e",
+        "ec7f957d48b9bbbf",
         "721a5f06d67542d2",
         "f859a7b83003ea69",
         "f5ae5dd9ee3de982",
         "f0933dbfc41b6e3b",
         "cd9ce602d1666fe6",
-        "dd7779cb5339f797",
         "8549fb03d3557b0f",
-        "cc5452aa599ea42e",
-        "ec7f957d48b9bbbf",
         "d9b28db0980f1c28",
         "7029f0f3436417bc",
         "8a70f0520eaec600"
       ]
+    },
+    {
+      "id": "dd7779cb5339f797",
+      "type": "group",
+      "x": -4813,
+      "y": -5930,
+      "width": 853,
+      "height": 321,
+      "label": "Met",
+      "children": [
+        "7bb7d7e4e8efd8d0"
+      ]
+    },
+    {
+      "id": "cc5452aa599ea42e",
+      "type": "group",
+      "x": -4813,
+      "y": -5450,
+      "width": 853,
+      "height": 321,
+      "label": "Gelee Royal",
+      "children": [
+        "8a9128d4685bf340"
+      ]
+    },
+    {
+      "id": "ec7f957d48b9bbbf",
+      "type": "group",
+      "x": -4813,
+      "y": -4930,
+      "width": 853,
+      "height": 321,
+      "label": "Propolis",
+      "children": []
     },
     {
       "id": "31d7733ea9503e27",
@@ -97,6 +131,19 @@
         "97fafff473577504",
         "4c3fc522baa88359",
         "065f705745b1e56d"
+      ]
+    },
+    {
+      "id": "04cd4866231ae36d",
+      "type": "group",
+      "x": -8695,
+      "y": -15557,
+      "width": 10800,
+      "height": 3507,
+      "label": "2. Verhalten",
+      "children": [
+        "58ab12764e9d888e",
+        "506f67826a7dfb8f"
       ]
     },
     {
@@ -186,14 +233,14 @@
       "height": 760,
       "label": "Magazin Systeme",
       "children": [
-        "f07413390d65a5a0",
-        "58628343a7bf434b",
+        "804d77b234dcdadc",
         "b7a39c0222e1bac9",
         "49fda4715a17fcf3",
+        "f07413390d65a5a0",
+        "58628343a7bf434b",
         "616ee359fddf943b",
         "8da750799e92266e",
-        "93173cfd55cfa473",
-        "804d77b234dcdadc"
+        "93173cfd55cfa473"
       ]
     },
     {
@@ -205,10 +252,10 @@
       "height": 760,
       "label": "Tradtionell",
       "children": [
+        "da33430aa107308c",
         "4a63f2b2458537df",
         "f1025d7050da98ce",
-        "b0a88d2a8d4d2d83",
-        "da33430aa107308c"
+        "b0a88d2a8d4d2d83"
       ]
     },
     {
@@ -303,18 +350,6 @@
       ]
     },
     {
-      "id": "dd7779cb5339f797",
-      "type": "group",
-      "x": -4813,
-      "y": -5930,
-      "width": 853,
-      "height": 321,
-      "label": "Met",
-      "children": [
-        "7bb7d7e4e8efd8d0"
-      ]
-    },
-    {
       "id": "8549fb03d3557b0f",
       "type": "group",
       "x": -5820,
@@ -322,16 +357,6 @@
       "width": 853,
       "height": 321,
       "label": "Bienengift",
-      "children": []
-    },
-    {
-      "id": "cc5452aa599ea42e",
-      "type": "group",
-      "x": -4813,
-      "y": -5450,
-      "width": 853,
-      "height": 321,
-      "label": "Gelee Royal",
       "children": []
     },
     {
@@ -363,29 +388,6 @@
       "height": 321,
       "label": "Propolis",
       "children": []
-    },
-    {
-      "id": "ec7f957d48b9bbbf",
-      "type": "group",
-      "x": -4813,
-      "y": -4930,
-      "width": 853,
-      "height": 321,
-      "label": "Propolis",
-      "children": []
-    },
-    {
-      "id": "04cd4866231ae36d",
-      "type": "group",
-      "x": -8695,
-      "y": -15557,
-      "width": 10800,
-      "height": 3507,
-      "label": "2. Verhalten",
-      "children": [
-        "58ab12764e9d888e",
-        "506f67826a7dfb8f"
-      ]
     },
     {
       "id": "bfb6899df95b30a6",
@@ -507,126 +509,6 @@
       "children": []
     },
     {
-      "id": "f07413390d65a5a0",
-      "type": "text",
-      "text": "Segeberger Beute",
-      "x": -4040,
-      "y": -11110,
-      "width": 300,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "58628343a7bf434b",
-      "type": "text",
-      "text": "Hohenheimer Zanderbeute",
-      "x": -4040,
-      "y": -11210,
-      "width": 300,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "b7a39c0222e1bac9",
-      "type": "text",
-      "text": "Grafbeute",
-      "x": -4420,
-      "y": -11150,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "49fda4715a17fcf3",
-      "type": "text",
-      "text": "Langstroth",
-      "x": -4420,
-      "y": -11210,
-      "width": 240,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "4a63f2b2458537df",
-      "type": "text",
-      "text": "Warre",
-      "x": -2062,
-      "y": -11210,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "f1025d7050da98ce",
-      "type": "text",
-      "text": "Lusitana (Portugal)",
-      "x": -2062,
-      "y": -11090,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "616ee359fddf943b",
-      "type": "text",
-      "text": "DadantBlatt",
-      "x": -4880,
-      "y": -11150,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "8da750799e92266e",
-      "type": "text",
-      "text": "Dadant",
-      "x": -5180,
-      "y": -11210,
-      "width": 550,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "93173cfd55cfa473",
-      "type": "text",
-      "text": "DadantUS",
-      "x": -5180,
-      "y": -11150,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "b0a88d2a8d4d2d83",
-      "type": "text",
-      "text": "Klotbeute",
-      "x": -2062,
-      "y": -11326,
-      "width": 250,
-      "height": 60,
-      "children": []
-    },
-    {
-      "id": "58ab12764e9d888e",
-      "type": "text",
-      "text": "Expert: Verhaltensbiologe mit Schwerpunkt auf Insekten\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Verhalten der Honigbiene\" für eine Webdokumentation\nAssumptions: Der Schwerpunkt liegt auf einem detaillierten Überblick über das Verhalten verschiedener Apis Mellifera-Arten in der Natur und in der Imkerei, einschließlich ihrer Wahrnehmung, Intelligenz und Schwarmverhalten.\n\n---\n\n- **Topic: Verhalten der Honigbiene**\n   - **Page: Grundlagen des Bienenverhaltens**\n     - **Group: Einführung in das Verhalten**\n         - **Page: Verhaltensbiologie der Honigbiene** (Übersicht über das grundlegende Verhalten von Bienen)\n         - **Page: Unterschiede im Verhalten verschiedener Arten** (Vergleich des Verhaltens verschiedener Apis Mellifera-Arten)\n   - **Page: Sinneswahrnehmung und Kommunikation**\n     - **Group: Sensorik und Kommunikation**\n         - **Page: Farbsehen und visuelle Wahrnehmung** (Wie Bienen Farben sehen und darauf reagieren)\n         - **Page: Kommunikationswege in einem Bienenstock** (Überblick über die Kommunikationsmethoden, z.B. Tanz der Bienen)\n   - **Page: Kognitive Fähigkeiten**\n     - **Group: Intelligenz und Denkprozesse**\n         - **Page: Denk- und Entscheidungsprozesse** (Untersuchung, wie Bienen denken und Entscheidungen treffen)\n         - **Page: Planungsverhalten und Problemlösung** (Beispiele für Planungsfähigkeit und Problemlösung bei Bienen)\n   - **Page: Sozialverhalten und Interaktionen**\n     - **Group: Soziale Dynamiken im Bienenstock**\n         - **Page: Rolle und Interaktionen innerhalb der Kolonie** (Wie verschiedene Bienenrollen interagieren)\n         - **Page: Verhaltensanpassungen beim Imker** (Wie Bienen sich an die Präsenz und Praktiken des Imkers anpassen)\n   - **Page: Schwarmverhalten und Fortpflanzung**\n     - **Group: Schwarmdynamik und Reproduktion**\n         - **Page: Gründe und Mechanismen des Schwärmens** (Erklärung, warum und wie Bienen schwärmen)\n         - **Page: Management von Schwarmverhalten** (Strategien zur Kontrolle und Nutzung von Schwarmverhalten)\n   - **Page: Emotionen und Empfindungen**\n     - **Group: Emotionale und sensorische Erfahrungen**\n         - **Page: Emotionale Zustände bei Bienen** (Untersuchung möglicher emotionaler Reaktionen bei Bienen)\n         - **Page: Schmerzempfinden und Stressreaktionen** (Erforschung des Schmerz- und Stresserlebens von Bienen)",
-      "x": -8426,
-      "y": -15330,
-      "width": 1126,
-      "height": 999,
-      "children": []
-    },
-    {
-      "id": "506f67826a7dfb8f",
-      "type": "text",
-      "text": "Expert: Verhaltensbiologe mit Spezialisierung auf Apis Mellifera\nObjective: Entwicklung eines strukturierten Inhaltsverzeichnisses für das Thema \"Verhalten der Honigbiene\", mit Schwerpunkt auf verschiedenen Arten und deren Verhaltensaspekten\nAssumptions: Der Inhalt soll detaillierte Informationen zum natürlichen Verhalten der Bienen sowie ihr Verhalten in der Imkerei umfassen, einschließlich Aspekten wie Farbsehen, Intelligenz, und Schwarmverhalten.\n\n---\n\n- **Topic: Verhalten der Honigbiene**\n   - **Page: Grundlagen des Bienenverhaltens**\n     - **Group: Einführung in das Verhalten**\n         - **Page: Verhaltensmuster der Honigbiene** (Überblick über grundlegende Verhaltensweisen von Apis Mellifera)\n         - **Page: Unterschiede im Verhalten bei verschiedenen Arten** (Vergleich des Verhaltens verschiedener Apis Mellifera-Arten)\n   - **Page: Wahrnehmung und Kommunikation**\n     - **Group: Sensorik und Interaktion**\n         - **Page: Farbsehen und visuelle Wahrnehmung** (Wie Bienen Farben sehen und darauf reagieren)\n         - **Page: Kommunikationsmethoden** (Tanzsprache und andere Kommunikationsformen der Bienen)\n   - **Page: Kognitive Fähigkeiten**\n     - **Group: Intelligenz und Lernverhalten**\n         - **Page: Kognitive Leistungen und Intelligenz** (Einsichten in die Denkfähigkeit und Intelligenz der Bienen)\n         - **Page: Lernverhalten und Gedächtnis** (Wie Bienen lernen und Informationen speichern)\n   - **Page: Schwarmverhalten**\n     - **Group: Soziale Dynamiken und Fortpflanzung**\n         - **Page: Ursachen und Mechanismen des Schwärmens** (Gründe und Ablauf des Schwarmverhaltens)\n         - **Page: Management von Schwarmtendenzen** (Techniken zum Umgang mit schwarmwilligen Bienen)\n   - **Page: Interaktion mit der Umwelt**\n     - **Group: Umweltbeziehungen und Anpassungen**\n         - **Page: Sammelverhalten und Umweltinteraktion** (Wie Bienen mit ihrer Umwelt interagieren, um Nahrung zu sammeln)\n         - **Page: Anpassung an Umweltbedingungen** (Anpassungen der Bienen an verschiedene ökologische Bedingungen)\n   - **Page: Bienen und Menschen**\n     - **Group: Beziehung zwischen Bienen und Imkern**\n         - **Page: Verhalten der Bienen in der Imkerei** (Wie Bienen auf menschliche Eingriffe reagieren)\n         - **Page: Beeinflussung des Bienenverhaltens durch Imkereipraktiken** (Wie Imkereipraktiken das Verhalten der Bienen beeinflussen können)",
-      "x": -7186,
-      "y": -15330,
-      "width": 1120,
-      "height": 999,
-      "children": []
-    },
-    {
       "id": "7b5a6a3e11a7a297",
       "type": "text",
       "text": "- **Topic: Biologie der Honigbiene**\n    - **Page: Grundlagen der Bienenbiologie**\n        - **Group: Einführung in die Biologie**\n            - **Page: Anatomie der Honigbiene** (Detaillierte Beschreibung der körperlichen Struktur und Funktionen)\n            - **Page: Lebenszyklus und Entwicklung** (Darstellung des Lebenszyklus von der Larve bis zur ausgewachsenen Biene)\n    - **Page: Verhaltensbiologie**\n        - **Group: Soziales und Überlebensverhalten**\n            - **Page: Kommunikation und Orientierung** (Erklärung der Kommunikationsmethoden, wie der Tanz der Bienen)\n            - **Page: Nahrungssuche und Sammelverhalten** (Wie Bienen Nahrung finden und sammeln)\n    - **Page: Apis Mellifera Arten**\n        - **Group: Verschiedene Honigbienenarten**\n            - **Page: Europäische Honigbiene (Apis mellifera mellifera)** (Ursprung, Merkmale und Verbreitung)\n            - **Page: Italienische Biene (Apis mellifera ligustica)** (Eigenschaften und Anpassungsfähigkeit)\n            - **Page: Kärntner Biene (Apis mellifera carnica)** (Besonderheiten und Verbreitung)\n    - **Page: Klimatische Anpassungen**\n        - **Group: Anpassung an Umweltbedingungen**\n            - **Page: Temperaturtoleranz verschiedener Arten** (Wie unterschiedliche Bienenarten verschiedene Klimazonen bewältigen)\n            - **Page: Anpassung an spezifische Ökosysteme** (Anpassungsstrategien an unterschiedliche Umweltbedingungen)\n    - **Page: Bedrohungen und Erhaltungsmaßnahmen**\n        - **Group: Schutz der Honigbiene**\n            - **Page: Globale Bedrohungen für Honigbienen** (Diskussion globaler Gefahren wie Krankheiten und Klimawandel)\n            - **Page: Bemühungen zum Schutz der Honigbiene** (Strategien und Maßnahmen zum Schutz und Erhalt der Bienenarten)",
@@ -714,16 +596,6 @@
       "y": -7237,
       "width": 323,
       "height": 164,
-      "children": []
-    },
-    {
-      "id": "7bb7d7e4e8efd8d0",
-      "type": "file",
-      "file": "5. Sites/BEESPACE/Files/Einraumbeute.md",
-      "x": -4741,
-      "y": -5853,
-      "width": 321,
-      "height": 181,
       "children": []
     },
     {
@@ -974,6 +846,146 @@
       "y": -11010,
       "width": 250,
       "height": 60,
+      "children": []
+    },
+    {
+      "id": "b7a39c0222e1bac9",
+      "type": "text",
+      "text": "Grafbeute",
+      "x": -4420,
+      "y": -11150,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "49fda4715a17fcf3",
+      "type": "text",
+      "text": "Langstroth",
+      "x": -4420,
+      "y": -11210,
+      "width": 240,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "4a63f2b2458537df",
+      "type": "text",
+      "text": "Warre",
+      "x": -2062,
+      "y": -11210,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "f1025d7050da98ce",
+      "type": "text",
+      "text": "Lusitana (Portugal)",
+      "x": -2062,
+      "y": -11090,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "b0a88d2a8d4d2d83",
+      "type": "text",
+      "text": "Klotbeute",
+      "x": -2062,
+      "y": -11326,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "f07413390d65a5a0",
+      "type": "text",
+      "text": "Segeberger Beute",
+      "x": -4040,
+      "y": -11110,
+      "width": 300,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "58628343a7bf434b",
+      "type": "text",
+      "text": "Hohenheimer Zanderbeute",
+      "x": -4040,
+      "y": -11210,
+      "width": 300,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "616ee359fddf943b",
+      "type": "text",
+      "text": "DadantBlatt",
+      "x": -4880,
+      "y": -11150,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "8da750799e92266e",
+      "type": "text",
+      "text": "Dadant",
+      "x": -5180,
+      "y": -11210,
+      "width": 550,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "93173cfd55cfa473",
+      "type": "text",
+      "text": "DadantUS",
+      "x": -5180,
+      "y": -11150,
+      "width": 250,
+      "height": 60,
+      "children": []
+    },
+    {
+      "id": "58ab12764e9d888e",
+      "type": "text",
+      "text": "Expert: Verhaltensbiologe mit Schwerpunkt auf Insekten\nObjective: Erstellung eines strukturierten Inhaltsverzeichnisses zum Thema \"Verhalten der Honigbiene\" für eine Webdokumentation\nAssumptions: Der Schwerpunkt liegt auf einem detaillierten Überblick über das Verhalten verschiedener Apis Mellifera-Arten in der Natur und in der Imkerei, einschließlich ihrer Wahrnehmung, Intelligenz und Schwarmverhalten.\n\n---\n\n- **Topic: Verhalten der Honigbiene**\n   - **Page: Grundlagen des Bienenverhaltens**\n     - **Group: Einführung in das Verhalten**\n         - **Page: Verhaltensbiologie der Honigbiene** (Übersicht über das grundlegende Verhalten von Bienen)\n         - **Page: Unterschiede im Verhalten verschiedener Arten** (Vergleich des Verhaltens verschiedener Apis Mellifera-Arten)\n   - **Page: Sinneswahrnehmung und Kommunikation**\n     - **Group: Sensorik und Kommunikation**\n         - **Page: Farbsehen und visuelle Wahrnehmung** (Wie Bienen Farben sehen und darauf reagieren)\n         - **Page: Kommunikationswege in einem Bienenstock** (Überblick über die Kommunikationsmethoden, z.B. Tanz der Bienen)\n   - **Page: Kognitive Fähigkeiten**\n     - **Group: Intelligenz und Denkprozesse**\n         - **Page: Denk- und Entscheidungsprozesse** (Untersuchung, wie Bienen denken und Entscheidungen treffen)\n         - **Page: Planungsverhalten und Problemlösung** (Beispiele für Planungsfähigkeit und Problemlösung bei Bienen)\n   - **Page: Sozialverhalten und Interaktionen**\n     - **Group: Soziale Dynamiken im Bienenstock**\n         - **Page: Rolle und Interaktionen innerhalb der Kolonie** (Wie verschiedene Bienenrollen interagieren)\n         - **Page: Verhaltensanpassungen beim Imker** (Wie Bienen sich an die Präsenz und Praktiken des Imkers anpassen)\n   - **Page: Schwarmverhalten und Fortpflanzung**\n     - **Group: Schwarmdynamik und Reproduktion**\n         - **Page: Gründe und Mechanismen des Schwärmens** (Erklärung, warum und wie Bienen schwärmen)\n         - **Page: Management von Schwarmverhalten** (Strategien zur Kontrolle und Nutzung von Schwarmverhalten)\n   - **Page: Emotionen und Empfindungen**\n     - **Group: Emotionale und sensorische Erfahrungen**\n         - **Page: Emotionale Zustände bei Bienen** (Untersuchung möglicher emotionaler Reaktionen bei Bienen)\n         - **Page: Schmerzempfinden und Stressreaktionen** (Erforschung des Schmerz- und Stresserlebens von Bienen)",
+      "x": -8426,
+      "y": -15330,
+      "width": 1126,
+      "height": 999,
+      "children": []
+    },
+    {
+      "id": "506f67826a7dfb8f",
+      "type": "text",
+      "text": "Expert: Verhaltensbiologe mit Spezialisierung auf Apis Mellifera\nObjective: Entwicklung eines strukturierten Inhaltsverzeichnisses für das Thema \"Verhalten der Honigbiene\", mit Schwerpunkt auf verschiedenen Arten und deren Verhaltensaspekten\nAssumptions: Der Inhalt soll detaillierte Informationen zum natürlichen Verhalten der Bienen sowie ihr Verhalten in der Imkerei umfassen, einschließlich Aspekten wie Farbsehen, Intelligenz, und Schwarmverhalten.\n\n---\n\n- **Topic: Verhalten der Honigbiene**\n   - **Page: Grundlagen des Bienenverhaltens**\n     - **Group: Einführung in das Verhalten**\n         - **Page: Verhaltensmuster der Honigbiene** (Überblick über grundlegende Verhaltensweisen von Apis Mellifera)\n         - **Page: Unterschiede im Verhalten bei verschiedenen Arten** (Vergleich des Verhaltens verschiedener Apis Mellifera-Arten)\n   - **Page: Wahrnehmung und Kommunikation**\n     - **Group: Sensorik und Interaktion**\n         - **Page: Farbsehen und visuelle Wahrnehmung** (Wie Bienen Farben sehen und darauf reagieren)\n         - **Page: Kommunikationsmethoden** (Tanzsprache und andere Kommunikationsformen der Bienen)\n   - **Page: Kognitive Fähigkeiten**\n     - **Group: Intelligenz und Lernverhalten**\n         - **Page: Kognitive Leistungen und Intelligenz** (Einsichten in die Denkfähigkeit und Intelligenz der Bienen)\n         - **Page: Lernverhalten und Gedächtnis** (Wie Bienen lernen und Informationen speichern)\n   - **Page: Schwarmverhalten**\n     - **Group: Soziale Dynamiken und Fortpflanzung**\n         - **Page: Ursachen und Mechanismen des Schwärmens** (Gründe und Ablauf des Schwarmverhaltens)\n         - **Page: Management von Schwarmtendenzen** (Techniken zum Umgang mit schwarmwilligen Bienen)\n   - **Page: Interaktion mit der Umwelt**\n     - **Group: Umweltbeziehungen und Anpassungen**\n         - **Page: Sammelverhalten und Umweltinteraktion** (Wie Bienen mit ihrer Umwelt interagieren, um Nahrung zu sammeln)\n         - **Page: Anpassung an Umweltbedingungen** (Anpassungen der Bienen an verschiedene ökologische Bedingungen)\n   - **Page: Bienen und Menschen**\n     - **Group: Beziehung zwischen Bienen und Imkern**\n         - **Page: Verhalten der Bienen in der Imkerei** (Wie Bienen auf menschliche Eingriffe reagieren)\n         - **Page: Beeinflussung des Bienenverhaltens durch Imkereipraktiken** (Wie Imkereipraktiken das Verhalten der Bienen beeinflussen können)",
+      "x": -7186,
+      "y": -15330,
+      "width": 1120,
+      "height": 999,
+      "children": []
+    },
+    {
+      "id": "7bb7d7e4e8efd8d0",
+      "type": "file",
+      "file": "5. Sites/BEESPACE/Files/Einraumbeute.md",
+      "x": -4741,
+      "y": -5853,
+      "width": 321,
+      "height": 153,
+      "children": []
+    },
+    {
+      "id": "8a9128d4685bf340",
+      "type": "file",
+      "file": "scheißn.md",
+      "x": -4741,
+      "y": -5380,
+      "width": 321,
+      "height": 200,
       "children": []
     },
     {

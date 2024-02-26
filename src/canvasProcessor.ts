@@ -1,104 +1,11 @@
-import { BERNSTEIN_SETTINGS, ALLFILES } from '../main';
-import { promises as fsPromises } from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
 import * as fs from 'fs/promises';
 
+import { BERNSTEIN_SETTINGS, ALLFILES } from '../main';
+import { NuxtDocsConversionStrategy, MarkdownFile } from './markdownProcessor';
+
+
 import { CanvasData, AllCanvasNodeData, CanvasFileData, CanvasGroupData } from 'canvas';
-
-
-export default async function Ahoi() {
-	const sitesObsidianPath = path.join(BERNSTEIN_SETTINGS.vaultPath, BERNSTEIN_SETTINGS.sitesObsidianFolder);
-
-	const sites = await fsPromises.readdir(sitesObsidianPath, {});
-
-	for (const site of sites) {
-		const sitePath = path.join(sitesObsidianPath, site);
-		const siteInstance = new Site(sitePath);
-		await siteInstance.checkForMetaData();
-		await siteInstance.createCanvasObject();
-	}
-}
-
-interface SiteMetaData {
-	target: string;
-	domain: string;
-	entry: string[];
-	entryMulti: string[];
-}
-
-class Site {
-	path: string;
-	metaData: SiteMetaData | null = null;
-
-	constructor(sitePath: string) {
-		this.path = sitePath;
-	}
-
-	async checkForMetaData(): Promise<void> {
-		const metaFilePath = path.join(this.path, '__meta.md');
-		try {
-			await fsPromises.access(metaFilePath);
-			await this.loadMetaData(metaFilePath);
-		} catch (error) {
-			console.log(`No __meta.md file found in ${this.path}`);
-		}
-	}
-
-	async loadMetaData(metaFilePath: string): Promise<void> {
-		const fileContent = await fsPromises.readFile(metaFilePath, 'utf8');
-		const parsedContent = matter(fileContent).data;
-
-		// Initialize metaData with known properties and ensure arrays for entry and entry-multi
-		const metaData: SiteMetaData = {
-			target: parsedContent.target,
-			domain: parsedContent.domain,
-			entry: this.processEntries(parsedContent.entry || []),
-			entryMulti: this.processEntries(parsedContent['entry-multi'] || [])
-		};
-
-		this.metaData = metaData;
-
-		//console.log(this.metaData);
-	}
-
-	async createCanvasObject(): Promise<void> {
-		if (this.metaData === null) {
-			console.log('No metaData found');
-			return;
-		}
-
-		// Combine entry and entryMulti, tagging entryMulti items as multi-instance
-		const combinedEntries = [
-			...this.metaData.entry.map(entry => ({ entry, isMulti: false })),
-			...this.metaData.entryMulti.map(entry => ({ entry, isMulti: true }))
-		];
-
-		for (const { entry, isMulti } of combinedEntries) {
-			let fullPath: string;
-			if (entry.includes("/")) {
-				fullPath = path.join(BERNSTEIN_SETTINGS.vaultPath, entry);
-			} else {
-				fullPath = path.join(this.path, entry);
-			}
-
-			const entryCanvas = new EntryCanvas(fullPath, this.metaData.target, this.metaData.domain, isMulti);
-			await entryCanvas.initialize();
-			//await entryCanvas.writeCombinedDataToDisk(BERNSTEIN_SETTINGS.vaultDirectory + "/" + entryCanvas.canvasName.split(".")[0] + ".json");
-			entryCanvas.copyToWebsite();
-			//console.log(entryCanvas.combinedData);
-
-		}
-	}
-
-	processEntries(entries: string[]): string[] {
-		const processedEntries = entries.map(entry => {
-			const match = entry.match(/\[\[(.*?)\|/); // Matches the content before the "|"
-			return match ? match[1] : entry; // Returns matched substring or original if no match
-		});
-		return processedEntries;
-	}
-}
 
 class Canvas {
 	canvasPath: string;
@@ -134,7 +41,7 @@ class Canvas {
 	}
 }
 
-class EntryCanvas extends Canvas {
+export class EntryCanvas extends Canvas {
 	target: string;
 	domain: string;
 	isMultiInstance: boolean;
@@ -195,7 +102,7 @@ class EntryCanvas extends Canvas {
 				const markdownConverter = new NuxtDocsConversionStrategy();
 				const markdownFile = new MarkdownFile(sourcePath, combinedAssets, markdownConverter);
 				await markdownFile.initialize(); // Ensure initialize() is awaited
-				// Additional processing...
+				console.log(markdownFile.fileContent)
 			}
 		}
 
@@ -219,79 +126,6 @@ class EntryCanvas extends Canvas {
 	}
 
 }
-
-
-class NuxtDocsConversionStrategy implements MarkdownConversionStrategy {
-	convert(markdownContent: string): string {
-		// Implement conversion logic here
-		return markdownContent
-	}
-}
-
-// class DocusaurusConversionStrategy implements MarkdownConversionStrategy {
-// 	convert(markdownContent: string): string {
-// 		// No conversion, return original
-// 		return markdownContent;
-// 	}
-// }
-
-
-interface MarkdownConversionStrategy {
-	convert(markdownContent: string): string;
-}
-
-
-class MarkdownFile {
-	filePath: string;
-	assets: string[];
-	fileContent: string;
-	combinedAssets: string[];
-	conversionStrategy: MarkdownConversionStrategy;
-
-	constructor(filePath: string, combinedAssets: string[], conversionStrategy: MarkdownConversionStrategy) {
-		this.filePath = filePath;
-		this.assets = [];
-		this.fileContent = '';
-		this.combinedAssets = combinedAssets;
-		this.conversionStrategy = conversionStrategy;
-	}
-
-	async initialize(): Promise<void> {
-		await this.readMarkdownFile();
-		await this.findAssetsInContent();
-		await this.addAssetsToCombinedAssets();
-	}
-
-	async readMarkdownFile() {
-		try {
-			this.fileContent = await fs.readFile(this.filePath, 'utf8');
-		} catch (error) {
-			console.error('Error reading markdown file:', error);
-			throw error;
-		}
-	}
-
-	async convertMarkdown() {
-		this.fileContent = this.conversionStrategy.convert(this.fileContent);
-	}
-
-	async addAssetsToCombinedAssets() {
-		this.combinedAssets.push(...this.assets);
-	}
-
-	async findAssetsInContent(): Promise<void> {
-		const assetRegex = /!\[\[(.*?)\]\]/g;
-		let match;
-		while ((match = assetRegex.exec(this.fileContent)) !== null) {
-			this.assets.push(match[1]);
-		}
-	}
-
-}
-
-
-
-
 
 class SubCanvas extends Canvas {
 	nodeId: string;
@@ -383,6 +217,3 @@ function addChildrenToGroups(groups: AllCanvasNodeData[]): void {
 async function removeSubCanvase(combinedDataNodes: AllCanvasNodeData[]) {
 	return combinedDataNodes.filter((node) => !(node.type == 'file' && node.file.endsWith(".canvas")))
 }
-
-
-
