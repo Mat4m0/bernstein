@@ -15,9 +15,9 @@
               "state": {
                 "file": "5. Sites/BEESPACE/Handbuch.canvas",
                 "viewState": {
-                  "x": -4629.374157825792,
-                  "y": -5317.2179561174535,
-                  "zoom": 0.15632324218750027
+                  "x": -4573.521292883083,
+                  "y": -4554.045538644918,
+                  "zoom": -0.07431233723958308
                 }
               }
             }
@@ -153,18 +153,21 @@
   },
   "active": "3d255a608ec8a8a9",
   "lastOpenFiles": [
-    "5. Sites/BEESPACE/Files/Einraumbeute.md",
+    "brerszlbzqjc1 1.webp",
+    "Test.md",
+    "brerszlbzqjc1.webp",
     "5. Sites/BEESPACE/Handbuch.canvas",
+    "5. Sites/BEESPACE/Tuschi as.md",
+    "5. Sites/Files/Einraumbeute.md",
     "5. Sites/BEESPACE/Canvase/Einraumbeute.md",
     "scheißn.md",
     "5. Sites/BEESPACE/Canvase/Resources.canvas",
     "5. Sites/BEESPACE/Canvase/Betriebsweisen.canvas",
     "5. Sites/ingravity/Handbuch.canvas",
-    "5. Sites/BEESPACE/Tuschi as.md",
-    "5. Sites/BEESPACE/Files/Honig Test.md",
+    "5. Sites/Files/Honig Test.md",
     "ingravity/content/P1000315.jpg",
     "P1000315.jpg",
-    "5. Sites/BEESPACE/Files/P1000317.jpg",
+    "5. Sites/Files/P1000317.jpg",
     "5. Sites/BEESPACE/forest bw.jpg",
     "5. Sites/ingravity/forest bw.jpg",
     "Hallo Romi.md",
@@ -192,7 +195,6 @@
     "5. Sites/ingravity/content/wissen/1.methode/_dir.yml",
     "5. Sites/ingravity/content/wissen/1.methode/4.ida-rolf.md",
     "5. Sites/ingravity/content/wissen/1.methode/3.faszien.md",
-    "5. Sites/ingravity/content/wissen/1.methode/2.wie-funktioniert-rofling.md",
     "5. Sites/ingravity/content/wissen/5.faq",
     "5. Sites/ingravity/content/wissen/4.ueber-mich",
     "5. Sites/ingravity/content/wissen/3.fuer-wen",
@@ -206,7 +208,6 @@
     "5. DOCS/VITE/docs/public/voice.svg",
     "5. DOCS/VITE/docs/public/viteconf.svg",
     "5. DOCS/VITE/docs/public/vite4-3-startup-time.png",
-    "5. DOCS/VITE/docs/public/vite4-3-hmr-time.png",
-    "5. DOCS/VITE/docs/public/stackblitz.svg"
+    "5. DOCS/VITE/docs/public/vite4-3-hmr-time.png"
   ]
 }

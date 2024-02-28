@@ -9,10 +9,10 @@
 		{"id":"49cc796f4e80cc55","type":"group","x":568,"y":-718,"width":167,"height":139,"label":"Creme"},
 		{"id":"df3259e0ad5d0fea","type":"group","x":436,"y":-672,"width":76,"height":50,"label":"Blub"},
 		{"id":"5e9a22441d77c396","type":"group","x":614,"y":-672,"width":76,"height":50,"label":"Blub"},
-		{"id":"4e782eb5b53fea5f","type":"file","file":"5. Sites/BEESPACE/Files/Honig Test.md","x":381,"y":-816,"width":250,"height":60},
+		{"id":"4e782eb5b53fea5f","type":"file","file":"5. Sites/Files/Honig Test.md","x":381,"y":-816,"width":250,"height":60},
 		{"id":"1ac7c9f7d40bc27e","type":"file","file":"5. DOCS/BEESPACE/Canvase/Betriebweisen.canvas","x":451,"y":-1496,"width":400,"height":400},
 		{"id":"3c7f3f4f13356506","type":"text","text":"Wachs 2","x":901,"y":-676,"width":250,"height":60},
-		{"id":"f5e60968450453ee","type":"file","file":"5. Sites/BEESPACE/Files/Wachs.md","x":901,"y":-776,"width":250,"height":60},
+		{"id":"f5e60968450453ee","type":"file","file":"5. Sites/Files/Wachs.md","x":901,"y":-776,"width":250,"height":60},
 		{"id":"ed65730e29c3da2f","type":"text","text":"Honig??","x":401,"y":-556,"width":250,"height":60}
 	],
 	"edges":[]

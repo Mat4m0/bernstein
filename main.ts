@@ -25,12 +25,53 @@ export const BERNSTEIN_SETTINGS: BernsteinSettings = {
 
 }
 
+const ALL_EMOJIS: Record<string, string> = {
+	":+1:": "👍",
+	":sunglasses:": "😎",
+	":smile:": "😄",
+};
+
 export let ALLFILES: TFile[] = []
 
 export default class MyPlugin extends Plugin {
 	settings: BernsteinSettings;
 
 	async onload() {
+
+		this.registerMarkdownPostProcessor((element, context) => {
+            // Find all div elements in the markdown preview
+            const divs = element.querySelectorAll("p");
+
+			console.log(divs[0].innerHTML)
+			
+
+            // Initialize a flag to track when we are inside an img-row block
+            let inImgRow = false;
+            let imgRowDiv: HTMLElement | null = null;
+
+            divs.forEach((div) => {
+                const text = div.innerText.trim();
+				
+
+                // Check if the current div contains the opening marker
+                if (text === "::img-row") {
+                    inImgRow = true;
+                    imgRowDiv = document.createElement("div");
+                    imgRowDiv.className = "img-row-wrapper";
+                    div.replaceWith(imgRowDiv); // Replace the current div with the new imgRowDiv
+                } else if (text === "::" && inImgRow) {
+                    // Check if the current div contains the closing marker and we are inside an img-row block
+                    inImgRow = false; // Reset the flag as we've reached the end of an img-row block
+                } else if (inImgRow && imgRowDiv) {
+                    // We are inside an img-row block, so we move this div inside the imgRowDiv
+                    imgRowDiv.appendChild(div.cloneNode(true)); // Clone and append to preserve original div in the document
+                    div.remove(); // Remove the original div from the document
+                }
+            });
+        });
+
+		
+
 		await this.loadSettings();
 
 		if (this.app.vault.adapter instanceof FileSystemAdapter) {
